@@ -503,7 +503,7 @@ body{
 
 .copyConferencias h3:nth-child(2){
     text-align: center;
-    color: #ff63b1;
+    color: #fff;
     font-family: 'Dancing Script', cursive;
 
 }
@@ -1217,7 +1217,7 @@ body{
     }
 
     .copyCoaching .mujeresExtraordinarias{
-        color: #ff63b1;
+        color: #fff;
         font-family: 'Dancing Script', cursive;
         width: auto;
         font-size: 48px;
