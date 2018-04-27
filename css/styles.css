@@ -1,0 +1,1556 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container-logo-menu{
+	height: 20vh;
+}
+
+.navbar{
+	z-index: 10000;
+	margin-top: -20px;
+    padding: 0;
+    background: #fff;
+}
+
+.logo{
+	width: 250px;
+	height: 100px;
+}
+
+.nav-link{
+	color: #1b1b1b;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+} 
+
+.nav-link:hover{
+	color: #ff63b1;
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,99,177);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,99,177, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar > .container-hamburguer{
+	justify-content: center;
+}
+
+#carouselExampleIndicators .carousel-item {
+  height: 80vh;
+}
+
+
+#carouselExampleIndicators .item-1{
+	background-image: url(../img/slider.png);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#carouselExampleIndicators .item-2{
+	background-image: url(../img/slider.png);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#carouselExampleIndicators .item-3{
+	background-image: url(../img/slider.png);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#carouselExampleIndicators .carousel-control-prev svg, #carouselExampleIndicators .carousel-control-next svg{
+	font-size: 2em;
+	color: #ff63b1;
+}
+
+
+.container-copy{
+	width: 50%;
+	margin-left: 100px;
+	padding-top: 100px;
+	height: 500px;
+	text-align: center;
+}
+
+.container-copy h8{
+	font-weight: lighter;
+}
+
+.container-copy h2{
+	font-weight: bold;
+	padding-top: 8px;
+}
+
+.container-copy .btnCopy a{
+	text-decoration: none;
+	padding: 8px;
+	border:2px solid #1b1b1b;
+	color: #1b1b1b;
+}
+
+.container-copy .btnCopy a:hover{
+	background: #1b1b1b;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.container-copy .btnCopy{
+	margin-top: 32px;
+}
+
+
+
+#carouselExample .carousel-control-prev svg, #carouselExample .carousel-control-next svg{
+	display: none;
+}
+
+
+
+
+#profile-grid { overflow: auto; white-space: normal; } 
+#profile-grid .profile { padding-bottom: 40px; }
+#profile-grid .panel { padding: 0 }
+#profile-grid .panel-body { padding: 15px }
+#profile-grid .profile-name { font-weight: bold; }
+#profile-grid .thumbnail {margin-bottom:6px;}
+#profile-grid .panel-thumbnail { overflow: hidden; }
+#profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
+
+/*TERMINA CARROUSEL*/
+
+
+/*IMAGEN CON COPY*/
+.personalImage{
+	width: 100vw;
+	height: 500px;
+    background: url(../img/me.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+
+.copyPersonalImage{
+	margin-top: 300px;
+	margin-left: 50px;
+}
+
+.copyPersonalImage h6, .copyPersonalImage h3{
+	color: #fff;
+}
+
+/*COPY CON VIDEO*/
+
+.videoCopy .copy h6{
+	padding-top: 32px;
+}
+
+.videoCopy .video{
+	padding: 0;
+	margin-top: 16px;
+}
+
+.videoCopy .video iframe{
+	width: 100%;
+	height: 250px;
+}
+
+/*IMAGEN CON CARD*/
+
+
+.personalImageCard{
+	width: 100vw;
+	height: 500px;
+    background: url(../img/reunion.jpg) no-repeat center fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyPersonalImageCard{
+	width: 70%;
+	background: #fff;
+	padding: 8px;
+	height: 460px;
+}
+.copyPersonalImageCard h4{
+	font-family: 'Satisfy', cursive;
+	font-size: 32px;
+}
+
+
+.copyPersonalImageCard .line{
+	width: 60%;
+	border-color: #ff63b1;
+}
+.copyPersonalImageCard .parrafoCard{
+	width: 90%;
+	text-align: justify;
+	margin: 0 auto;
+}
+
+
+.card{
+	border-bottom: none;
+	border-top:none;
+}
+
+.card-header{
+    background: #ff63b1;
+    color: #fff;	
+}
+
+.containerBtnCard a{
+	text-decoration: none;
+	padding: 8px;
+	background: #ff63b1;
+	color: #fff;
+	font-size: 12px;
+	width: 140px;
+	height: 50px;
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.containerBtnCard{
+	padding-top: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-title{
+	color: #000;
+}
+
+.segundoParrafo{
+	margin-top: 16px;
+}
+
+
+
+.testimonials{
+    padding-bottom: 2.2em; 
+    text-align: center;
+    color: #666;
+}
+.testimonials h1{
+    color: #222;
+    font-size: 1.3em;
+}
+.testimonials .test-body{padding: 1em;}
+.testimonials .item{ 
+    text-align: center;
+    padding: 1em 0;
+}
+.testimonials img{
+    width: 4.8em;
+    height: 4.8em;
+    border-radius: 50%;
+}
+.testimonials .name{color: #ff63b1;}
+.testimonials .desig{
+    font-size: 0.7em;
+    padding: 0.5em 0;
+    color: #777;
+}
+.testimonials .share{
+    margin: 0 auto;
+    width: 5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.testimonials i{
+    color: #bfbfbf;
+    padding: 0.5em 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.testimonials i:hover{color: blue;}
+.testimonials p{
+    max-width: 27em;
+    margin: 0 auto;
+    font-size: 0.9em;
+}
+.testimonials button{
+    font-size: 1em;
+    background-color: blue;
+    color: white;
+    padding: 0.8em 2em;
+    border-radius: 2em;
+    border: 0;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.testimonials button:hover{
+    background-color: #444;
+}
+
+.descarga{
+    padding: 0;
+}
+
+.containerDescarga {
+    text-align: center;
+    background: #ff63b1;
+}
+
+.containerDescarga  h4{
+    padding-top: 16px;
+}
+
+.containerDescarga .formDescarga{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.formDescarga .containerNombre{
+    width: 100%;
+}
+
+
+.formDescarga .containerEmail{
+    width: 100%;
+}
+
+.containerDescarga .btnDescargar{
+    background: #1b1b1b;
+    color: #fff;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #1b1b1b;
+    margin-bottom: 16px;
+    width: 150px;
+}
+
+.footer{
+   background: #292929;
+}
+
+.footerContainer{
+    padding: 0;
+}
+
+
+.logoFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuFooter{
+    text-align: center;
+}
+
+.menuFooter a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.redesSociales{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+.redesSociales a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+
+.derechosReservados{
+    margin-top: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/*ABOUT ME*/
+
+.containerImageAbout{
+    padding: 0;
+}
+
+.imageAbout{
+    width: 100%;
+    height: 580px;
+    background: url(../img/about.jpg) no-repeat center; 
+    background-size: cover;
+}
+
+.textAbout{
+    text-align: center;
+}
+
+.textAbout h3{
+    font-family: 'Satisfy', cursive;
+    margin-top: 16px;
+}
+
+.textAbout h5{
+    color: #ff63b1;
+}
+
+.textAbout h5 + h5{
+    color:#000;
+}
+
+.textAbout p{
+    text-align: justify;
+}
+
+
+.containerSecondSection{
+    background: #dbdbdb;
+}
+
+.formacionTitle{
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #ff63b1;
+}
+
+.parte1 p, .parte2 p{
+    text-align: justify;
+}
+
+.escuelas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.containerSpeaker{
+    width: 100vw;
+    height: 500px;
+    background: url(../img/speaker.jpg) no-repeat center fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.containerEvento{
+    text-align: center;
+    padding: 32px;
+    background-color:rgba(255,255,255,0.3);
+}
+
+
+.containerEvento h4{
+    color:#fff;
+}
+
+.containerEvento a{
+    text-decoration: none;
+    color:#fff;
+    background: #ff63b1;
+    margin-top: 8px;
+    width: 300px;
+    height: 80px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*CONFERENCIAS*/
+
+.containerConferencias{
+    width: 100vw;
+    height: 500px;
+    background: url(../img/conferencias.png) no-repeat center; 
+    background-size: cover;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.copyConferencias{
+    margin-top: 64px;
+}
+
+
+.copyConferencias h3:nth-child(2){
+    text-align: center;
+    color: #ff63b1;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+
+.containerEventos{
+   /* border:1px solid steelblue;*/
+}
+
+.containerEventos .containerCopy{
+    /*border:1px solid tomato;*/
+    margin-top: 32px;
+}
+
+.containerInscripcionNombre{
+    width: 100%;
+}
+
+.containerInscripcionEmail{
+    width: 100%;
+}
+
+.containerBtnInscripcion{
+   margin: 16px auto;
+}
+
+.btnInscripcion{
+    background: #ff63b1;
+    border:1px solid #ff63b1;
+}
+
+.inscripcionEvento{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/*COACHING*/
+
+.containerCoaching{
+    width: 100vw;
+    height: 500px;
+    background: url(../img/conferencias.png) no-repeat center; 
+    background-size: cover;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+
+.copyCoaching{
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.copyCoaching .mujeresExtraordinarias{
+    color: #ff63b1;
+    font-family: 'Dancing Script', cursive;
+    width: 50%;
+}
+
+
+.tePasa{
+    padding: 16px;
+    text-align: center;
+}
+
+.tePasaimg {
+    border-radius: 50%;
+    border:1px solid black;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
+}
+
+.titleTepasa h4{
+    color: #ff63b1;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.identificada{
+    text-align: center;
+}
+
+.identificada h4:nth-child(1){
+    margin-top: 16px;
+}
+
+.identificada h6{
+    color: #ff63b1;
+}
+
+.containerTrabajemosJuntas{
+    margin-top: 16px;
+    width: 100vw;
+    height: 500px;
+    background: url(../img/reunion2.jpg) no-repeat center fixed; 
+    background-size: cover;
+    padding: 0;   
+    display: flex;
+    align-items: center;
+}
+
+.containerVideoTrabajemos{
+    width: 100%;
+}
+
+.containerVideoTrabajemos iframe{
+    width: 100%;
+    height: 300px;
+}
+
+
+.conoceteBien h4{
+    color: #ff63b1;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.beneficios{
+    padding: 16px;
+    text-align: center;
+    background: #ff63b1;
+    color: #fff;
+    margin-top: 16px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleBeneficios{
+    text-align: center;
+}
+
+.titleBeneficios h2{
+    font-weight: bold;
+}
+
+
+.containerProgramaCoaching{
+    padding: 16px;
+}
+
+
+.titleProgramaCoaching{
+    margin-top: 32px;
+    text-align: center;
+}
+
+.programaCoaching{
+    padding: 16px;
+    text-align: center;
+    background: #f7f7f7;
+    border:1px solid #000;
+    margin-top: 16px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    position: relative;
+}
+
+.programaCoaching h5{
+    color: #ff63b1;
+}
+
+.heartCoaching{
+    font-size:24px;
+    position: absolute;
+    top:-12px;
+    color: #ff63b1;
+}
+
+
+/*TESTIMONIALES*/
+
+.testimonial{
+    text-align: center;
+}
+.testimonial .pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.testimonial .testimonial-title{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0c4767;
+    margin: 0 0 70px 0;
+}
+.testimonial .testimonial-title small{
+    font-size: 15px;
+    font-weight: 600;
+    color: #787878;
+}
+.testimonial .description{
+    font-size: 14px;
+    color: #787878;
+    line-height: 27px;
+    position: relative;
+    margin: 0;
+}
+
+
+/*.testimonial .description:before{
+    content: "\f10d";
+    font-family: 'fontawesome';
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 46%;
+    font-size: 20px;
+    color: #fa7921;
+    line-height:33px;
+    border: 2px solid #fa7921;
+}*/
+.owl-theme .owl-controls .owl-page span{
+    background: #fff;
+    border: 2px solid #0c4767;
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page:hover span{
+    border: 2px solid #fa7921;
+}
+
+
+.testimonial-slider{
+    border:1px solid #dbdbdb;
+    border-radius: 15px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+
+#testimonial-slider .testimonial .testimonial-title{
+    margin-bottom: 16px;
+}
+
+
+/*DESCRIPCION PERSONAL*/
+
+.containerCoachingDescripcion{
+    margin-top: 16px;
+    width: 100vw;
+    height: 500px;
+    background: url(../img/coaching-img.png) no-repeat center fixed; 
+    background-size: cover;
+    padding: 0;  
+}
+
+.containerCoachingDescripcion .containerCopyDescripcion{
+    margin-top: 32px;
+}
+
+.containerCoachingDescripcion .containerCopyDescripcion h3, .containerCoachingDescripcion .containerCopyDescripcion p{
+    text-align: right;
+}
+
+.containerCoachingDescripcion .containerCopyDescripcion h3 {
+    margin-bottom: 32px;
+}
+
+
+/*TABLA DE PRECIOS*/
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.pricing-table{
+  background-color: #eee;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pricing-table .block-heading {
+  padding-top: 50px;
+  margin-bottom: 40px;
+  text-align: center; 
+}
+
+.pricing-table .block-heading h2 {
+  color: #ff63b1 ;
+}
+
+.pricing-table .block-heading p {
+  text-align: center;
+  max-width: 420px;
+  margin: auto;
+  opacity: 0.7; 
+}
+
+.pricing-table .heading {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+}
+
+.pricing-table .item {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+  border-top: 2px solid #ff63b1;
+  padding: 30px;
+  overflow: hidden;
+  position: relative; 
+}
+
+.pricing-table .col-md-5:not(:last-child) .item {
+  margin-bottom: 30px; 
+}
+
+.pricing-table .item button {
+  font-weight: 600; 
+}
+
+.pricing-table .ribbon {
+  width: 160px;
+  height: 32px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
+  background: #ff63b1;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -42px;
+  top: 20px;
+  padding-top: 7px; 
+}
+
+.pricing-table .item p {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.7; 
+}
+
+.pricing-table .features .feature {
+  font-weight: 600; }
+
+.pricing-table .features h4 {
+  text-align: center;
+  font-size: 18px;
+  padding: 5px; 
+}
+
+.pricing-table .price h4 {
+  margin: 15px 0;
+  font-size: 45px;
+  text-align: center;
+  color: #ff63b1;
+}
+
+.pricing-table .buy-now button {
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
+  padding: 9px 0; 
+}
+
+
+.circleCaracteristica{
+    font-size: 8px;
+}
+
+.features{
+  text-align: center;  
+}
+
+.caracteristica{
+    display: block;
+    margin: 8px 0;
+}
+
+.btnTablaPrecios{
+    border:1px solid #ff63b1;
+    border-radius: 5px;
+    color: #ff63b1;
+}
+
+.item-last{
+    margin-bottom: 32px;
+}
+
+.btnTablaPrecios:hover{
+    background: #ff63b1;
+    border:1px solid #ff63b1;
+}
+
+.btnTablaPreciosActivo{
+    background: #ff63b1;
+    color: #fff;
+    border:1px solid #ff63b1;
+    border-radius: 5px;
+}
+
+.btnTablaPreciosActivo:hover{
+    background: #ff63b1;
+    border:1px solid #ff63b1;
+}
+
+.containerDudas{
+    background: #ff63b1;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCopyDudas{
+    text-align: center;
+    padding: 32px;
+    color: #fff;
+}
+
+.containerCopyDudas a{
+    text-decoration: none;
+    border:2px solid #fff;
+    padding: 16px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+
+
+.containerAulaVirtual{
+    width: 100vw;
+    height: 500px;
+    background: url(../img/speaker.jpg) no-repeat center fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.containerAulaVirtual .aulaVirtual{
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.containerClubMiembros{
+    margin-top: 32px;
+    padding: 0;
+}
+
+.containerClubMiembros h3{
+    color: #ff63b1;
+}
+
+
+.clubInfluencia{
+    height: 400px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.bienvenidaClub{
+    width: 100vw;
+    height: 300px;
+    background: url(../img/me.jpg) no-repeat center fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 16px;
+}
+
+.textInfluencia{
+    margin-bottom: 32px;
+}
+
+.clubInfluencia .btnClub{
+    background: #ff63b1;
+    border:1px solid #ff63b1;
+    color: #fff;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.containerBienvenidaClub{
+    text-align: center;
+    padding: 32px;
+}
+
+.containerBienvenidaClub h4{
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.containerBienvenidaClub a{
+    background: #ff63b1;
+    border: 1px solid #ff63b1;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.containerbtnContacto{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.containerbtnContacto button{
+    width: 120px;
+    height: 50px;
+    background: #ff63b1;
+    border:1px solid #ff63b1;
+}
+
+
+.formContacto{
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.containerMap h6{
+    margin-top: 16px;
+}
+
+
+ #map{
+    height: 300px;
+    border:1px solid #ff63b1;
+}
+
+
+
+@media (min-width:768px) { 
+
+.container-copy{
+	margin-left: 300px;
+	padding-top: 150px;
+}
+
+.copyPersonalImage{
+	width: 50%;
+	margin-top: 350px;
+	margin-left: 350px;
+}
+
+.personalImageCard{
+	justify-content: flex-start;
+}
+
+.copyPersonalImageCard{
+	width: 50%;
+	height: 350px;
+}
+
+.segundoParrafo{
+	margin-top: 0;
+}
+
+ #carouselExample .carousel-inner .active,
+   #carouselExample .carousel-inner .active + .carousel-item,
+     #carouselExample .carousel-inner .active + .carousel-item + .carousel-item,
+     #carouselExample .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+        display: block;
+    }
+    
+.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    
+   #carouselExample .carousel-inner .carousel-item-next,
+  #carouselExample .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+   
+
+    #carouselExample .carousel-inner .active.carousel-item + #carouselExample .carousel-item + #carouselExample .carousel-item + #carouselExample .carousel-item + #carouselExample .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+ 
+    #carouselExample .active.carousel-item-left +  #carouselExample .carousel-item-next.carousel-item-left,
+    #carouselExample .carousel-item-next.carousel-item-left +  #carouselExample .carousel-item,
+    #carouselExample .carousel-item-next.carousel-item-left + #carouselExample .carousel-item + #carouselExample  .carousel-item,
+    #carouselExample .carousel-item-next.carousel-item-left + #carouselExample  .carousel-item + #carouselExample .carousel-item +  #carouselExample .carousel-item,
+    #carouselExample .carousel-item-next.carousel-item-left + #carouselExample .carousel-item + #carouselExample .carousel-item +  #carouselExample .carousel-item + #carouselExample .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    
+
+
+     .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+
+    #carouselExample .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    #carouselExample .carousel-item-prev.carousel-item-right + .carousel-item,
+    #carouselExample .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    #carouselExample .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+    #carouselExample .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+
+.testimonials{
+        font-size: 1em;
+    }
+    .testimonials .test-body{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .testimonials p{
+        text-align: left;
+        padding: 1em;
+    }
+
+    .formDescarga .containerNombre{
+    width: auto;
+    }
+
+
+    .formDescarga .containerEmail{
+        width: auto;
+    }
+
+    .containerBtnDescargar .btnDescargar{
+        margin-top: 16px;
+    }
+
+    .containerImageAbout{
+        display: flex;
+        align-items: center;
+    }
+
+    .containerImageAbout .imageAbout{
+        height: 620px;
+    }
+
+    .containerEvento a{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .copyConferencias{
+        margin-left: 64px;
+    }
+
+    .formInscripcion{
+        justify-content: space-around;
+    }
+
+    .containerBtnInscripcion{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .containerInscripcionNombre{
+        width: auto;
+    }
+
+    .containerInscripcionEmail{
+        width: auto;
+    }
+
+
+    .copyCoaching{
+        width: 50%;
+        text-align: center;
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    .copyCoaching .mujeresExtraordinarias{
+        color: #ff63b1;
+        font-family: 'Dancing Script', cursive;
+        width: auto;
+        font-size: 48px;
+    }
+
+    .identificada{
+        padding:  0 32px;
+    }
+
+    .containerVideoTrabajemos{
+        margin-left: 100px;
+    }
+
+    .containerVideoTrabajemos iframe{
+        width: 50%;
+        height: 300px;
+    }
+
+    .conoceteBien{
+        padding: 32px;
+    }
+
+    .titleBeneficios{
+        padding:  0 32px;
+    }
+
+    .beneficios{
+        width: 300px;
+        height: 300px;
+    }
+    .containerBeneficios{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .programaCoaching{
+        width: 50%;
+        margin: 32px auto;
+    }
+
+    .testimonial-slider{
+        width: 60%;
+    }
+
+    .containerCoachingDescripcion{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .containerCoachingDescripcion .containerCopyDescripcion{
+        width: 50%;
+        margin-right: 32px;
+    }
+
+    .containerDescarga{
+        padding: 32px 0;
+    }
+
+    .clubInfluencia{
+        height: 300px;
+        padding: 16px;
+    }
+
+}
+
+
+@media (min-width:1024px) { 
+
+.container-copy{
+	margin-left: 500px;
+	padding-top: 250px;
+}
+
+.container-copy h2{
+	font-size: 3.5em;
+}
+
+.container-copy .btnCopy a{
+	padding: 16px;
+}
+
+.copyPersonalImage{
+	margin-top: 350px;
+	margin-left: 500px;
+}
+
+
+
+.videoCopy .video iframe{
+	width: 500px;
+	height: 250px;
+}
+
+.videoCopy .copy {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.videoCopy .copy .copyContainer{
+	width: 400px;
+	text-align: center;
+}
+
+.videoCopy .video{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.videoCopy .video iframe{
+	width: 400px;
+	height: 300px;
+}
+
+.personalImageCard .copyPersonalImageCard{
+	width: 40%;
+	height: 330px;
+}
+
+.testimonials{
+        font-size: 1.1em;
+}
+    
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerParte2{
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+}
+
+.menuFooter{
+    padding-bottom: 32px;
+}
+
+.containerImageAbout{
+    justify-content: center;
+}
+
+.containerImageAbout .imageAbout{
+    width: 384px;
+    height: 620px;
+    justify-content: flex-start;
+}
+
+.containerFirstSection{
+    padding: 64px;
+}
+
+.containerSecondSection{
+    padding: 64px;
+}
+
+.containerEvento{
+    width: 700px;
+}
+
+.containerEvento a{
+    width: 600px;
+    height: 40px;
+}
+
+.containerConferencias{
+    height: 600px;
+}
+
+.copyConferencias{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.copyConferencias h3{
+    font-size: 32px;
+}
+
+.containerEventos .containerCopy{
+    width: 70%;
+}
+
+.formInscripcion{
+    justify-content: center;
+}
+
+.containerCoaching{
+    height: 600px;
+}
+
+.copyCoaching .mujeresExtraordinarias{
+    font-size: 64px;
+}
+
+.identificada{
+    padding:  0 128px;
+}
+
+
+.identificada .parrafoLastIdentificada{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.conoceteBien{
+    padding:  32px 128px;
+}
+.containerBeneficios{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.programaCoaching{
+    width: 30%;
+}
+
+.containerProgramaCoaching{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.containerCopyDudas h5{
+    font-size: 36px;
+}  
+
+
+.containerAulaVirtual .aulaVirtual{
+    color: #fff;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+
+.containerCopyMiembros{
+    display: flex;
+}
+
+
+.containerCopyMiembros .clubInfluencia{
+    width: 60%;
+    height: 350px;
+    text-align: left;
+    padding: 32px;
+}
+
+
+.containerCopyMiembros .bienvenidaClub{
+    width: 40%;
+    height: 350px;
+}
+
+
+
+
+}
+
+
+
+
+@media (min-width:1440px){
+	.copyPersonalImage{
+		margin-top: 350px;
+		margin-left: 800px;
+		width: 30%;
+	}
+
+	.videoCopy .video iframe{
+		width: 550px;
+	}
+
+	.personalImageCard .copyPersonalImageCard{
+		width: 40%;
+		height: 300px;
+	}
+
+	.containerBtnCard a{
+		font-size: 16px;
+	}
+
+    .containerConferencias{
+        height: 650px;
+    }
+
+    .copyConferencias{
+        margin-left: 150px;
+        margin-top: 200px;
+    }
+
+    .copyConferencias h3{
+        font-size: 40px;
+    }
+
+
+.containerEventos .containerCopy{
+    width: 60%;
+    padding-left: 50px;
+}
+
+
+.containerCoaching{
+    height: 650px;
+}
+
+.copyCoaching{
+    margin-top: 94px;
+}
+
+.identificada{
+    padding:  0 256px;
+}
+
+.identificada .parrafoLastIdentificada{
+    margin-top: 48px;
+}
+
+    .containerVideoTrabajemos iframe{
+        width: 40%;
+        height: 300px;
+    }
+
+    .conoceteBien{
+        padding:  32px 256px;
+    }
+
+    .containerCoachingDescripcion .containerCopyDescripcion{
+        width: 35%;
+        margin-right: 64px;
+    }
+
+}
+
+
