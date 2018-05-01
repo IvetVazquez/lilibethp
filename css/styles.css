@@ -1290,6 +1290,8 @@ body{
 .container-copy{
 	margin-left: 500px;
 	padding-top: 250px;
+	padding-bottom: 500px;
+	padding-right: 100px;
 }
 
 .container-copy h2{
