@@ -1329,6 +1329,9 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-botton: 67px;
+	padding-top: 53px;
+
 }
 
 .videoCopy .video iframe{
