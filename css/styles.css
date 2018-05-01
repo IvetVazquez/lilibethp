@@ -1305,7 +1305,9 @@ body{
 	margin-left: 500px;
 }
 
-
+.videoCopy{
+	background: #ff63b1;
+}	
 
 .videoCopy .video iframe{
 	width: 500px;
@@ -1316,7 +1318,6 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #ff63b1;
 }
 
 .videoCopy .copy .copyContainer{
