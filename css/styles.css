@@ -1316,6 +1316,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background: #ff63b1;
 }
 
 .videoCopy .copy .copyContainer{
