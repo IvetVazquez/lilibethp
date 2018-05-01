@@ -1335,8 +1335,9 @@ body{
 }
 
 .videoCopy .video iframe{
-	width: 400px;
+	width: 500px;
 	height: 300px;
+	border: 0;
 }
 
 .personalImageCard .copyPersonalImageCard{
