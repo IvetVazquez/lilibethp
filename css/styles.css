@@ -1053,6 +1053,41 @@ body{
 }
 
 
+.containerCalendario{
+    text-align: center;
+}
+
+.imagenEvento1 img, .imagenEvento2 img, .imagenEvento3 img{
+    width: 100px;
+    height: 100px;
+}
+
+.containerConferenciasCalendario{
+    margin-top: 32px;
+ }
+
+
+.contentDescripcionEvento{
+    font-size: 13px;
+}
+
+
+.titleDescripcionEvento{
+    font-weight: bold;
+}
+
+.dia{
+    font-weight: bold;
+}
+
+.hrConferencias{
+    border-top: 1px solid #000;
+}
+
+.containerCalendario{
+    margin-top: 32px;
+}
+
 
 @media (min-width:768px) { 
 
@@ -1283,6 +1318,21 @@ body{
         height: 300px;
         padding: 16px;
     }
+	
+.containerCalendario{
+        padding-top: 32px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .evento1, .evento2, .evento3{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .descripcionEvento1, .descripcionEvento2, .descripcionEvento3{
+        width: 60%;
+    }	
 
 }
 
@@ -1483,6 +1533,16 @@ body{
     height: 350px;
 }
 
+
+.containerCalendario{
+        width: 60%;
+
+    }
+
+
+    .descripcionEvento1, .descripcionEvento2, .descripcionEvento3{
+        width: 60%;
+    }
 
 
 
