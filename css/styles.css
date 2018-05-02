@@ -137,8 +137,8 @@ body{
 .personalImage{
 	width: 100vw;
 	height: 500px;
-    background: url(../img/me.jpg) no-repeat center fixed; 
-    background-size: cover;
+    	background: url(../img/me.jpg) no-repeat center fixed; 
+    	background-size: cover;
 }
 
 .copyPersonalImage{
@@ -171,19 +171,19 @@ body{
 
 .personalImageCard{
 	width: 100vw;
-	height: 500px;
-    background: url(../img/reunion.jpg) no-repeat center fixed; 
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	height: 680px;
+   	background: url(../img/reunion.jpg) no-repeat center fixed; 
+    	background-size: cover;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
 }
 
 .copyPersonalImageCard{
-	width: 70%;
+	width: 90%;
 	background: #fff;
 	padding: 8px;
-	height: 460px;
+	height: 630px;
 }
 .copyPersonalImageCard h4{
 	font-family: 'Satisfy', cursive;
@@ -1118,8 +1118,8 @@ body{
 }
 
 .copyPersonalImageCard{
-	width: 50%;
-	height: 350px;
+	width: 60%;
+	height: 480px;
 }
 
 .segundoParrafo{
@@ -1406,8 +1406,8 @@ body{
 }
 
 .personalImageCard .copyPersonalImageCard{
-	width: 40%;
-	height: 330px;
+	width: 45%;
+	height: 480px;
 }
 
 .testimonials{
@@ -1575,7 +1575,7 @@ body{
 
 	.personalImageCard .copyPersonalImageCard{
 		width: 40%;
-		height: 300px;
+		height: 420px;
 	}
 
 	.containerBtnCard a{
