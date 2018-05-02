@@ -1099,6 +1099,10 @@ body{
     margin: 16px 0;
 }
 
+.nuevoParrafoForm{
+    margin: 8px 0;
+    display: block;
+}
 
 @media (min-width:768px) { 
 
