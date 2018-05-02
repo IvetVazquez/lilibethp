@@ -94,17 +94,17 @@ body{
 }
 
 .container-copy .btnCopy a{
+	background: #ff63b1;
+	color: #fff;
+	border:2px solid #ff63b1;
+}
+
+.container-copy .btnCopy a:hover{
+	transition: 0.5s;
 	text-decoration: none;
 	padding: 8px;
 	border:2px solid #1b1b1b;
 	color: #1b1b1b;
-}
-
-.container-copy .btnCopy a:hover{
-	background: #ff63b1;
-	color: #fff;
-	transition: 0.5s;
-	border:2px solid #ff63b1;
 }
 
 .container-copy .btnCopy{
