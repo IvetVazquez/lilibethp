@@ -101,7 +101,7 @@ body{
 }
 
 .container-copy .btnCopy a:hover{
-	background: #1b1b1b;
+	background: #ff63b1;
 	color: #fff;
 	transition: 0.5s;
 }
