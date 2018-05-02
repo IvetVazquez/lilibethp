@@ -1089,6 +1089,17 @@ body{
 }
 
 
+/*DESPUES DE LOS CAMBIOS*/
+
+.containerMarcasLilibeth {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 16px 0;
+}
+
+
 @media (min-width:768px) { 
 
 .container-copy{
