@@ -142,8 +142,9 @@ body{
 }
 
 .copyPersonalImage{
-	margin-top: 300px;
+	margin-top: 100px;
 	margin-left: 50px;
+	color: #fff;
 }
 
 .copyPersonalImage h6, .copyPersonalImage h3{
@@ -1113,7 +1114,7 @@ body{
 
 .copyPersonalImage{
 	width: 50%;
-	margin-top: 350px;
+	margin-top: 150px;
 	margin-left: 350px;
 }
 
@@ -1568,7 +1569,7 @@ body{
 
 @media (min-width:1440px){
 	.copyPersonalImage{
-		margin-top: 350px;
+		margin-top: 150px;
 		margin-left: 800px;
 		width: 30%;
 	}
