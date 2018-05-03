@@ -93,6 +93,11 @@ body{
 	padding-top: 8px;
 }
 
+.container-copy h1{
+	font-family: 'Satisfy', cursive;
+	font-size: 32px;
+}
+
 .container-copy .btnCopy a{
 	background: #ff63b1;
 	color: #fff;
