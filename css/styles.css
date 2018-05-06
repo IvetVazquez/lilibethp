@@ -1063,9 +1063,14 @@ body{
     text-align: center;
 }
 
-.imagenEvento1 img, .imagenEvento2 img, .imagenEvento3 img{
+.imagenEvento1 img, .imagenEvento3 img{
     width: 200px;
     height: 300px;
+}
+
+.imagenEvento2 img{
+    width: 300px;
+    height: 360px;
 }
 
 .containerConferenciasCalendario{
