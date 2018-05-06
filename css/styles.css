@@ -1064,8 +1064,8 @@ body{
 }
 
 .imagenEvento1 img, .imagenEvento2 img, .imagenEvento3 img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 300px;
 }
 
 .containerConferenciasCalendario{
