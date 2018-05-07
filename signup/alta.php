@@ -13,4 +13,9 @@
         'merge_fields'  => ['FNAME' => $name],
       ]);
 
-  print_r($result);
+  if ($MailChimp->success()) {
+    print_r($result);
+  } else {
+    http_response_code(418);
+    echo $MailChimp->getLastError();
+  }
