@@ -14,7 +14,7 @@
       ]);
 
   if ($MailChimp->success()) {
-    echo "welcome to the list $name with email address $email"
+    echo "welcome to the list $name with email address $email";
   } else {
     http_response_code(400);
     if (strpos($MailChimp->getLastError(), "is already a list member")) {
