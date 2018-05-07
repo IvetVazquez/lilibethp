@@ -343,18 +343,14 @@
                   $.post("./signup/alta.php", { name: name, email: email } )
                     .done(function() {
                       console.log("sign up new member success");
-                      //window.open('./assets/GUIA-3-PASOS.pdf', 'Download');
                       var link=document.createElement('a');
                       document.body.appendChild(link);
                       link.href="./assets/GUIA-3-PASOS.pdf";
+                      link.target="_blank";
                       link.click();
                     })
-                    .fail(function(err, b, c) {
-                      console.log(err);
-                      console.log(b);
-                      console.log(c);
+                    .fail(function(err) {
                       console.log(err.responseText);
-                      //alert(err);
                     })
                     .always(function() {
                       $('.formDescarga').trigger("reset");
