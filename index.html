@@ -340,7 +340,7 @@
                   var name = $("#mce-FNAME").val();
                   var email = $("#mce-EMAIL").val();
 
-                  $.post("./alta.php", { name: name, email: email } )
+                  $.post("./signup/alta.php", { name: name, email: email } )
                     .done(function() {
                       console.log("sign up new member success");
                       window.open('./assets/GUIA-3-PASOS.pdf', 'Download');
