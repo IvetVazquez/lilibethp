@@ -343,9 +343,9 @@
                   $.post("./signup/alta.php", { name: name, email: email } )
                     .done(function() {
                       console.log("sign up new member success");
-                      var link=document.createElement('a');
+                      var link = document.createElement('a');
                       document.body.appendChild(link);
-                      link.href="./assets/GUIA-3-PASOS.pdf";
+                      link.href = "./assets/GUIA-3-PASOS.pdf";
                       link.click();
                     })
                     .fail(function(err) {
