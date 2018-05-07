@@ -19,7 +19,9 @@
     http_response_code(400);
     if (strpos($MailChimp->getLastError(), "is already a list member")) {
       echo "$email is already a list member";
+    } else if (strpos($MailChimp->getLastError(), "provide a valid email address")) {
+      echo "$email is not a valid email address";
     } else {
-      print_r($MailChimp->getLastError());
+      echo "ERROR";
     }
   }

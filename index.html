@@ -349,8 +349,11 @@
                       link.href="./assets/GUIA-3-PASOS.pdf";
                       link.click();
                     })
-                    .fail(function(err) {
+                    .fail(function(err, b, c) {
                       console.log(err);
+                      console.log(b);
+                      console.log(c);
+                      console.log(err.responseText);
                       //alert(err);
                     })
                     .always(function() {
