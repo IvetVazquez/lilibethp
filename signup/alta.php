@@ -16,6 +16,10 @@
   if ($MailChimp->success()) {
     print_r($result);
   } else {
-    http_response_code(418);
-    echo $MailChimp->getLastError();
+    http_response_code(400);
+    if (strpos($MailChimp->getLastError(), "is already a list member")) {
+      echo "$email is already a list member";
+    } else {
+      echo "$email is an invalid email address";
+    }
   }
