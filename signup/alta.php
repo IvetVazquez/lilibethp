@@ -20,6 +20,6 @@
     if (strpos($MailChimp->getLastError(), "is already a list member")) {
       echo "$email is already a list member";
     } else {
-      echo "$email is an invalid email address";
+      print_r($MailChimp->getLastError());
     }
   }

@@ -350,7 +350,8 @@
                       link.click();
                     })
                     .fail(function(err) {
-                      alert(err);
+                      console.log(err);
+                      //alert(err);
                     })
                     .always(function() {
                       $('.formDescarga').trigger("reset");
