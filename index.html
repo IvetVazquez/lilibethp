@@ -7,6 +7,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+        <!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
+        <!--[if IE]><link rel="shortcut icon" href="./img/favicon.ico"><![endif]-->
+
+        <!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. --> 
+        <link rel="apple-touch-icon-precomposed" href="./img/favicon.ico">
+
+        <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
+        <link rel="icon" href="./img/favicon.ico">
+
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -333,7 +343,7 @@
                   var name = $("#mce-FNAME").val();
                   var email = $("#mce-EMAIL").val();
 
-                  $.post( "http://lilibethpinto.com/alta.php", { name: name, email: email } );
+                  $.post("./alta.php", { name: name, email: email } );
 
                   $('.formDescarga').trigger("reset");
                 });
