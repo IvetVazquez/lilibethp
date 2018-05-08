@@ -458,7 +458,7 @@ body{
 .containerSpeaker{
     width: 100vw;
     height: 500px;
-    background: url(../img/speaker.jpg) no-repeat center fixed; 
+    background: url(../img/boton_acercademi.jpg) no-repeat center fixed; 
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -469,8 +469,7 @@ body{
 .containerEvento{
     text-align: center;
     padding: 32px;
-    background: url(../img/boton_acercademi.jpg) no-repeat center; 
-    background-size: cover;
+    background-color:rgba(255,255,255,0.3);
 }
 
 
