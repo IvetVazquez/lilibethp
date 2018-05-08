@@ -1115,6 +1115,15 @@ body{
     display: block;
 }
 
+
+.copySlider1 h3, .copySlider1 h1, .copySlider3 h3, .copySlider3 h1{
+	color: #fff;
+}
+
+
+
+
+
 @media (min-width:768px) { 
 
 .container-copy{
