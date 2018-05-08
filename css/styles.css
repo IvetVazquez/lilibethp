@@ -458,7 +458,7 @@ body{
 .containerSpeaker{
     width: 100vw;
     height: 500px;
-    background: url(../img/speaker.jpg) no-repeat center fixed; 
+    background: url(../img/boton_acercademi.jpg) no-repeat center fixed; 
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -555,7 +555,7 @@ body{
 .containerCoaching{
     width: 100vw;
     height: 500px;
-    background: url(../img/conferencias.png) no-repeat center; 
+    background: url(../img/header_coaching.jpg) no-repeat center; 
     background-size: cover;
     padding: 0;
     display: flex;
@@ -776,7 +776,7 @@ body{
     margin-top: 16px;
     width: 100vw;
     height: 500px;
-    background: url(../img/coaching-img.png) no-repeat center fixed; 
+    background: url(../img/coach_lili.jpg) no-repeat center fixed; 
     background-size: cover;
     padding: 0;  
 }
@@ -959,7 +959,7 @@ body{
 .containerAulaVirtual{
     width: 100vw;
     height: 500px;
-    background: url(../img/speaker.jpg) no-repeat center fixed; 
+    background: url(../img/header_cursos.jpg) no-repeat center fixed; 
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -1116,7 +1116,7 @@ body{
 }
 
 
-.copySlider1 h3, .copySlider1 h1, .copySlider3 h3, .copySlider3 h1{
+.copySlider1 h3, .copySlider1 h1, .copySlider3 h3, .copySlider3 h1, .copySlider3 h4{
 	color: #fff;
 }
 
