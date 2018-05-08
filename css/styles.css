@@ -568,10 +568,11 @@ body{
 .copyCoaching{
     margin-top: 16px;
     margin-left: 16px;
+    color: #fff;
 }
 
 .copyCoaching .mujeresExtraordinarias{
-    color: #ff63b1;
+    color: #fff;
     font-family: 'Dancing Script', cursive;
     width: 50%;
 }
