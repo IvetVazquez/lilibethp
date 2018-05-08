@@ -960,7 +960,7 @@ body{
 .containerAulaVirtual{
     width: 100vw;
     height: 500px;
-    background: url(../img/header_cursos.jpg) no-repeat center fixed; 
+    background: url(../img/header_cursos.jpg) no-repeat center; 
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -992,7 +992,7 @@ body{
 .bienvenidaClub{
     width: 100vw;
     height: 300px;
-    background: url(../img/me.jpg) no-repeat center fixed; 
+    background: url(../img/me.jpg) no-repeat center; 
     background-size: cover;
     display: flex;
     justify-content: center;
