@@ -1122,6 +1122,55 @@ body{
 }
 
 
+.containerCursosThumbnails{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 16px;
+}
+
+.containerCursosThumbnails .curso1{
+    width: 100%;
+    height: 250px;
+    background: url(../img/curso_1.jpg) no-repeat center; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerCursosThumbnails .curso2{
+    width: 100%;
+    height: 250px;
+    background: url(../img/curso_1.jpg) no-repeat center; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerCursosThumbnails .curso3{
+    width: 100%;
+    height: 250px;
+    background: url(../img/curso_1.jpg) no-repeat center; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCursos{
+    background: #ff63b1;
+    border: 1px solid #ff63b1;
+    color: #fff;
+    padding: 6px;
+    text-decoration: none;
+    width: 160px;
+    height: 20px;
+    display: inline-block;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -1368,7 +1417,19 @@ body{
 
     .descripcionEvento1, .descripcionEvento2, .descripcionEvento3{
         width: 60%;
-    }	
+    }
+	
+   .containerCursosThumbnails{
+        margin-top: 32px;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 32px;
+    }
+
+    .containerCursosThumbnails .curso1, .containerCursosThumbnails .curso2, .containerCursosThumbnails .curso3{
+        width: 250px;
+    }
 
 }
 
