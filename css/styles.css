@@ -458,7 +458,7 @@ body{
 .containerSpeaker{
     width: 100vw;
     height: 500px;
-    background: url(../img/boton_acercademi.jpg) no-repeat center fixed; 
+    background: url(../img/boton_acercademi.jpg) no-repeat center; 
     background-size: cover;
     display: flex;
     justify-content: center;
