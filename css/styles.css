@@ -469,7 +469,7 @@ body{
 .containerEvento{
     text-align: center;
     padding: 32px;
-    background: url(../img/boton_acercademi.jpg) no-repeat center fixed; 
+    background: url(../img/boton_acercademi.jpg) no-repeat center; 
     background-size: cover;
 }
 
