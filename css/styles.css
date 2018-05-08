@@ -1180,6 +1180,16 @@ body{
 	color: #fff;	
 }
 
+.containerVideoCursos{
+    width: 100vw;
+    height: 500px;
+    background: url(../img/reunion2.jpg) no-repeat center fixed; 
+    background-size: cover;
+    padding: 0;   
+    display: flex;
+    align-items: center;
+}
+
 
 @media (min-width:768px) { 
 
