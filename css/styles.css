@@ -1434,6 +1434,11 @@ body{
     .containerCursosThumbnails .curso1, .containerCursosThumbnails .curso2, .containerCursosThumbnails .curso3{
         width: 250px;
     }
+	
+	.containerFormMapa{
+		margin-top: 32px;
+    		margin-bottom: 50px;
+	}	
 
 }
 
