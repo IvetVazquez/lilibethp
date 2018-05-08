@@ -1129,32 +1129,35 @@ body{
     margin-top: 16px;
 }
 
-.containerCursosThumbnails .curso1{
-    width: 100%;
-    height: 250px;
-    background: url(../img/curso_1.jpg) no-repeat center; 
+.curso1{
+    width: 100vw;
+    height: 300px;
+    background: url(../img/curso1.jpg) no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 16px;
 }
-.containerCursosThumbnails .curso2{
-    width: 100%;
-    height: 250px;
-    background: url(../img/curso_1.jpg) no-repeat center; 
+.curso2{
+    width: 100vw;
+    height: 300px;
+    background: url(../img/curso2.jpg) no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 16px;
 }
-.containerCursosThumbnails .curso3{
-    width: 100%;
-    height: 250px;
-    background: url(../img/curso_1.jpg) no-repeat center; 
+.curso3{
+    width: 100vw;
+    height: 300px;
+    background: url(../img/curso3.jpg) no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 16px;
 }
 
 .btnCursos{
@@ -1645,7 +1648,10 @@ body{
     .descripcionEvento1, .descripcionEvento2, .descripcionEvento3{
         width: 60%;
     }
-
+	
+    .curso1, .curso2, .curso3{
+        width: 40%;
+    }
 
 
 }
