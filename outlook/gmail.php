@@ -7,11 +7,16 @@
  */
 
 include('./PHPMailer.php');
+include('./SMTP.php');
+include('./Exception.php');
+
 //Import PHPMailer classes into the global namespace
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 
 //Create a new PHPMailer instance
-$mail = new PHPMailer();
+$mail = new PHPMailer;
 
 //Tell PHPMailer to use SMTP
 $mail->isSMTP();
