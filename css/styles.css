@@ -50,7 +50,7 @@ body{
 
 
 #carouselExampleIndicators .item-1{
-	background-image: url(../img/slider.png);
+	background-image: url(../img/slider_1.jpg);
 	background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@ body{
 }
 
 #carouselExampleIndicators .item-3{
-	background-image: url(../img/slider.png);
+	background-image: url(../img/slider3.jpg);
 	background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
