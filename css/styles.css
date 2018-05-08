@@ -1055,8 +1055,7 @@ body{
 
 
  #map{
-    height: 300px;
-    border:1px solid #ff63b1;
+    height: 350px;
 }
 
 
@@ -1662,7 +1661,13 @@ body{
     .curso1, .curso2, .curso3{
         width: 40%;
     }
-
+	
+    .containerContacto{
+        margin-top: 16px;
+    }
+    .footerContacto{
+        margin-top: 32px;
+    }
 
 }
 
@@ -1739,6 +1744,15 @@ body{
         margin-right: 64px;
     }
 
+	.containerContacto{
+        margin-top: 32px;
+    }
+
+    .footerContacto{
+        margin-top: 76px;
+    }
+
+	
 }
 
 
