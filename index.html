@@ -7,13 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
-        <!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. --> 
+        <!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. -->
         <link rel="apple-touch-icon-precomposed" href="./img/fav-180x180.png">
-
         <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
         <link rel="icon" href="./img/fav-196x196.png">
-
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -225,14 +222,12 @@
                         <form class="form-inline formDescarga">
                             <div class="containerNombre">
                                 <label class="sr-only" for="inlineFormInput">Nombre</label>
-                                <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0"
-                                  name="FNAME" id="mce-FNAME" placeholder="TU NOMBRE">
+                                <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" name="FNAME" id="mce-FNAME" placeholder="TU NOMBRE">
                             </div>
                             <div class="containerEmail">
                                 <label class="sr-only" for="inlineFormInputGroup">Email</label>
                                 <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                    <input type="text" class="form-control" placeholder="TU EMAIL"
-                                      name="EMAIL" id="mce-EMAIL">
+                                    <input type="text" class="form-control" placeholder="TU EMAIL" name="EMAIL" id="mce-EMAIL">
                                 </div>
                             </div>
                             <div class="containerBtnDescargar">
@@ -288,23 +283,19 @@
                 </div>
             </div>
         </div>
-        
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>
         <script src="https://unpkg.com/sweetalert2@7.19.3/dist/sweetalert2.all.min.js"></script>
-
         <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
         <script src="https://unpkg.com/promise-polyfill@7.1.0/dist/promise.min.js"></script>
-        
         <script>
-            
-                $('#btnForm').click(() => {
-                    $('html, body').animate({
-                        scrollTop: $('.containerDescarga').offset().top
-                    }, 500);
-                });
+            $('#btnForm').click(() => {
+                $('html, body').animate({
+                    scrollTop: $('.containerDescarga').offset().top
+                }, 500);
+            });
 
             $('#carouselExample').on('slide.bs.carousel', function(e) {
 
@@ -334,18 +325,6 @@
 
             $(document).ready(function() {
 
-                swal({
-  title: 'How old are you?',
-  type: 'question',
-  input: 'range',
-  inputAttributes: {
-    min: 8,
-    max: 120,
-    step: 1
-  },
-  inputValue: 25
-});
-                
                 /* show lightbox when clicking a thumbnail */
                 $('a.thumb').click(function(event) {
                     event.preventDefault();
@@ -357,28 +336,48 @@
                     $(".modal-profile").modal({ show: true });
                 });
 
-                $('.formDescarga').on('submit', function(e){
-                  e.preventDefault();
-                  
-                  var name = $("#mce-FNAME").val();
-                  var email = $("#mce-EMAIL").val();
+                $('.formDescarga').on('submit', function(e) {
+                    e.preventDefault();
 
-                  $.post("./signup/alta_pdf.php", { name: name, email: email } )
-                    .done(function() {
-                      console.log("sign up new member success");
-                      var link = document.createElement('a');
-                      document.body.appendChild(link);
-                      link.href = "./assets/GUIA-3-PASOS.pdf";
-                      link.click();
-                    })
-                    .fail(function(err) {
-                      console.log(err.responseText);
-                    })
-                    .always(function() {
-                      $('.formDescarga').trigger("reset");
-                    });
+                    var name = $("#mce-FNAME").val();
+                    var email = $("#mce-EMAIL").val();
+
+                    $.post("./signup/alta_pdf.php", { name: name, email: email })
+                        .done(function() {
+                            // sign up new member success
+                            var link = document.createElement('a');
+                            document.body.appendChild(link);
+                            link.href = "./assets/GUIA-3-PASOS.pdf";
+                            link.click();
+                        })
+                        .fail(function(err) {
+                            // handle and display the corresponding error message
+                            if (err.responseText == email + " is already a list member") {
+                                swal({
+                                    type: 'error',
+                                    title: 'Uups...',
+                                    text: '¡Tu email ya ha sido registrado! Prueba con otro.'
+                                });
+                            } else if (err.responseText == email + " is not a valid email address") {
+                                swal({
+                                    type: 'error',
+                                    title: 'Uups...',
+                                    text: '¡Tu dirección de correo es inválida! Prueba con otra.'
+                                });
+                            } else {
+                                swal({
+                                    type: 'error',
+                                    title: 'Uups...',
+                                    text: '¡Algo salió mal al intentar registrarte! Inténtalo otra vez.'
+                                });
+                            }
+                        })
+                        .always(function() {
+                            $('.formDescarga').trigger("reset");
+                        });
                 });
             });
+
         </script>
     </body>
 
