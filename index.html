@@ -83,7 +83,7 @@
                             <h3>Los 3 Pasos Para Ser Una</h3>
                             <h1>Madre Soltera Extraordinaria</h1>
                             <div class="btnCopy">
-                                <a href="#descargaGratis">QUIERO LA GUÍA AHORA</a>
+                                <a href="#descargaGratis" id="btnForm">QUIERO LA GUÍA AHORA</a>
                             </div>
                         </div>
                     </div>
@@ -295,6 +295,13 @@
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>
         
         <script>
+            
+                $('#btnForm').click(() => {
+                    $('html, body').animate({
+                        scrollTop: $('.containerDescarga').offset().top
+                    }, 500);
+                });
+
             $('#carouselExample').on('slide.bs.carousel', function(e) {
 
                 var $e = $(e.relatedTarget);
