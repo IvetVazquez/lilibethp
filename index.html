@@ -222,12 +222,14 @@
                         <form class="form-inline formDescarga">
                             <div class="containerNombre">
                                 <label class="sr-only" for="inlineFormInput">Nombre</label>
-                                <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" name="FNAME" id="mce-FNAME" placeholder="TU NOMBRE">
+                                <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0"
+                                    maxlength="50" name="FNAME" id="mce-FNAME" placeholder="TU NOMBRE">
                             </div>
                             <div class="containerEmail">
                                 <label class="sr-only" for="inlineFormInputGroup">Email</label>
                                 <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                    <input type="text" class="form-control" placeholder="TU EMAIL" name="EMAIL" id="mce-EMAIL">
+                                    <input type="text" class="form-control" placeholder="TU EMAIL"
+                                    maxlength="50" name="EMAIL" id="mce-EMAIL">
                                 </div>
                             </div>
                             <div class="containerBtnDescargar">
@@ -351,26 +353,30 @@
                             link.click();
                         })
                         .fail(function(err) {
+
                             // handle and display the corresponding error message
-                            if (err.responseText == email + " is already a list member") {
-                                swal({
-                                    type: 'error',
-                                    title: 'Uups...',
-                                    text: '¡Tu email ya ha sido registrado! Prueba con otro.'
-                                });
-                            } else if (err.responseText == email + " is not a valid email address") {
-                                swal({
-                                    type: 'error',
-                                    title: 'Uups...',
-                                    text: '¡Tu dirección de correo es inválida! Prueba con otra.'
-                                });
-                            } else {
-                                swal({
-                                    type: 'error',
-                                    title: 'Uups...',
-                                    text: '¡Algo salió mal al intentar registrarte! Inténtalo otra vez.'
-                                });
+                            var errorMsg = '';
+                            switch(err.responseText) {
+                                case email + " is already a list member":
+                                    errorMsg = "¡Tu email ya ha sido registrado! Prueba con otro.";
+                                    break;
+                                case email + " is not a valid email address":
+                                case "email address is blank":
+                                    errorMsg = "¡Tu dirección de correo es inválida! Prueba con otra.";
+                                    break;
+                                case name + " is not a valid name value":
+                                    errorMsg = "¡Nombre inválido! Prueba con otro.";
+                                    break;
+                                default:
+                                    errorMsg = "¡Algo salió mal al intentar registrarte! Inténtalo otra vez.";
                             }
+                            
+                            swal({
+                                type: 'error',
+                                title: 'Uups...',
+                                text: errorMsg
+                            });
+
                         })
                         .always(function() {
                             $('.formDescarga').trigger("reset");

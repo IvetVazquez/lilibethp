@@ -21,7 +21,11 @@
       echo "$email is already a list member";
     } else if (strpos($MailChimp->getLastError(), "provide a valid email address")) {
       echo "$email is not a valid email address";
+    } else if ($MailChimp->getLastError(), "merge fields were invalid") {
+      echo "$name is not a valid name value";
+    } else if ($MailChimp->getLastError(), "Blank email address") {
+      echo "email address is blank";
     } else {
-      echo $MailChimp->getLastError();
+      echo "UNKNOWN ERROR";
     }
   }
