@@ -22,6 +22,6 @@
     } else if (strpos($MailChimp->getLastError(), "provide a valid email address")) {
       echo "$email is not a valid email address";
     } else {
-      echo "ERROR";
+      echo $MailChimp->getLastError();
     }
   }
