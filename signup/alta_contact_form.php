@@ -4,8 +4,13 @@
 
   $name = $_POST["name"];
   $email = $_POST["email"];
-  $list_id = "68dd8a46c4";
+  $whatsapp = $_POST["whatsapp"];
+  $findme = $_POST["findme"];
+  $message = $_POST["message"];
+  $list_id = "93dcf15041";  // spanish version
+  print_r($_POST);
 
+  /**
   $MailChimp = new MailChimp('8054672f7391700d9f842e8ae8338979-us15');
   $result = $MailChimp->post("lists/$list_id/members", [
         'email_address' => $email,
@@ -25,3 +30,4 @@
       echo "ERROR";
     }
   }
+  */

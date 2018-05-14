@@ -84,21 +84,19 @@
                                 <input type="email" class="form-control" id="email">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="phone">Teléfono</label>
-                                <input type="phone" class="form-control" id="phone">
+                                <label for="phone">Whatsapp</label>
+                                <input type="phone" class="form-control" id="whatsapp">
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="asunto">Asunto</label>
-                            <input type="text" class="form-control" id="asunto">
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="servicio">Servicio</label>
-                                <select class="form-control">
-                                    <option>Servicio 1</option>
-                                    <option>Servicio 2</option>
-                                    <option>Servicio 3</option>
+                                <label for="servicio">¿Como te enteraste de mí?</label>
+                                <select class="form-control" id="findme">
+                                    <option value="facebook-page">Página de facebook</option>
+                                    <option value="Libro">Libro</option>
+                                    <option selected value="Instagram">Instagram</option>
+                                    <option value="facebook-group">Grupo de facebook</option>
+                                    <option value="Conferencia">Conferencia</option>
                                 </select>
                             </div>
                             <div class="form-group col-md-6">
@@ -179,6 +177,72 @@
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/sweetalert2@7.19.3/dist/sweetalert2.all.min.js"></script>
+        <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
+        <script src="https://unpkg.com/promise-polyfill@7.1.0/dist/promise.min.js"></script>
+        <script>
+
+            $(document).ready(function() {
+
+                $('.formContacto').on('submit', function(e) {
+                    e.preventDefault();
+
+                    var name = $("#nombre").val();
+                    var email = $("#email").val();
+                    var whatsapp = $("#whatsapp").val();
+                    var findme = $("#findme").val();
+                    var message = $("#mensaje").val();
+
+                    $.post("./signup/alta_contact_form.php",
+                        {
+                            name: name, 
+                            email: email,
+                            whatsapp: whatsapp,
+                            findme: findme,
+                            message: message
+                        })
+                        .done(function() {
+                            // display success message
+                            swal({
+                                type: 'success',
+                                title: '¡Éxito! Serás contactada en breve',
+                                showConfirmButton: false,
+                                timer: 1500
+                            });
+                        })
+                        .fail(function(err) {
+
+                            // handle and display the corresponding error message
+                            var errorMsg = '';
+                            switch(err.responseText) {
+                                case email + " is already a list member":
+                                    errorMsg = "¡Tu email ya ha sido registrado! Prueba con otro.";
+                                    break;
+                                case email + " is not a valid email address":
+                                case "email address is blank":
+                                    errorMsg = "¡Tu dirección de correo es inválida! Prueba con otra.";
+                                    break;
+                                case name + " is not a valid name value":
+                                    errorMsg = "¡Nombre inválido! Prueba con otro.";
+                                    break;
+                                default:
+                                    errorMsg = "¡Algo salió mal al intentar registrarte! Inténtalo otra vez.";
+                            }
+                            
+                            swal({
+                                type: 'error',
+                                title: 'Uups...',
+                                text: errorMsg
+                            });
+
+                        })
+                        .always(function() {
+                            $('.formContacto').trigger("reset");
+                        });
+                });
+            });
+
+        </script>
     </body>
 
 </html>

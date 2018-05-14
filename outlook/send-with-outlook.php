@@ -58,17 +58,16 @@ $mail->addReplyTo('hernandez.brian@outlook.com', 'Brian Hernandez');
 $mail->addAddress('bdragonsb3@gmail.com', 'Ricart Deznez');
 
 //Set the subject line
-$mail->Subject = 'PHPMailer GMail SMTP test';
+$mail->Subject = 'Nuevo Lead - LilibethPinto.com';
 
 //Read an HTML message body from an external file, convert referenced images to embedded,
-//convert HTML into a basic plain-text alternative body
 $mail->msgHTML(file_get_contents('./contentsutf8.html'), __DIR__);
 
 //Replace the plain text body with one created manually
-$mail->AltBody = 'This is a plain-text message body';
+$mail->AltBody = 'Contacta cuanto antes a tu nuevo prospecto';
 
 //Attach an image file
-$mail->addAttachment('./images/phpmailer_mini.png');
+//$mail->addAttachment('./images/phpmailer_mini.png');
 
 //send the message, check for errors
 if (!$mail->send()) {
