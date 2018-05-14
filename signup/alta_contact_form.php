@@ -16,7 +16,7 @@
         'merge_fields'  => ['NAME' => $name, 'FINDME' => $findme, 'MESSAGE' => $message, 'PHOME' => $whatsapp],
       ]);
 
-  print_r($result)
+  print_r($result);
 
   if ($MailChimp->success()) {
     echo "welcome to the list $name with email address $email";
