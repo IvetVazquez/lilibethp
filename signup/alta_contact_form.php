@@ -18,7 +18,7 @@
 
   if ($MailChimp->success()) {
     $url = 'http://lilibethpinto.com/outlook/send-with-outlook.php';
-    $url .= "?name=$name&email=$email&whatsapp=$whatsapp&findme=$findme&message=$message"
+    $url .= "?name=$name&email=$email&whatsapp=$whatsapp&findme=$findme&message=$message";
     $respuesta = file_get_contents($url);
     echo "welcome to the list $name with email address $email. " . $respuesta;
   } else {
