@@ -49,13 +49,13 @@ $mail->Username = "hernandez.brian@outlook.com";
 $mail->Password = "lG0W9]vH4qBdjgp";
 
 //Set who the message is to be sent from
-$mail->setFrom('hernandez.brian@outlook.com', 'Brian Hernandez');
+$mail->setFrom('hernandez.brian@outlook.com', 'YOLO');
 
 //Set an alternative reply-to address
-$mail->addReplyTo('hernandez.brian@outlook.com', 'Brian Hernandez');
+$mail->addReplyTo('hernandez.brian@outlook.com', 'yolo');
 
 //Set who the message is to be sent to
-$mail->addAddress('bdragonsb3@gmail.com', 'Ricart Deznez');
+$mail->addAddress('bdragonsb3@gmail.com', 'Richi Ayala');
 
 //Set the subject line
 $mail->Subject = 'Nuevo Lead - LilibethPinto.com';

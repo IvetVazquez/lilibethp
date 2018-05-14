@@ -18,7 +18,7 @@
 
   if ($MailChimp->success()) {
     echo "welcome to the list $name with email address $email";
-    $fd = fopen('../outlook/send-with-outlook.php', 'r');
+    $fd = fopen('http://lilibethpinto.com/outlook/send-with-outlook.php', 'r');
     stream_set_blocking($fd, 0); // 0 => non-blocking mode
     fread($fd, 8192); // 1024 * 8 = 8192
     fclose($fd);
