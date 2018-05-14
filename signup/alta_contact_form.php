@@ -18,10 +18,8 @@
 
   if ($MailChimp->success()) {
     echo "welcome to the list $name with email address $email";
-    $fd = fopen('http://lilibethpinto.com/outlook/send-with-outlook.php', 'r');
-    stream_set_blocking($fd, 0); // 0 => non-blocking mode
-    fread($fd, 8192); // 1024 * 8 = 8192
-    fclose($fd);
+    $homepage = file_get_contents('http://lilibethpinto.com/outlook/send-with-outlook.php');
+    echo $homepage;
   } else {
     http_response_code(400);
     if (strpos($MailChimp->getLastError(), "is already a list member")) {
