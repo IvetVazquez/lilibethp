@@ -9,8 +9,6 @@
   $message = $_POST["message"];
   $list_id = "93dcf15041";  // spanish version
 
-  print_r($whatsapp);
-
   $MailChimp = new MailChimp('8054672f7391700d9f842e8ae8338979-us15');
   $result = $MailChimp->post("lists/$list_id/members", [
         'email_address' => $email,
