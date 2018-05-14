@@ -13,16 +13,14 @@
   $result = $MailChimp->post("lists/$list_id/members", [
         'email_address' => $email,
         'status'        => 'subscribed',
-        'merge_fields'  => ['NAME' => $name, 'FINDME' => $findme, 'MESSAGE' => $message, 'PHOME' => $whatsapp],
+        'merge_fields'  => ['NAME' => $name, 'FINDME' => $findme, 'MESSAGE' => $message, 'PHONE' => $whatsapp],
       ]);
-
-  print_r($result);
 
   if ($MailChimp->success()) {
     echo "welcome to the list $name with email address $email";
   } else {
     http_response_code(400);
-    /*if (strpos($MailChimp->getLastError(), "is already a list member")) {
+    if (strpos($MailChimp->getLastError(), "is already a list member")) {
       echo "$email is already a list member";
     } else if (strpos($MailChimp->getLastError(), "provide a valid email address")) {
       echo "$email is not a valid email address";
@@ -32,5 +30,5 @@
       echo "email address is blank";
     } else {
       echo "UNKNOWN ERROR";
-    }*/
+    }
   }
