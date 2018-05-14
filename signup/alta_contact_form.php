@@ -22,7 +22,6 @@
     echo "welcome to the list $name with email address $email";
   } else {
     http_response_code(400);
-    echo $MailChimp->getLastError();
     /*if (strpos($MailChimp->getLastError(), "is already a list member")) {
       echo "$email is already a list member";
     } else if (strpos($MailChimp->getLastError(), "provide a valid email address")) {
