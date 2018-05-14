@@ -16,10 +16,12 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 //Script Runtime Validation
-if (isset($_GET['secret_hash'])) {
+$precondition = isset($_GET['secret_hash']) && $_GET['secret_hash'] === "efhn10ddsh12h8x10n8e23";
+$condition = $_SERVER['SERVER_ADDR'] === $_SERVER['SERVER_ADDR'];
+if ( $precondition && $condition ) {
   echo "continua";
-  print_r($_SERVER);
 }
+echo "bad";
 exit(1);
 
 //Create a new PHPMailer instance
