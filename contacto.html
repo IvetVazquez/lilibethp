@@ -193,6 +193,12 @@
                     var findme = $("#findme").val();
                     var message = $.trim(   $("#mensaje").val() );
 
+                    swal({
+                        title: 'Estamos enviado tu mensaje',
+                        text: 'Solo será un momento',
+                        showLoaderOnConfirm: true
+                    });
+
                     $.post("./signup/alta_contact_form.php",
                         {
                             name: name, 
