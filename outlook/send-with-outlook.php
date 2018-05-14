@@ -15,6 +15,12 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
+//Script Runtime Validation
+if (isset($_GET['secret_hash'])) {
+  echo "continua";
+}
+exit(1);
+
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
 
