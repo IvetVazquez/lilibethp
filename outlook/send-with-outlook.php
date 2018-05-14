@@ -17,7 +17,7 @@ use PHPMailer\PHPMailer\Exception;
 
 //Script Runtime Validation
 $precondition = isset($_GET['secret_hash']) && $_GET['secret_hash'] === "efhn10ddsh12h8x10n8e23";
-$condition = $_SERVER['SERVER_ADDR'] === $_SERVER['SERVER_ADDR'];
+$condition = $_SERVER['SERVER_ADDR'] === $_SERVER['REMOTE_ADDR'];
 if ( $precondition && $condition ) {
   echo "continua";
 }
