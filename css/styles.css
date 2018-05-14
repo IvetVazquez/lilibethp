@@ -1189,6 +1189,38 @@ body{
     align-items: center;
 }
 
+.libro1{
+    width: 100vw;
+    height: 300px;
+    background: url(../img/me2.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.libro2{
+    width: 100vw;
+    height: 300px;
+    background: url(../img/me2.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.libro3{
+    width: 100vw;
+    height: 300px;
+    background: url(../img/me2.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+
 
 @media (min-width:768px) { 
 
@@ -1446,6 +1478,28 @@ body{
     .containerCursosThumbnails .curso1, .containerCursosThumbnails .curso2, .containerCursosThumbnails .curso3{
         width: 250px;
     }
+
+  .containerCursosThumbnails .libro1, .containerCursosThumbnails .libro2, .containerCursosThumbnails .libro3{
+        width: 250px;
+    }
+	
+.libro1{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.libro2{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.libro3{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+	
 		
 }
 
@@ -1661,7 +1715,11 @@ body{
     .curso1, .curso2, .curso3{
         width: 40%;
     }
-	
+
+
+    .libro1, .libro2, .libro3{
+        width: 30%;
+    }	
     .containerContacto{
         margin-top: 16px;
     }
@@ -1750,6 +1808,10 @@ body{
 
     .footerContacto{
         margin-top: 76px;
+    }
+	
+    .libro1, .libro2, .libro3{
+        width: 20%;
     }
 
 	
