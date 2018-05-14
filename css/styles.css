@@ -1192,7 +1192,7 @@ body{
 .libro1{
     width: 100vw;
     height: 300px;
-    background: url(../img/me2.jpg) no-repeat center;
+    background: url(../img/curso_1.jpg) no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -1202,7 +1202,7 @@ body{
 .libro2{
     width: 100vw;
     height: 300px;
-    background: url(../img/me2.jpg) no-repeat center;
+    background: url(../img/curso_2.jpg) no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -1212,7 +1212,7 @@ body{
 .libro3{
     width: 100vw;
     height: 300px;
-    background: url(../img/me2.jpg) no-repeat center;
+    background: url(../img/curso_3.jpg) no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
