@@ -17,9 +17,10 @@
       ]);
 
   if ($MailChimp->success()) {
-    echo "welcome to the list $name with email address $email";
-    $homepage = file_get_contents('http://lilibethpinto.com/outlook/send-with-outlook.php');
-    echo $homepage;
+    $url = 'http://lilibethpinto.com/outlook/send-with-outlook.php';
+    $url .= "?name=$name&email=$email&whatsapp=$whatsapp&findme=$findme&message=$message"
+    $respuesta = file_get_contents($url);
+    echo "welcome to the list $name with email address $email. " . $respuesta;
   } else {
     http_response_code(400);
     if (strpos($MailChimp->getLastError(), "is already a list member")) {

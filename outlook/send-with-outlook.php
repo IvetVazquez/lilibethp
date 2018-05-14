@@ -25,7 +25,7 @@ $mail->isSMTP();
 // 0 = off (for production use)
 // 1 = client messages
 // 2 = client and server messages
-$mail->SMTPDebug = 2;
+$mail->SMTPDebug = 1;
 
 //Set the hostname of the mail server
 $mail->Host = 'smtp.live.com';
@@ -52,13 +52,15 @@ $mail->Password = "lG0W9]vH4qBdjgp";
 $mail->setFrom('hernandez.brian@outlook.com', 'YOLO');
 
 //Set an alternative reply-to address
-$mail->addReplyTo('hernandez.brian@outlook.com', 'yolo');
+$mail->addReplyTo('hernandez.brian@outlook.com', 'YOLO');
 
 //Set who the message is to be sent to
 $mail->addAddress('bdragonsb3@gmail.com', 'Richi Ayala');
 
 //Set the subject line
 $mail->Subject = 'Nuevo Lead - LilibethPinto.com';
+
+print_r($_GET);
 
 //Read an HTML message body from an external file, convert referenced images to embedded,
 $mail->msgHTML(file_get_contents('./contentsutf8.html'), __DIR__);
