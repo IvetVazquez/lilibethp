@@ -25,7 +25,7 @@ $mail->isSMTP();
 // 0 = off (for production use)
 // 1 = client messages
 // 2 = client and server messages
-$mail->SMTPDebug = 1;
+$mail->SMTPDebug = 0;
 
 //Set the hostname of the mail server
 $mail->Host = 'smtp.live.com';
@@ -60,10 +60,15 @@ $mail->addAddress('bdragonsb3@gmail.com', 'Richi Ayala');
 //Set the subject line
 $mail->Subject = 'Nuevo Lead - LilibethPinto.com';
 
-print_r($_GET);
-
 //Read an HTML message body from an external file, convert referenced images to embedded,
-$mail->msgHTML(file_get_contents('./contentsutf8.html'), __DIR__);
+$body = file_get_contents('./contentsutf8.html');
+
+//Replaces $healthy with $yummy in $body
+$healthy = array("__THE_NAME__", "__THE_EMAIL__", "__THE_WHATSAPP__", "__THE_FINDME__", "__THE_MESSAGE__");
+$yummy   = array($_GET['name'], $_GET['email'], $_GET['whatsapp'], $_GET['findme'], $_GET['message']);
+$newBody = str_replace($healthy, $yummy, $body);
+
+$mail->msgHTML($newBody, __DIR__);
 
 //Replace the plain text body with one created manually
 $mail->AltBody = 'Contacta cuanto antes a tu nuevo prospecto';
