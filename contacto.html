@@ -187,11 +187,11 @@
                 $('.formContacto').on('submit', function(e) {
                     e.preventDefault();
 
-                    var name = $("#nombre").val();
-                    var email = $("#email").val();
-                    var whatsapp = $("#whatsapp").val();
+                    var name = $.trim(      $("#nombre").val()  );
+                    var email = $.trim(     $("#email").val()   );
+                    var whatsapp = $.trim(  $("#whatsapp").val());
                     var findme = $("#findme").val();
-                    var message = $("#mensaje").val();
+                    var message = $.trim(   $("#mensaje").val() );
 
                     $.post("./signup/alta_contact_form.php",
                         {
