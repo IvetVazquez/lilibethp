@@ -25,8 +25,17 @@
     } else if (strpos($MailChimp->getLastError(), "provide a valid email address")) {
       echo "$email is not a valid email address";
     } else if (strpos($MailChimp->getLastError(), "merge fields were invalid")) {
-      echo $MailChimp->getLastError();
-      print_r($result);
+      switch ($result['errors'][0]['field']) {
+        case 'NAME':
+          echo "$name is not a valid name value";
+          break;
+        case 'PHONE':
+          echo "$whatsapp is not a valid whatsapp value";
+          break;
+        case 'MESSAGE':
+          echo "$message is not a valid message value";
+          break;
+       }
     } else if (strpos($MailChimp->getLastError(), "Blank email address")) {
       echo "email address is blank";
     } else {
