@@ -18,6 +18,7 @@ use PHPMailer\PHPMailer\Exception;
 //Script Runtime Validation
 if (isset($_GET['secret_hash'])) {
   echo "continua";
+  print_r($_SERVER);
 }
 exit(1);
 
