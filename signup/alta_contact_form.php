@@ -7,6 +7,7 @@
   $whatsapp = $_POST["whatsapp"];
   $findme = $_POST["findme"];
   $message = $_POST["message"];
+  $secret_hash = "efhn10ddsh12h8x10n8e23";
   $list_id = "93dcf15041";  // spanish version
 
   $MailChimp = new MailChimp('8054672f7391700d9f842e8ae8338979-us15');
@@ -18,7 +19,8 @@
 
   if ($MailChimp->success()) {
     $url = 'http://lilibethpinto.com/outlook/send-with-outlook.php';
-    $url .= "?name=$name&email=$email&whatsapp=$whatsapp&findme=$findme&message=$message";
+    $url .= "?name=$name&email=$email&whatsapp=$whatsapp";
+    $url .= "&secret_hash=$secret_hash&findme=$findme&message=$message";
     $respuesta = file_get_contents($url);
     echo "welcome to the list $name with email address $email. " . $respuesta;
   } else {
