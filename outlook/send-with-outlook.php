@@ -62,7 +62,7 @@ $mail->setFrom('hernandez.brian@outlook.com', 'YOLO');
 $mail->addReplyTo('hernandez.brian@outlook.com', 'YOLO');
 
 //Set who the message is to be sent to
-$mail->addAddress('bdragonsb3@gmail.com', 'Richi Ayala');
+$mail->addAddress('anaivetvazquez@gmail.com', 'Vaz Danz');
 
 //Set the subject line
 $mail->Subject = 'Nuevo Lead - LilibethPinto.com';
