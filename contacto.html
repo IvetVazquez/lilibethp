@@ -196,7 +196,9 @@
                     swal({
                         title: 'Estamos enviado tu mensaje',
                         text: 'Solo será un momento',
-                        showLoaderOnConfirm: true
+                        onOpen: function(){
+                            swal.showLoading();
+                        }
                     });
 
                     $.post("./signup/alta_contact_form.php",
