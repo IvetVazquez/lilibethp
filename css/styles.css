@@ -959,7 +959,7 @@ body{
 
 .containerAulaVirtual{
     width: 100vw;
-    height: 500px;
+    height: 400px;
     background: url(../img/header_cursos.jpg) no-repeat center; 
     background-size: cover;
     display: flex;
