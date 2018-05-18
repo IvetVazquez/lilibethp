@@ -1,4 +1,8 @@
 <?php
+require '../vendor/autoload.php';
+
+$dotenv = new Dotenv\Dotenv(__DIR__);
+$dotenv->load();
 /**
  * This example shows settings to use when sending via Google's Gmail servers.
  * This uses traditional id & password authentication - look at the gmail_xoauth.phps
@@ -16,7 +20,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 //Script Runtime Validation
-$precondition = isset($_GET['secret_hash']) && $_GET['secret_hash'] === "efhn10ddsh12h8x10n8e23";
+$precondition = isset($_GET['secret_hash']) && $_GET['secret_hash'] === getenv('secret_hash');
 $condition = $_SERVER['SERVER_ADDR'] === $_SERVER['REMOTE_ADDR'];
 if ( $precondition == FALSE || $condition == FALSE ) {
   exit(1);
@@ -50,19 +54,19 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "hernandez.brian@outlook.com";
+$mail->Username = getenv('from_username');
 
 //Password to use for SMTP authentication
-$mail->Password = "lG0W9]vH4qBdjgp";
+$mail->Password = getenv('from_password');
 
 //Set who the message is to be sent from
-$mail->setFrom('hernandez.brian@outlook.com', 'YOLO');
+$mail->setFrom(getenv('from_username'), 'LILI');
 
 //Set an alternative reply-to address
-$mail->addReplyTo('hernandez.brian@outlook.com', 'YOLO');
+$mail->addReplyTo(getenv('from_username'), 'LILI');
 
 //Set who the message is to be sent to
-$mail->addAddress('anaivetvazquez@gmail.com', 'Vaz Danz');
+$mail->addAddress(getenv('send_email'), 'Lilibeth Pinto');
 
 //Set the subject line
 $mail->Subject = 'Nuevo Lead - LilibethPinto.com';

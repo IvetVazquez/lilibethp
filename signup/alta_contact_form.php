@@ -1,4 +1,9 @@
 <?php
+  require '../vendor/autoload.php';
+
+  $dotenv = new Dotenv\Dotenv(__DIR__ . '/../outlook');
+  $dotenv->load();
+
   include('./MailChimp.php');
   use \DrewM\MailChimp\MailChimp;
 
@@ -7,10 +12,10 @@
   $whatsapp = $_POST["whatsapp"];
   $findme = $_POST["findme"];
   $message = $_POST["message"];
-  $secret_hash = "efhn10ddsh12h8x10n8e23";
-  $list_id = "93dcf15041";  // spanish version
+  $secret_hash = getenv('secret_hash');
+  $list_id = getenv('list_id_contact_form_spanish');
 
-  $MailChimp = new MailChimp('8054672f7391700d9f842e8ae8338979-us15');
+  $MailChimp = new MailChimp(getenv('mailchimp_api_key'));
   $result = $MailChimp->post("lists/$list_id/members", [
         'email_address' => $email,
         'status'        => 'subscribed',

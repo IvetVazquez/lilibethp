@@ -1,12 +1,17 @@
 <?php
+  require '../vendor/autoload.php';
+
+  $dotenv = new Dotenv\Dotenv(__DIR__ . '/../outlook');
+  $dotenv->load();
+
   include('./MailChimp.php');
   use \DrewM\MailChimp\MailChimp;
 
   $name = $_POST["name"];
   $email = $_POST["email"];
-  $list_id = "68dd8a46c4";
+  $list_id = getenv('list_id_pdf_spanish');
 
-  $MailChimp = new MailChimp('8054672f7391700d9f842e8ae8338979-us15');
+  $MailChimp = new MailChimp(getenv('mailchimp_api_key'));
   $result = $MailChimp->post("lists/$list_id/members", [
         'email_address' => $email,
         'status'        => 'subscribed',
