@@ -610,9 +610,9 @@ body{
 }
 
 .containerTrabajemosJuntas{
-    margin-top: 16px;
+    margin-top: 0px;
     width: 100vw;
-    height: 500px;
+    height: 400px;
     background: url(../img/reunion2.jpg) no-repeat center fixed; 
     background-size: cover;
     padding: 0;   
