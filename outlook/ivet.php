@@ -1,7 +1,7 @@
 <?php
   require '../vendor/autoload.php';
 
-  $dotenv = new Dotenv\Dotenv(__DIR__);
+  $dotenv = new Dotenv\Dotenv(__DIR__, '.env.example');
   $dotenv->load();
 
   print_r("que show?");
