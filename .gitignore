@@ -1,2 +1,5 @@
 blog/
 outlook/.env
+composer.phar
+composer.lock
+vendor/
