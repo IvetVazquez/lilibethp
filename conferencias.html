@@ -75,7 +75,7 @@
             <div class="row">
                 <div class="col-12 containerConferencias">
                     <div class="copyConferencias">
-                        <h2>EVENTOS CON</h2>
+                        <h2 lang="en" data-lang-token="titulo"></h2>
                         <h1>LILIBETH</h1>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 containerConferenciasCalendario">
-                    <h4>CONFERENCIAS</h4>
+                    <h4 ang="en" data-lang-token="subtitulo"></h4>
                     <div class="containerCalendario">
                         <div class="evento1">
                             <div class="diaEvento1">
@@ -181,8 +181,19 @@
                 </div>
             </div>
         </div>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        
+        <!-- Multilingual JavaScript -->
+        <script src="./js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+        <script type="text/javascript">
+            // Create language switcher instance
+            var lang = new Lang();
+            lang.dynamic('es', './js/es.json');
+            lang.init({
+                defaultLang: 'es'
+            });
+        </script>
+
+        <!-- jQuery first, then Bootstrap JS -->
         <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>
     </body>
