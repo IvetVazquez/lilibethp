@@ -1,7 +1,7 @@
 {
 	"token": {
-		/** Eventos **/
-		"titulo":"EVENTS WITH ",
+		"__eventos__":"EVENTOS",
+		"titulo":"EVENTS WITH",
 		"subtitulo":"CONFERENCES"
 	}
 }
