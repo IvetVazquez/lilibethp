@@ -1,5 +1,5 @@
 // Variables 
-var lang = "en", // Check the Browser language
+var lang = window.location.pathname.split("/")[1], // Check the URL language
     translate; // Container of all translations
 
 console.log(lang);
