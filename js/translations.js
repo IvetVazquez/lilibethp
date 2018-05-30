@@ -1,5 +1,5 @@
 // Variables 
-var lang = "es", // Check the Browser language
+var lang = "en", // Check the Browser language
     translate; // Container of all translations
 
 console.log(lang);
