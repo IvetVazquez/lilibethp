@@ -2,4 +2,6 @@ blog/
 outlook/.env
 composer.phar
 composer.lock
+.DS_Store
+js/.DS_Store
 vendor/
