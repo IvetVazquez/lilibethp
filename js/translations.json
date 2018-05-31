@@ -1,10 +1,99 @@
 {
-    "titulo": {
+    "SECCION_HOME": {
+        "es": "home",
+        "en": "home" 
+    },
+    "SECCION_ACERCA_DE_MI": {
+        "es": "home",
+        "en": "home" 
+    },
+    "contenido_acerca_de_mi": {
+        "es": "Hola, Qué alegría verte por aquí Soy Lilibeth Pinto Nací y crecí en Tunja-Colombia. Ahora soy residente en Australia. Profesionalmente soy bacterióloga, científica médica. Siempre he estado rodeada de experiencias que han enriquecido mi vida de una manera extraordinaria. Con los años he aprendido que no hay obstáculo más grande, que el no poder permitirnos cumplir nuestras metas. He visto a muchas personas renunciar a sus sueños por un simple mal momento o porque no se han preparado o educado para cierta actividad y le dan punto final en su mente. Nuestra mente posee todo y nos encamina hasta donde lo queremos. Si estás enfermo te llevará hasta el punto de sentirte sano, es sólo cuestión que la entrenes para ello, no es difícil, tú tienes el poder de hacerlo, no tienes limitaciones más que mentales. Mi proceso como entrenadora de mujeres y de madres ha sido muy enriquecedor porque en los últimos 6 meses he estado escribiendo y preparando nuevas ideas; esperando la oportunidad para lanzarme como conferencista. Se que todo es posible para las madres que tenemos hijos y que queremos ver nuestro propósito de vida hecho realidad. Las personas podríamos soñar tan alto que solo nos faltarían las alas, no nos limitemos a pensar que solo unas o unos pocos pueden, todo lo contrario, la magia de ser mujer, madre, hija, abuela es solo el nombre pero el legado para tus hijos es lo que importa. ¡Tú eres tú ejemplo!",
+        "en": "Hello, What a joy to see you here I'm Lilibeth Pinto I was born and grew up in Tunja-Colombia. I am now a resident in Australia.  I am a bacteriologist, and a  medical scientist. I have always been surrounded by experiences that have enriched my life in an extraordinary way. Over the years I have learned that there is no bigger obstacle than that we can not afford to meet our goals. I have seen many people give up their dreams for a simple bad time or because they have not been prepared or educated for a certain activity and they put an end to their mind. Our mind has everything and it guides us to where we want it. If you are sick, it will take you to the point of feeling healthy, it is only a question that you train for it, it is not difficult, you have the power to do it, you have no limitations other than mental. My process as a coach of women and mothers has been very enriching because in the last 6 months I have been writing and preparing new ideas; waiting for the opportunity to launch as a speaker. I know that everything is possible for mothers who have children and that we want to see our purpose of life come true. People could dream so high that only our wings would be missing, do not limit ourselves to thinking that only one or a few can, on the contrary, the magic of being a woman, mother, daughter, grandmother, is just the name but the legacy for your children is what matters. You are their role model!"
+    },
+    "subtitulo": {
+        "es": "MI FORMACIÓN",
+        "en": "MY EXPERIENCE" 
+    },
+    "contenido_mi_formacion": {
+        "es": "Soy coach de vida para madres solteras, he vivido en 2 países, trabajo tiempo completo como coach. Trabaje como laboratorista médica en Colombia y Australia. Tengo un grado profesional de la Universidad Javeriana de Bogota en Colombia y Charles Sturt University de Australia. Un diplomado en Coaching Ontológico Profesional de Colombia. Hablo 2 idiomas. He viajado por diferentes países. (Tailandia, Fiji, Japón, Chile, Argentina, Australia, Bali). He trabajado como coach por casi 2 años. Mis hobbies son hacer deporte y escuchar música pop, a veces nadar y ver películas de miedo con mi hija. Soy una madre viajera y cuando tengo la posibilidad de hacerlo me voy a conocer los países más exóticos, me gusta comer cosas diferentes, cosas raras pero que sean deliciosas. Me apasiona escribir porque me conecto con mi esencia como mujer, puedo plasmar mis ideas, mi forma de ver la vida y para que eso pueda ser una fuente de inspiración para otras personas.",
+        "en": "I am a life coach for single mothers, I have lived in 2 countries, I work full time as a coach. I worked as a medical laboratory technician in Colombia and Australia. I have a professional degree from the Javeriana University in Bogota  Colombia and Charles Sturt University in Australia. A Diploma in Professional Ontological Coaching from Bogota -Colombia. I speak 2 languages. I have traveled through different countries. (Thailand, Fiji, Japan, Chile, Argentina, Australia). I have worked as a coach for almost 2 years. My hobbies are doing sports and listening to pop music, sometimes swimming and watching scary movies with my daughter. I am a traveling mother and when I have the possibility of doing it I am going to know the most exotic countries, I like to eat different things, strange things that are delicious. I love writing because I connect with my essence as a woman, I can translate my  ideas, my way of seeing life and so that it can be a source of inspiration for other people." 
+    },
+    "titulo_boton": {
+        "es": "¿Quieres comenzar a volar alto?",
+        "en": "Do you want to start flying high? " 
+    },
+    "boton_acerca": {
+        "es": "DESCUBRE COMO PUEDO AYUDARTE",
+        "en": "DISCOVER HOW I CAN HELP YOU" 
+    },
+    "SECCION_COACHING": {
+        "es": "home",
+        "en": "home" 
+    },
+    "SECCION_CONFERENCIAS": {
+        "es": "home",
+        "en": "home" 
+    },
+    "header_conferencias": {
         "es": "EVENTOS CON",
         "en": "EVENTS WITH" 
     },
-    "subtitulo": {
+    "subtitulo_conferencias": {
         "es": "CONFERENCIAS",
         "en": "CONFERENCES" 
-    }
+    },
+    "contenido_conferencias": {
+        "es": "Conferencia con Miguel Santos: Cómo programar tu mente para el éxito y la felicidad Fecha: 11 de Agosto de 2018 Lugar: Cairns, Australia Horario: 10:00 a 14:00 hrs",
+        "en": "Conference with Miguel Santos: How to program your mind for success and happiness Date: August 11, 2018 Place: Cairns, Australia Hours: 10:00 a.m. to 2:00 p.m." 
+    },
+    "subtitulo_eventos": {
+        "es": "EVENTOS",
+        "en": "EVENTS" 
+    },
+    "contenido_eventos": {
+        "es": "Quieres que hable en tu evento. Te gustaría que compartiera con tu público mi mensaje. Estoy encantada de poder empoderar a las mujeres. Contáctame para mayor información. ¡Nos vemos pronto!Si deseas asistir a algunos de mis eventos en cualquier parte del mundo contáctame y con gusto te enviaré los detalles del evento. Deja tus datos para avisarte de mis próximos eventos, o contáctame para que hable en tu ciudad.",
+        "en": "Do you want me to talk on your event. You would like me to share my message with your audience. I am delighted to be able to empower women. Contact me for more information. See you soon! If you want to attend some of my events anywhere in the world contact me and I will gladly send you the details of the event. Leave your data to notify you of my upcoming events, or contact me to speak in your city."
+    },
+    "boton_eventos": {
+        "es": "¡ QUIERO SABER MÁS !",
+        "en": "I WANT TO KNOW MORE !" 
+    },
+    "SECCION_LIBROS": {
+        "es": "home",
+        "en": "home" 
+    };
+    "titulo_libros": {
+        "es": "DISFRUTA DE UNA EXCELENTE LECTURA",
+        "en": "ENJOY AN EXCELLENT READING" 
+    },
+    "subtitulo_libros": {
+        "es": "CONOCE MIS LIBROS",
+        "en": "KNOW MY BOOKS" 
+    },
+    "titulo_libro_1": {
+        "es": "Me duele perder: Cómo superar el abismo del duelo sin sufrimiento",
+        "en": "It hurts me to lose: How to overcome the gulf of grief without suffering" 
+    },
+    "contenido_libro_1": {
+        "es": "CONOCE MIS LIBROS",
+        "en": "KNOW MY BOOKS" 
+    },
+    "titulo_libro_2": {
+        "es": "Me duele perder: Cómo superar el abismo del duelo sin sufrimiento",
+        "en": "It hurts me to lose: How to overcome the gulf of grief without suffering" 
+    },
+    "contenido_libro_2": {
+        "es": "CONOCE MIS LIBROS",
+        "en": "KNOW MY BOOKS" 
+    },
+    "titulo_libro_3": {
+        "es": "Me duele perder: Cómo superar el abismo del duelo sin sufrimiento",
+        "en": "It hurts me to lose: How to overcome the gulf of grief without suffering" 
+    },
+    "contenido_libro_3": {
+        "es": "CONOCE MIS LIBROS",
+        "en": "KNOW MY BOOKS" 
+    },
+
 }
