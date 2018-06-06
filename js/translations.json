@@ -59,6 +59,14 @@
         "es": "¡ QUIERO SABER MÁS !",
         "en": "I WANT TO KNOW MORE !" 
     },
+    "SECCION_CONTACTO": {
+        "es": "home",
+        "en": "home" 
+    },
+    "SECCION_CONTACTO": {
+        "es": "home",
+        "en": "home" 
+    },
     "SECCION_LIBROS": {
         "es": "home",
         "en": "home" 
@@ -76,24 +84,36 @@
         "en": "It hurts me to lose: How to overcome the gulf of grief without suffering" 
     },
     "contenido_libro_1": {
-        "es": "CONOCE MIS LIBROS",
-        "en": "KNOW MY BOOKS" 
+        "es": "En este libro podrás encontrar el recorrido de un camino lleno de pruebas que finalmente han dado sabiduría, sin importar la situación en la que te encuentres quiero brindarte las estrategias que he implementado para superar el dolor de una pérdida, que es algo natural en la vida de un ser humano. Si estás interesado en llevar tu vida y ver el dolor como una experiencia para probar de qué estás hecho ante las dificultades, debes leer este libro, el cual te ayudará a superar la etapa de sufrimiento que atraviesas para convertir en una mejor versión de ti.",
+        "en": "In this book you can find the path of a path full of evidence that has finally given wisdom, no matter what situation you are in, I want to give you the strategies I have implemented to overcome the pain of a loss, which is something natural in life of a human being. If you are interested in taking your life and seeing pain as an experience to prove what you are made of in the face of difficulties, you should read this book, which will help you to overcome the stage of suffering that you are going through to convert into a better version of yourself." 
+    },
+    "boton_libro3": {
+        "es": "COMPRAR AHORA",
+        "en": "BUY NOW"
     },
     "titulo_libro_2": {
-        "es": "Me duele perder: Cómo superar el abismo del duelo sin sufrimiento",
-        "en": "It hurts me to lose: How to overcome the gulf of grief without suffering" 
+        "es": "CANCER SIN MIEDO: Una visión no antes vista",
+        "en": "CANCER WITHOUT FEAR: A vision not seen before" 
     },
     "contenido_libro_2": {
-        "es": "CONOCE MIS LIBROS",
-        "en": "KNOW MY BOOKS" 
+        "es": "Este libro está hecho con todo mi amor para ustedes, y como lo hice con mi otro libro Un Nuevo Despertar la Autocuración, es un trabajo bien hecho con mucho respeto para ti como lector y ésta vez incluye tanto hombres como mujeres que quieran conocer un poco más, sobre lo que el cáncer nos trae, pero muchas veces somos más que un cuerpo, somos un espíritu el cual debe ser tratado como tal, con sensibilidad y con dulzura.",
+        "en": "This book is made with all my love for you, and as I did with my other book A New Awakening Self-healing, it is a job well done with great respect for you as a reader and this time includes both men and women who want to know a little more, about what cancer brings us, but many times we are more than a body, we are a spirit which must be treated as such, with sensitivity and with sweetness." 
     },
+    "boton_libro2": {
+        "es": "COMPRAR AHORA",
+        "en": "BUY NOW"
+    },   
     "titulo_libro_3": {
-        "es": "Me duele perder: Cómo superar el abismo del duelo sin sufrimiento",
-        "en": "It hurts me to lose: How to overcome the gulf of grief without suffering" 
+        "es": "Un Nuevo Despertar: la autocuración, Aprende lo que pocos saben y siente el poder",
+        "en": "A New Awakening: self-healing, Learn what few know and feel the power" 
     },
     "contenido_libro_3": {
-        "es": "CONOCE MIS LIBROS",
-        "en": "KNOW MY BOOKS" 
+        "es": "Un nuevo despertar La AUTOCURACIÓN es un libro que está dedicado a mujeres entre los 25 y 50 años que tiene como objetivo mostrar una realidad que pocas personas saben en lo que se refiere a curación sin medicamentos; sino una curación por uno mismo y para que las personas se enteren de mi propia sanación. A través de historias, frases, técnicas, recetas y otras maravillosas estrategias.",
+        "en": "A new awakening The AUTOCURACIÓN is a book that is dedicated to women between 25 and 50 years old whose objective is to show a reality that few people know in regards to healing without medication; but a healing for oneself and for people to know about my own healing. Through stories, phrases, techniques, recipes and other wonderful strategies." 
     },
-
+    "boton_libro3": {
+        "es": "COMPRAR AHORA",
+        "en": "BUY NOW"
+    },
+    
 }
