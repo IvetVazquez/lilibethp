@@ -67,7 +67,18 @@
         "es": "Mi misión es ayudar a madres de habla hispana y en ingles a mejorar sus vidas como madres en áreas de la salud, de motivación, de conexión con sus hijos y en sus relaciones con sus ex-parejas.",
         "en": "home" 
     },
-    
+    "home_acerca_1": {
+        "es": "Tu Coach",
+        "en": "home" 
+    },
+    "home_acerca_2": {
+        "es": "Soy mamá coach, coach de la salud emocional, experta en incrementar la autoestima y superación de duelos. Escritora de libros best seller como “Me duele perder: Cómo superar el abismo del duelo sin caer en el sufrimiento”, “Un nuevo despertar: La autocuración” y “Cáncer sin miedo”, soy conferencista internacional. Nací y crecí en Colombia y ahora soy residente en Australia. Estoy muy feliz compartiendo mi conocimiento y experiencia contigo para que comiences a crear una vida plena, saludable y feliz como madre y mujer.",
+        "en": "home" 
+    },
+    "home_acerca_boton": {
+        "es": "Más Sobre Mí",
+        "en": "home" 
+    },
     "SECCION_ACERCA_DE_MI": {
         "es": "home",
         "en": "home" 
