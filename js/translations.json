@@ -377,41 +377,49 @@
     },
     "conferencias_3": {
         "es": "Conferencia con Miguel Santos: Cómo programar tu mente para el éxito y la felicidad",
-        "en": "Conference with Miguel Santos: How to program your mind for success and happiness Date: August 11, 2018 Place: Cairns, Australia Hours: 10:00 a.m. to 2:00 p.m." 
+        "en": "Conference with Miguel Santos: How to program your mind for success and happiness" 
     },
-    "subtitulo_eventos": {
+    "conferencias_4": {
         "es": "Agosto",
-        "en": "EVENTS" 
+        "en": "August" 
     },
-    "subtitulo_eventos": {
-        "es": "Fecha",
-        "en": "EVENTS" 
+    "conferencias_5": {
+        "es": "Fecha:",
+        "en": "Date:" 
     },
-    "subtitulo_eventos": {
+    "conferencias_6": {
         "es": "11 de Agosto de 2018",
-        "en": "EVENTS" 
+        "en": "August 11, 2018" 
     },
-    "subtitulo_eventos": {
+    "conferencias_7": {
         "es": "Lugar:",
-        "en": "EVENTS" 
+        "en": "Place:" 
     },
-    "subtitulo_eventos": {
-        "es": "Cairns, Australia",
-        "en": "EVENTS" 
+    "conferencias_8": {
+        "es": "Horario:",
+        "en": "Hours:" 
     },
-    "subtitulo_eventos": {
-        "es": "Horario",
-        "en": "EVENTS" 
-    },
-    "subtitulo_eventos": {
+    "conferencias_9": {
         "es": "10:00 a 14:00 hrs",
+        "en": "10:00 to 14:00 hrs" 
+    },
+    "conferencias_10": {
+        "es": "EVENTOS",
         "en": "EVENTS" 
     },
-    "contenido_eventos": {
-        "es": "Quieres que hable en tu evento. Te gustaría que compartiera con tu público mi mensaje. Estoy encantada de poder empoderar a las mujeres. Contáctame para mayor información. ¡Nos vemos pronto!Si deseas asistir a algunos de mis eventos en cualquier parte del mundo contáctame y con gusto te enviaré los detalles del evento. Deja tus datos para avisarte de mis próximos eventos, o contáctame para que hable en tu ciudad.",
-        "en": "Do you want me to talk on your event. You would like me to share my message with your audience. I am delighted to be able to empower women. Contact me for more information. See you soon! If you want to attend some of my events anywhere in the world contact me and I will gladly send you the details of the event. Leave your data to notify you of my upcoming events, or contact me to speak in your city."
+    "conferencias_11": {
+        "es": "Quieres que hable en tu evento. Te gustaría que compartiera con tu público mi mensaje. Estoy encantada de poder empoderar a las mujeres. Contáctame para mayor información. ¡Nos vemos pronto!",
+        "en": "Do you want me to talk on your event. You would like me to share my message with your audience. I am delighted to be able to empower women. Contact me for more information. See you soon!"
     },
-    "boton_eventos": {
+    "conferencias_12": {
+        "es": "Si deseas asistir a algunos de mis eventos en cualquier parte del mundo contáctame y con gusto te enviaré los detalles del evento.",
+        "en": "If you want to attend some of my events anywhere in the world contact me and I will gladly send you the details of the event." 
+    },
+    "conferencias_13": {
+        "es": "Deja tus datos para avisarte de mis próximos eventos, o contáctame para que hable en tu ciudad.",
+        "en": "Leave your data to notify you of my upcoming events, or contact me to speak in your city." 
+    },
+    "conferencias_14_boton": {
         "es": "¡ QUIERO SABER MÁS !",
         "en": "I WANT TO KNOW MORE !" 
     },
