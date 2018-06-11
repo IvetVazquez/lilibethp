@@ -336,47 +336,75 @@
         "en": "BÁSIC" 
     },
     "Coaching_37": {
+        "es": "Más pedida",
+        "en": "More requested" 
+    },
+    "Coaching_38": {
         "es": "Incluye dos sesiones, una por semana. En ellas descubrirás lo que te ha estado bloqueando y a identificar lo que quieres cambiar. En estas sesiones haremos un plan de trabajo con los recursos disponibles en el momento. Al terminar las sesiones tendrás una idea clara y si no en su totalidad, por lo menos empezaras el proceso con la firme intención, deseo y motivación para hacerlo.",
         "en": "It includes two sessions, one per week. In them you will discover what has been blocking you and identify what you want to change. In these sessions we will make a work plan with the resources available at the moment. At the end of the sessions you will have a clear idea and if not in its entirety, at least start the process with the firm intention, desire and motivation to do so." 
     },
-    "Coaching_38_boton": {
+    "Coaching_39_boton": {
         "es": "SÍ, EMPECEMOS YA",
         "en": "YES, WE START NOW" 
     },
-    "Coaching_39": {
+    "Coaching_40": {
         "es": "Incluye tres sesiones (paquete 1) y adicional descubrir cuál es el propósito real que tienes en tu vida (motivación real), para que te sientas plena y completamente feliz como individuo. Al finalizar de tus sesiones habrá una claridad absoluta de lo que quieres hacer y de los retos que vienen para convertirte en una persona mucho más realizada. Sentirás el deseo de utilizar tu propia experiencia de vida para ayudar a otros o por lo menos en búsqueda de mucha más plenitud como mujer y madre.",
         "en": "It includes three sessions (pack 1) and additional discover what is the real purpose you have in your life (real motivation), so that you feel fully and completely happy as an individual. At the end of your sessions there will be an absolute clarity of what you want to do and the challenges that come to become a much more accomplished person. You will feel the desire to use your own life experience to help others or at least in search of much more fullness as a woman and mother." 
     },
-    "Coaching_40": {
+    "Coaching_41": {
         "es": "Cinco sesiones con todo lo anterior y adicional el organizador de la madre soltera con el cual definiremos de forma muy profunda tu misión y visión de vida. Un plan de acción para lograr metas cortas y largas sin perder tu motivación en el proceso. Al finalizar este proceso veras en ti una mujer más organizada, feliz, lista para centrarse en las cosas importantes de sí misma y con mucho más poder de decisión en la rutina diaria y conectada con sus hijos de forma más natural.",
         "en": "Five sessions with all the above and additional the single mother organizer with which we will define in a very profound way your mission and vision of life. An action plan to achieve short and long goals without losing your motivation in the process. At the end of this process you will see in you a more organized, happy woman, ready to focus on the important things of herself and with much more power of decision in the daily routine and connected with her children in a more natural way." 
     },
-    "Coaching_41": {
+    "Coaching_42": {
         "es": "¿AÚN TIENES PREGUNTAS O DUDAS?",
         "en": "DO YOU STILL HAVE ANY QUESTIONS?" 
     },
-    "Coaching_42": {
+    "Coaching_43": {
         "es": "CONTÁCTAME PERSONALMENTE AQUÍ",
-        "en": "CONTACT ME HERE. CLICK" 
+        "en": "CONTACT ME HERE" 
     },
     "SECCION_CONFERENCIAS": {
         "es": "home",
         "en": "home" 
     },
-    "header_conferencias": {
+    "conferencias_1": {
         "es": "EVENTOS CON",
         "en": "EVENTS WITH" 
     },
-    "subtitulo_conferencias": {
+    "conferencias_2": {
         "es": "CONFERENCIAS",
         "en": "CONFERENCES" 
     },
-    "contenido_conferencias": {
-        "es": "Conferencia con Miguel Santos: Cómo programar tu mente para el éxito y la felicidad Fecha: 11 de Agosto de 2018 Lugar: Cairns, Australia Horario: 10:00 a 14:00 hrs",
+    "conferencias_3": {
+        "es": "Conferencia con Miguel Santos: Cómo programar tu mente para el éxito y la felicidad",
         "en": "Conference with Miguel Santos: How to program your mind for success and happiness Date: August 11, 2018 Place: Cairns, Australia Hours: 10:00 a.m. to 2:00 p.m." 
     },
     "subtitulo_eventos": {
-        "es": "EVENTOS",
+        "es": "Agosto",
+        "en": "EVENTS" 
+    },
+    "subtitulo_eventos": {
+        "es": "Fecha",
+        "en": "EVENTS" 
+    },
+    "subtitulo_eventos": {
+        "es": "11 de Agosto de 2018",
+        "en": "EVENTS" 
+    },
+    "subtitulo_eventos": {
+        "es": "Lugar:",
+        "en": "EVENTS" 
+    },
+    "subtitulo_eventos": {
+        "es": "Cairns, Australia",
+        "en": "EVENTS" 
+    },
+    "subtitulo_eventos": {
+        "es": "Horario",
+        "en": "EVENTS" 
+    },
+    "subtitulo_eventos": {
+        "es": "10:00 a 14:00 hrs",
         "en": "EVENTS" 
     },
     "contenido_eventos": {
