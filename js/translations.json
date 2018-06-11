@@ -75,8 +75,52 @@
         "es": "Soy mamá coach, coach de la salud emocional, experta en incrementar la autoestima y superación de duelos. Escritora de libros best seller como “Me duele perder: Cómo superar el abismo del duelo sin caer en el sufrimiento”, “Un nuevo despertar: La autocuración” y “Cáncer sin miedo”, soy conferencista internacional. Nací y crecí en Colombia y ahora soy residente en Australia. Estoy muy feliz compartiendo mi conocimiento y experiencia contigo para que comiences a crear una vida plena, saludable y feliz como madre y mujer.",
         "en": "home" 
     },
-    "home_acerca_boton": {
-        "es": "Más Sobre Mí",
+    "home_ayuda_1": {
+        "es": "! YO TE VOY A AYUDAR !",
+        "en": "home" 
+    },
+    "home_ayuda_2": {
+        "es": "Pase por lo mismo que tú",
+        "en": "home" 
+    },
+    "home_ayuda_3": {
+        "es": "Tiene que ver con mi propia vida. Cuando empecé a ver una nueva luz en mi vida, fue cuando decidí ser feliz. ¿Cómo empieza la luz de una madre soltera a verse reflejada? Cuando somos felices primero nosotras como madres. En la tormenta hallarás el terreno para moverte, para encontrar el camino.",
+        "en": "home" 
+    },
+    "home_ayuda_4": {
+        "es": "Estando en tinieblas obviamente no podemos encontrar la luz. Los caminos se abren y aquella luz cuando dejamos que el miedo se vaya, dejamos entrar a nuestra vida a algo que se llama amor, y el amor está en ti. La mente del amor es Dios. Por consiguiente, la confusión hay que sentirla para poder acercarnos más al amor.",
+        "en": "home" 
+    },
+    "home_testimonios": {
+        "es": "TESTIMONIALES",
+        "en": "home" 
+    },
+    "home_testimonio_1": {
+        "es": "Querida Lili. Quiero decirte que doy gracias a la vida por haberte conocido, pues al leer tu libro tus palabras me dieron la paz que necesitaba. En este momento, estoy pasando por muchas situaciones que me han llevado al límite de mis emociones, pero al leerte y escucharte en los videos que publicas en tu red, me haces sentir la tranquilidad que tanto necesito. Creo firmemente que eres un ser de luz, una guía que llegó a mi vida en un momento donde necesitaba que alguien me abriera los ojos y me hiciera darme cuenta de todo lo bueno que hay a mi alrededor, pero sobre todo necesitaba a una persona que permitiera identificar el duelo que tanto había negado y que no quería pasar.",
+        "en": "home" 
+    },
+    "home_testimonio_2": {
+        "es": "Quiero darte las gracias por tu gran ayuda, me tuviste mucha paciencia y te lo agradezco. Me siento mucho mejor, te has convertido en una persona muy especial en mi vida.",
+        "en": "home" 
+    },
+    "home_testimonio_3": {
+        "es": "Me ayudo a identificar emociones, y lo más importante, el iniciar el proceso del perdón para mi recuperación y curación de la herida ocasionada, soltando y agradeciendo a la persona que ocasiono el dolor, es un gran choque porque duele y es complicado dar gracias, pero es algo que no me enseñaron. En el video del perdón y el duelo, lo muestra Lili y lo explica muy bien. Gracias Lili…",
+        "en": "home" 
+    },
+    "home_lead_1": {
+        "es": "DESCARGA GRATIS MI GUÍA CON LOS 3 PASOS PARA SER",
+        "en": "home" 
+    },
+    "home_lead_1": {
+        "es": "UNA MADRE SOLTERA EXTRAORDINARIA",
+        "en": "home" 
+    },
+    "home_lead_1": {
+        "es": "¡Déjame ayudarte a conectar contigo misma y con tus hijos, obtenla YA!",
+        "en": "home" 
+    },
+    "home_lead_boton": {
+        "es": "Descargar Ahora",
         "en": "home" 
     },
     "SECCION_ACERCA_DE_MI": {
