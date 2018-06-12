@@ -73,11 +73,11 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active item-1">
                         <div class="container-copy copySlider1">
-                            <h3 class="text-center">OBTÉN LA GUÍA CON</h3>
-                            <h3>Los 3 Pasos Para Ser Una</h3>
-                            <h1>Madre Soltera Extraordinaria</h1>
+                            <h3 class="text-center" data-translate="home_slider_1_1"></h3>
+                            <h3 data-translate="home_slider_1_2"></h3>
+                            <h1 data-translate="home_slider_1_3"></h1>
                             <div class="btnCopy">
-                                <a href="#descargaGratis" id="btnForm">QUIERO LA GUÍA AHORA</a>
+                                <a href="#descargaGratis" id="btnForm" data-translate="home_slider_1_boton"></a>
                             </div>
                         </div>
                     </div>
@@ -307,13 +307,17 @@
                 </div>
             </div>
         </div>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- jQuery first -->
         <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+        <!-- then Multilingual library -->
+        <script type="text/javascript" src="./js/translations.js"></script>
+        <!-- then Bootstrap JS -->
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        
         <script src="https://unpkg.com/sweetalert2@7.19.3/dist/sweetalert2.all.min.js"></script>
         <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
         <script src="https://unpkg.com/promise-polyfill@7.1.0/dist/promise.min.js"></script>
+        
         <script>
             $('#btnForm').click(() => {
                 $('html, body').animate({
