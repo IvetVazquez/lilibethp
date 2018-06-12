@@ -19,7 +19,7 @@
         "es": "QUIERO LA GUÍA AHORA",
         "en": "I WANT THE GUIDE NOW" 
     },
-    "home_slider_2_1": {w
+    "home_slider_2_1": {
         "es": "RENACE, CONECTA Y CREA",
         "en": "REBIRTH, CONNECT AND CREATE" 
     },
@@ -115,11 +115,11 @@
         "es": "DESCARGA GRATIS MI GUÍA CON LOS 3 PASOS PARA SER",
         "en": "DOWNLOAD THISFREE GUIDE WITH THE 3 STEPS TO BE" 
     },
-    "home_lead_1": {
+    "home_lead_2": {
         "es": "UNA MADRE SOLTERA EXTRAORDINARIA",
         "en": "AN EXTRAORDINARY SINGLE MOTHER" 
     },
-    "home_lead_1": {
+    "home_lead_3": {
         "es": "¡Déjame ayudarte a conectar contigo misma y con tus hijos, obtenla YA!",
         "en": "Let me help you connect with yourself and your children, get it NOW!" 
     },
@@ -143,39 +143,39 @@
         "es": "Soy Lilibeth Pinto",
         "en": "I'm Lilibeth Pinto"
     },
-    "Acerca_de_mi_3": {
+    "Acerca_de_mi_4": {
         "es": "Nací y crecí en Tunja-Colombia. Ahora soy residente en Australia. Profesionalmente soy bacterióloga, científica médica. Siempre he estado rodeada de experiencias que han enriquecido mi vida de una manera extraordinaria.",
         "en": "I was born and grew up in Tunja-Colombia. I am now a resident in Australia.  I am a bacteriologist, and a  medical scientist. I have always been surrounded by experiences that have enriched my life in an extraordinary way."
     },
-    "Acerca_de_mi_3": {
+    "Acerca_de_mi_5": {
         "es": "Con los años he aprendido que no hay obstáculo más grande, que el no poder permitirnos cumplir nuestras metas. He visto a muchas personas renunciar a sus sueños por un simple mal momento o porque no se han preparado o educado para cierta actividad y le dan punto final en su mente. Nuestra mente posee todo y nos encamina hasta donde lo queremos. Si estás enfermo te llevará hasta el punto de sentirte sano, es sólo cuestión que la entrenes para ello, no es difícil, tú tienes el poder de hacerlo, no tienes limitaciones más que mentales.",
         "en": "Over the years I have learned that there is no bigger obstacle than that we can not afford to meet our goals. I have seen many people give up their dreams for a simple bad time or because they have not been prepared or educated for a certain activity and they put an end to their mind. Our mind has everything and it guides us to where we want it. If you are sick, it will take you to the point of feeling healthy, it is only a question that you train for it, it is not difficult, you have the power to do it, you have no limitations other than mental."
     },
-    "Acerca_de_mi_3": {
+    "Acerca_de_mi_6": {
         "es": "Mi proceso como entrenadora de mujeres y de madres ha sido muy enriquecedor porque en los últimos 6 meses he estado escribiendo y preparando nuevas ideas; esperando la oportunidad para lanzarme como conferencista. ",
         "en": "My process as a coach of women and mothers has been very enriching because in the last 6 months I have been writing and preparing new ideas; waiting for the opportunity to launch as a speaker."
     },
-    "Acerca_de_mi_3": {
+    "Acerca_de_mi_7": {
         "es": "Se que todo es posible para las madres que tenemos hijos y que queremos ver nuestro propósito de vida hecho realidad. Las personas podríamos soñar tan alto que solo nos faltarían las alas, no nos limitemos a pensar que solo unas o unos pocos pueden, todo lo contrario, la magia de ser mujer, madre, hija, abuela es solo el nombre pero el legado para tus hijos es lo que importa. ¡Tú eres tú ejemplo!",
         "en": "I know that everything is possible for mothers who have children and that we want to see our purpose of life come true. People could dream so high that only our wings would be missing, do not limit ourselves to thinking that only one or a few can, on the contrary, the magic of being a woman, mother, daughter, grandmother, is just the name but the legacy for your children is what matters. You are their role model!"
     },
-    "Acerca_de_mi_4": {
+    "Acerca_de_mi_8": {
         "es": "MI FORMACIÓN",
         "en": "MY EXPERIENCE" 
     },
-    "Acerca_de_mi_5": {
+    "Acerca_de_mi_9": {
         "es": "Soy coach de vida para madres solteras, he vivido en 2 países, trabajo tiempo completo como coach.",
         "en": "I am a life coach for single mothers, I have lived in 2 countries, I work full time as a coach." 
     },
-    "Acerca_de_mi_6": {
+    "Acerca_de_mi_10": {
         "es": "Trabaje como laboratorista médica en Colombia y Australia. Tengo un grado profesional de la Universidad Javeriana de Bogota en Colombia y Charles Sturt University de Australia. Un diplomado en Coaching Ontológico Profesional de Colombia. Hablo 2 idiomas. He viajado por diferentes países. (Tailandia, Fiji, Japón, Chile, Argentina, Australia, Bali). He trabajado como coach por casi 2 años.",
         "en": "I worked as a medical laboratory technician in Colombia and Australia. I have a professional degree from the Javeriana University in Bogota  Colombia and Charles Sturt University in Australia. A Diploma in Professional Ontological Coaching from Bogota -Colombia. I speak 2 languages. I have traveled through different countries. (Thailand, Fiji, Japan, Chile, Argentina, Australia). I have worked as a coach for almost 2 years." 
     },
-    "Acerca_de_mi_7": {
+    "Acerca_de_mi_11": {
         "es": "Mis hobbies son hacer deporte y escuchar música pop, a veces nadar y ver películas de miedo con mi hija.",
         "en": "My hobbies are doing sports and listening to pop music, sometimes swimming and watching scary movies with my daughter." 
     },
-    "Acerca_de_mi_8": {
+    "Acerca_de_mi_12": {
         "es": "Soy una madre viajera y cuando tengo la posibilidad de hacerlo me voy a conocer los países más exóticos, me gusta comer cosas diferentes, cosas raras pero que sean deliciosas. Me apasiona escribir porque me conecto con mi esencia como mujer, puedo plasmar mis ideas, mi forma de ver la vida y para que eso pueda ser una fuente de inspiración para otras personas.",
         "en": "I am a traveling mother and when I have the possibility of doing it I am going to know the most exotic countries, I like to eat different things, strange things that are delicious. I love writing because I connect with my essence as a woman, I can translate my  ideas, my way of seeing life and so that it can be a source of inspiration for other people." 
     },
@@ -475,5 +475,4 @@
         "es": "Un nuevo despertar La AUTOCURACIÓN es un libro que está dedicado a mujeres entre los 25 y 50 años que tiene como objetivo mostrar una realidad que pocas personas saben en lo que se refiere a curación sin medicamentos; sino una curación por uno mismo y para que las personas se enteren de mi propia sanación. A través de historias, frases, técnicas, recetas y otras maravillosas estrategias.",
         "en": "A new awakening The AUTOCURACIÓN is a book that is dedicated to women between 25 and 50 years old whose objective is to show a reality that few people know in regards to healing without medication; but a healing for oneself and for people to know about my own healing. Through stories, phrases, techniques, recipes and other wonderful strategies." 
     }
-    
 }
