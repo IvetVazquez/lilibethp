@@ -35,28 +35,28 @@
                     <div class="navbar-collapse collapse" id="navbar10">
                         <ul class="navbar-nav nav-fill w-100">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="#">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./about.html" data-translate="menu_acerca_de"></a>
+                                <a class="nav-link" href="./about.html" data-translate="menu_acerca_de_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./coaching.html">Coaching</a>
+                                <a class="nav-link" href="./coaching.html">COACHING</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./conferencias.html" data-translate="menu_conferencias"></a>
+                                <a class="nav-link" href="./conferencias.html" data-translate="menu_conferencias_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./cursos.html" data-translate="menu_cursos"></a>
+                                <a class="nav-link" href="./cursos.html" data-translate="menu_cursos_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="http://www.lilibethpinto.com/blog">Blog</a>
+                                <a class="nav-link" href="./blog/">BLOG</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html" data-translate="menu_contacto"></a>
+                                <a class="nav-link" href="./contacto.html" data-translate="menu_contacto_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./libros.html" data-translate="menu_libros"></a>
+                                <a class="nav-link" href="./libros.html" data-translate="menu_libros_top"></a>
                             </li>
                         </ul>
                     </div>
@@ -216,12 +216,12 @@
                             <div class="containerNombre">
                                 <label class="sr-only" for="inlineFormInput" data-translate="home_lead_nombre"></label>
                                 <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" required="required" 
-                                    maxlength="50" name="FNAME" id="mce-FNAME" placeholder="TU NOMBRE">
+                                    maxlength="50" name="FNAME" id="mce-FNAME" placeholder="<?php echo $_SERVER['HTTP_HOST'] ?>">
                             </div>
                             <div class="containerEmail">
                                 <label class="sr-only" for="inlineFormInputGroup">Email</label>
                                 <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                    <input type="text" class="form-control" placeholder="TU EMAIL"
+                                    <input type="text" class="form-control" placeholder="<?php echo $_SERVER['REQUEST_URI'] ?>"
                                     maxlength="50" name="EMAIL" id="mce-EMAIL" required="required">
                                 </div>
                             </div>
@@ -242,14 +242,14 @@
                                 <img src="./img/logo2.png" width="250px" height="100px">
                             </div>
                             <div class="menuFooter">
-                                <a href="#">Home</a>&nbsp;/&nbsp;
-                                <a href="./about.html" data-translate="menu_acerca_de"></a>&nbsp;/&nbsp;
-                                <a href="./coaching.html">Coaching</a>&nbsp;/&nbsp;
-                                <a href="./conferencias.html" data-translate="menu_conferencias"></a>&nbsp;/&nbsp;
-                                <a href="./cursos.html" data-translate="menu_cursos"></a>&nbsp;/&nbsp;
-                                <a href="./blog/">Blog</a>&nbsp;/&nbsp;
-                                <a href="./contacto.html" data-translate="menu_contacto"></a>&nbsp;/&nbsp;
-                                <a href="./libros.html" data-translate="menu_libros"></a>
+                                <a href="#">HOME / </a>
+                                <a href="./about.html" data-translate="menu_acerca_de_footer"></a>
+                                <a href="./coaching.html">COACHING / </a>
+                                <a href="./conferencias.html" data-translate="menu_conferencias_footer"></a>
+                                <a href="./cursos.html" data-translate="menu_cursos_footer"></a>
+                                <a href="./blog/">BLOG / </a>
+                                <a href="./contacto.html" data-translate="menu_contacto_footer"></a>
+                                <a href="./libros.html" data-translate="menu_libros_footer"></a>
                             </div>
                         </div>
                         <div class="footerParte2">

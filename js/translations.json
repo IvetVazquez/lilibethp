@@ -1,25 +1,45 @@
 {
     "SECCION_MENU": {
-        "es": "home",
-        "en": "home" 
+        "es": "menu",
+        "en": "menu" 
     },
-    "menu_acerca_de": {
+    "menu_acerca_de_footer": {
+        "es": "ACERCA DE MÍ / ",
+        "en": "ABOUT ME / " 
+    },
+    "menu_conferencias_footer": {
+        "es": "CONFERENCIAS / ",
+        "en": "CONFERENCES / " 
+    },
+    "menu_cursos_footer": {
+        "es": "CURSOS / ",
+        "en": "WORKSHOPS / " 
+    },
+    "menu_contacto_footer": {
+        "es": "CONTACTO / ",
+        "en": "CONTACT / " 
+    },
+    "menu_libros_footer": {
+        "es": "LIBROS",
+        "en": "BOOKS" 
+    },
+    "menu_acerca_de_top": {
         "es": "ACERCA DE MÍ",
         "en": "ABOUT ME" 
     },
-    "menu_conferencias": {
+    "menu_conferencias_top": {
         "es": "CONFERENCIAS",
         "en": "CONFERENCES" 
     },
-    "menu_cursos": {
+    "menu_cursos_top": {
         "es": "CURSOS",
         "en": "WORKSHOPS" 
     },
-    "menu_contacto": {
+    "menu_contacto_top": {
         "es": "CONTACTO",
         "en": "CONTACT" 
     },
-    "menu_libros": {
+    "menu_libros_top": {
         "es": "LIBROS",
         "en": "BOOKS" 
     },
@@ -153,7 +173,7 @@
     },
     "home_lead_boton": {
         "es": "Descargar Ahora",
-        "en": "DOWNLOAD NOW" 
+        "en": "Download Now" 
     },
     "SECCION_ACERCA_DE_MI": {
         "es": "home",
