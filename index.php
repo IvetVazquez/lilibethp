@@ -355,17 +355,17 @@
                             var errorMsg = '';
                             switch(err.responseText) {
                                 case email + " is already a list member":
-                                    errorMsg = "¡Tu email ya ha sido registrado! Prueba con otro.";
+                                    errorMsg = "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Your email has already been registered! Try another': '¡Tu email ya ha sido registrado! Prueba con otro.' ?>";
                                     break;
                                 case email + " is not a valid email address":
                                 case "email address is blank":
-                                    errorMsg = "¡Tu dirección de correo es inválida! Prueba con otra.";
+                                    errorMsg = "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Your email address is invalid! Try another': '¡Tu dirección de correo es inválida! Prueba con otra.' ?>";
                                     break;
                                 case name + " is not a valid name value":
-                                    errorMsg = "¡Nombre inválido! Prueba con otro.";
+                                    errorMsg = "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Name invalid! Try another': '¡Nombre inválido! Prueba con otro.' ?>";
                                     break;
                                 default:
-                                    errorMsg = "¡Algo salió mal al intentar registrarte! Inténtalo otra vez.";
+                                    errorMsg = "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Something went wrong when trying to register! Try again': '¡Algo salió mal al intentar registrarte! Inténtalo otra vez.' ?>";
                             }
                             
                             swal({
