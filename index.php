@@ -216,12 +216,12 @@
                             <div class="containerNombre">
                                 <label class="sr-only" for="inlineFormInput" data-translate="home_lead_nombre"></label>
                                 <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" required="required" 
-                                    maxlength="50" name="FNAME" id="mce-FNAME" placeholder="<?php echo $_SERVER['HTTP_HOST'] ?>">
+                                    maxlength="50" name="FNAME" id="mce-FNAME" placeholder="<?php echo $_SERVER['REQUEST_URI'].split('/')[0] ?>">
                             </div>
                             <div class="containerEmail">
                                 <label class="sr-only" for="inlineFormInputGroup">Email</label>
                                 <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                    <input type="text" class="form-control" placeholder="<?php echo $_SERVER['REQUEST_URI'] ?>"
+                                    <input type="text" class="form-control" placeholder="<?php echo $_SERVER['REQUEST_URI'].split('/')[1] ?>"
                                     maxlength="50" name="EMAIL" id="mce-EMAIL" required="required">
                                 </div>
                             </div>
