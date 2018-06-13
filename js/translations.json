@@ -1,4 +1,28 @@
 {
+    "SECCION_MENU": {
+        "es": "home",
+        "en": "home" 
+    },
+    "menu_acerca_de": {
+        "es": "ACERCA DE MÍ",
+        "en": "ABOUT ME" 
+    },
+    "menu_conferencias": {
+        "es": "CONFERENCIAS",
+        "en": "CONFERENCES" 
+    },
+    "menu_cursos": {
+        "es": "CURSOS",
+        "en": "WORKSHOPS" 
+    },
+    "menu_contacto": {
+        "es": "CONTACTO",
+        "en": "CONTACT" 
+    },
+    "menu_libros": {
+        "es": "LIBROS",
+        "en": "BOOKS" 
+    },
     "SECCION_HOME": {
         "es": "home",
         "en": "home" 
