@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) ?>">
 
     <head>
         <!-- Required meta tags -->
