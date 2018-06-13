@@ -123,6 +123,10 @@
         "es": "¡Déjame ayudarte a conectar contigo misma y con tus hijos, obtenla YA!",
         "en": "Let me help you connect with yourself and your children, get it NOW!" 
     },
+    "home_lead_nombre": {
+        "es": "Nombre",
+        "en": "Name" 
+    },
     "home_lead_boton": {
         "es": "Descargar Ahora",
         "en": "DOWNLOAD IT NOW" 
