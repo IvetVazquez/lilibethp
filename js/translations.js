@@ -2,8 +2,6 @@
 var lang = window.location.pathname.split("/")[1], // Check the URL language
     translate; // Container of all translations
 
-console.log(lang);
-
 // Call translations json file and populate translate variable  
 $.getJSON("js/translations.json", function(texts) {
     translate = texts;
@@ -11,29 +9,15 @@ $.getJSON("js/translations.json", function(texts) {
     // Translations Function: Get all the element with data-text
     $("[data-translate]").each(function() {
         let text = $(this).attr('data-translate'), // Save the Text into the variable
-            numbers = text.match(/\d+/g),
             element =  $('[data-translate="' + text + '"]'),
             postHTML;
-
-        if (numbers != null && numbers > 1) {
-            text = text.replace(numbers, '%n');
-        }
-
-        console.log("text is", text);
-        console.log("translate[text] is", translate[text]);
 
         if (translate[text] !== undefined) { // Check if exist the text in translation.json                      
 
             if (translate[text][lang] !== undefined) { // Check if exist the text in the browser language
                 postHTML = translate[text][lang];
-            } else { // If not exist the lang, show the text in primary Language (Recomend: English)
-                postHTML = text;
             }
 
-            if (numbers != null && numbers > 1) 
-                postHTML = postHTML.replace('%n', numbers);
-
-            console.log("postHTML is", postHTML);
             element.html(postHTML);
 
         } else {
