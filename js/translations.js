@@ -29,6 +29,7 @@ $.getJSON("js/translations.json", function(texts) {
             if (numbers != null && numbers > 1) 
                 postHTML = postHTML.replace('%n', numbers);
 
+            console.log("postHTML is", postHTML);
             element.html(postHTML);
 
         } else {
