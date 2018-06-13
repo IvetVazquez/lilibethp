@@ -242,12 +242,12 @@
                                 <img src="./img/logo2.png" width="250px" height="100px">
                             </div>
                             <div class="menuFooter">
-                                <a href="#">HOME / </a>
+                                <a href="#">Home &nbsp;/&nbsp;</a>
                                 <a href="./about.html" data-translate="menu_acerca_de_footer"></a>
-                                <a href="./coaching.html">COACHING / </a>
+                                <a href="./coaching.html">&nbsp; Coaching &nbsp;/&nbsp;</a>
                                 <a href="./conferencias.html" data-translate="menu_conferencias_footer"></a>
                                 <a href="./cursos.html" data-translate="menu_cursos_footer"></a>
-                                <a href="./blog/">BLOG / </a>
+                                <a href="./blog/">&nbsp; Blog &nbsp;/&nbsp;</a>
                                 <a href="./contacto.html" data-translate="menu_contacto_footer"></a>
                                 <a href="./libros.html" data-translate="menu_libros_footer"></a>
                             </div>

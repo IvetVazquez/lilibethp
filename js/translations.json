@@ -4,24 +4,24 @@
         "en": "menu" 
     },
     "menu_acerca_de_footer": {
-        "es": "Acerca de mí&nbsp;/&nbsp;",
-        "en": "About Me&nbsp;/&nbsp;" 
+        "es": "&nbsp; Acerca de mí &nbsp;/&nbsp;",
+        "en": "&nbsp; About Me &nbsp;/&nbsp;" 
     },
     "menu_conferencias_footer": {
-        "es": "Conferencias&nbsp;/&nbsp;",
-        "en": "Conferences&nbsp;/&nbsp;" 
+        "es": "&nbsp; Conferencias &nbsp;/&nbsp;",
+        "en": "&nbsp; Conferences &nbsp;/&nbsp;" 
     },
     "menu_cursos_footer": {
-        "es": "Cursos&nbsp;/&nbsp;",
-        "en": "Workshops&nbsp;/&nbsp;"
+        "es": "&nbsp; Cursos &nbsp;/&nbsp;",
+        "en": "&nbsp; Workshops &nbsp;/&nbsp;"
     },
     "menu_contacto_footer": {
-        "es": "Contacto&nbsp;/&nbsp;",
-        "en": "Contact&nbsp;/&nbsp;"
+        "es": "&nbsp; Contacto &nbsp;/&nbsp;",
+        "en": "&nbsp; Contact &nbsp;/&nbsp;"
     },
     "menu_libros_footer": {
-        "es": "Libros&nbsp;/&nbsp;",
-        "en": "Books&nbsp;/&nbsp;"
+        "es": "&nbsp; Libros &nbsp;/&nbsp;",
+        "en": "&nbsp; Books &nbsp;/&nbsp;"
     },
     "menu_acerca_de_top": {
         "es": "ACERCA DE MÍ",
