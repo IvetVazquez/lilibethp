@@ -15,9 +15,13 @@ $.getJSON("js/translations.json", function(texts) {
             element =  $('[data-translate="' + text + '"]'),
             postHTML;
 
-        if (numbers != null && numbers > 1) 
-                text = text.replace(numbers, '%n');
-        
+        if (numbers != null && numbers > 1) {
+            text = text.replace(numbers, '%n');
+        }
+
+        console.log("text is", text);
+        console.log("translate[text] is", translate[text]);
+
         if (translate[text] !== undefined) { // Check if exist the text in translation.json                      
 
             if (translate[text][lang] !== undefined) { // Check if exist the text in the browser language
