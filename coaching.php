@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) ?>">
 
     <head>
         <!-- Required meta tags -->
@@ -41,33 +41,30 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="navbar-collapse collapse" id="navbar10">
-                        <ul class="navbar-nav nav-fill w-100">
+                    <ul class="navbar-nav nav-fill w-100">
                             <li class="nav-item active">
-                                <a class="nav-link" href="./index.html">Home</a>
+                                <a class="nav-link" href="./index.php">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./about.html">Acerca de mí</a>
+                                <a class="nav-link" href="./about.php" data-translate="menu_acerca_de_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Coaching</a>
+                                <a class="nav-link" href="#">COACHING</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./conferencias.html">Conferencias</a>
+                                <a class="nav-link" href="./conferencias.php" data-translate="menu_conferencias_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./cursos.html">Cursos</a>
+                                <a class="nav-link" href="./cursos.php" data-translate="menu_cursos_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./blog">Blog</a>
+                                <a class="nav-link" href="./blog/">BLOG</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                                <a class="nav-link" href="./contacto.php" data-translate="menu_contacto_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./libros.html">Libros</a>
+                                <a class="nav-link" href="./libros.php" data-translate="menu_libros_top"></a>
                             </li>
                         </ul>
                     </div>
@@ -78,9 +75,9 @@
             <div class="row">
                 <div class="col-12 containerCoaching">
                     <div class="copyCoaching">
-                        <h3>AYUDO A LAS</h3>
-                        <h1 class="mujeresExtraordinarias">Madres Solteras</h1>
-                        <h3>a reencontrarse consigo mismas</h3>
+                        <h3 data-translate="Coaching_1"></h3>
+                        <h1 class="mujeresExtraordinarias" data-translate="Coaching_2"></h1>
+                        <h3 data-translate="Coaching_3"></h3>
                     </div>
                 </div>
             </div>
@@ -88,32 +85,32 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 titleTepasa">
-                    <h4>TE PASA QUE...</h4>
+                    <h4 data-translate="Coaching_4"></h4>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 tePasa">
                     <img src="./img/coaching1.jpg" class="tePasaimg">
-                    <p>Te sientes sola, infeliz y crees que no vas a poder salir adelante con tus hijos.</p>
+                    <p data-translate="Coaching_5"></p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 tePasa">
                     <img src="./img/coaching2.jpg" class="tePasaimg">
-                    <p>Estas estancada porque no eres capaz de encontrar tu propósito de vida y no sabes qué hacer con tu vida.</p>
+                    <p data-translate="Coaching_6"></p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 tePasa">
                     <img src="./img/coaching3.jpg" class="tePasaimg">
-                    <p>Sientes que ser madre soltera es muy difícil y no sabes cómo conectar con tu hijo.</p>
+                    <p data-translate="Coaching_7"></p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 tePasa">
                     <img src="./img/coaching4.jpg" class="tePasaimg">
-                    <p>Crees que necesitas de un hombre para ser feliz, y no sabes cómo cerrar el ciclo con tu ex.</p>
+                    <p data-translate="Coaching_8"></p>
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 identificada">
-                    <h4>¿TE SIENTES IDENTIFICADA CON ALGUNA?</h4>
-                    <h6>¿PUES RESPIRA PROFUNDO PORQUE YA LO VAS A SOLUCIONAR!</h6>
-                    <h4 class="parrafoLastIdentificada">Con mi ayuda vas a conseguir reencontrarte contigo misma, cerrar esos ciclos que no te dejan avanzar, encontrar tu propósito de vida y conectar con tu hijo de una manera extraordinaria.</h4>
+                    <h4 data-translate="Coaching_9"></h4>
+                    <h6 data-translate="Coaching_10"></h6>
+                    <h4 class="parrafoLastIdentificada" data-translate="Coaching_11"></h4>
                 </div>
             </div>
         </div>
@@ -129,28 +126,28 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 conoceteBien">
-                    <h4>CONOCE BIEN EN QUÉ SITUACIÓN TE ENCUENTRAS, SE PACIENTE TODO LLEVA SU PROPIO RITMO. LA MEJOR BATALLA ES LA QUE COMIENZAS GANANDO CON LA CABEZA.</h4>
+                    <h4 data-translate="Coaching_12"></h4>
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 titleBeneficios">
-                    <h2>3 beneficios de vivir una experiencia de coaching</h3>
-                        <h5>Estos son los resultados que vas a vivir tras un proceso profundo de descubrimiento, visión y acción</h5>
+                    <h2 data-translate="Coaching_13"></h3>
+                        <h5 data-translate="Coaching_14"></h5>
                 </div>
                 <div class="containerBeneficios">
                     <div class="beneficios">
-                        <h3>Cerrar Ciclos que no te permiten avanzar</h3>
-                        <p>Podrás volver a encontrar un salida a aquella situación que te está frenando, te ayudaré a superar tu propio duelo de pareja.</p>
+                        <h3 data-translate="Coaching_15"></h3>
+                        <p data-translate="Coaching_16"></p>
                     </div>
                     <div class="beneficios">
-                        <h3>Conectar con mis pasiones</h2>
-                            <p>Te ayudo a conectar con tus pasiones para que a partir de ellas puedas comenzar a recrear tu vida y comiences a generar abundancia en tu vida.</p>
+                        <h3 data-translate="Coaching_17"></h2>
+                            <p data-translate="Coaching_18"></p>
                     </div>
                     <div class="beneficios">
-                        <h3>Descubrir tus fortalezas y tu motivación</h3>
-                        <p>Trabajaremos en tus fortalezas y debilidades para que te conozcas perfectamente y posteriormente vamos a ver cuáles son esas motivaciones que te ayudaran a levantarte todas las mañanas.</p>
+                        <h3 data-translate="Coaching_19"></h3>
+                        <p data-translate="Coaching_20"></p>
                     </div>
                 </div>
             </div>
@@ -158,34 +155,32 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 titleProgramaCoaching">
-                    <h2>¿Cómo funciona el programa de coaching?</h2>
+                    <h2 data-translate="Coaching_21"></h2>
                 </div>
                 <div class="containerProgramaCoaching">
                     <div class="programaCoaching">
                         <i class="fas fa-heart heartCoaching"></i>
-                        <h5>Fase 1</h5>
-                        <p>Si te identificaste con alguna de las situaciones anteriores déjame decirte que el coaching es para ti. Lo único que tienes que hacer es hacer clic aquí abajo y reservar de inmediato. Para que comencemos cuanto antes.</p>
+                        <h5 data-translate="Coaching_22"></h5>
+                        <p data-translate="Coaching_23"></p>
                     </div>
                     <div class="programaCoaching">
                         <i class="fas fa-heart heartCoaching"></i>
-                        <h5>Fase 2</h5>
-                        <p>Tendremos una sesión privada para definir un plan de acción hecho solo para ti, de acuerdo a la situación por la que estas pasando en este momento. Para que trabajemos en eso que te esa deteniendo y no te permite crecer. </p>
+                        <h5 data-translate="Coaching_24"></h5>
+                        <p data-translate="Coaching_25"></p>
                     </div>
                     <div class="programaCoaching">
                         <i class="fas fa-heart heartCoaching"></i>
-                        <h5>Fase 3</h5>
-                        <p>Cada semana tendremos sesiones privadas de 60 min donde veremos los avances que has tenido, como te has sentido, que situaciones te están frenando en ese momento y como puedes seguir creciendo. </p>
+                        <h5 data-translate="Coaching_26"></h5>
+                        <p data-translate="Coaching_27"></p>
                     </div>
                 </div>
             </div>
         </div>
         
-        
-        
-           <div class="container-fluid">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12 titleProgramaCoaching">
-                    <h2>Solo puedo trabajar con pocas mujeres a la vez. Evita la lista de espera reservando YA.</h2>
+                    <h2 data-translate="Coaching_28"></h2>
                 </div>
             </div>
         </div>
@@ -201,9 +196,7 @@
                             <h3 class="testimonial-title">
                                 Tania
                             </h3>
-                            <p class="description">
-                                Quiero decirte que doy gracias a la vida por haberte conocido, pues al leer tu libro tus palabras me dieron la paz que necesitaba.
-                            </p>
+                            <p class="description" data-translate="Coaching_29"></p>
                         </div>
                         <div class="testimonial">
                             <div class="pic">
@@ -212,9 +205,7 @@
                             <h3 class="testimonial-title">
                                 Lili
                             </h3>
-                            <p class="description">
-                                Quiero darte las gracias por tu gran ayuda, me tuviste mucha paciencia y te lo agradezco. Me siento mucho mejor.
-                            </p>
+                            <p class="description" data-translate="Coaching_30"></p>
                         </div>
                         <div class="testimonial">
                             <div class="pic">
@@ -223,10 +214,7 @@
                             <h3 class="testimonial-title">
                                 Edith
                             </h3>
-                            <p class="description">
-                                Me ayudo a identificar emociones, y lo más importante, el iniciar el proceso del perdón para mi recuperación y curación
-                                de la herida ocasionada, soltando y agradeciendo a la persona que ocasiono el dolor.
-                            </p>
+                            <p class="description" data-translate="Coaching_31"></p>
                         </div>
                     </div>
                 </div>
@@ -236,10 +224,10 @@
             <div class="row">
                 <div class="col-12 containerCoachingDescripcion">
                     <div class="containerCopyDescripcion">
-                        <h3>Soy Lilibeth Pinto</h3>
-                        <p>Soy mamá coach, coach de la salud emocional, experta en incrementar la autoestima y superación de duelos.</p>
-                        <p>Escritora de libros best seller como “Me Duele Perder: Como superar el abismo del duelo sin caer en el sufrimiento”, “Un Nuevo Despertar: la autocuración” y “Cáncer Sin Miedo”.</p>
-                        <p>Conferencista internacional. Ayudo a mujeres madres solteras a superar sus duelos, conectar con su abundancia mental, descubrir su propósito de vida, conectar con ellas mismas y con tus hijos.</p>
+                        <h3 data-translate="Coaching_32"></h3>
+                        <p data-translate="Coaching_33"></p>
+                        <p data-translate="Coaching_34"></p>
+                        <p data-translate="Coaching_35"></p>
                     </div>
                 </div>
             </div>
@@ -253,61 +241,28 @@
                     <div class="col-md-5 col-lg-4">
                         <div class="item">
                             <div class="heading">
-                                <h3>BÁSICO</h3>
+                                <h3 data-translate="Coaching_36"></h3>
                             </div>
-                            <p>Incluye dos sesiones, una por semana. En ellas descubrirás lo que te ha estado bloqueando y a
-                                identificar lo que quieres cambiar. En estas sesiones haremos un plan de trabajo con los recursos
-                                disponibles en el momento. Al terminar las sesiones tendrás una idea clara y si no en su totalidad, 
-                                por lo menos empezaras el proceso con la firme intención, deseo y motivación para hacerlo.</p>
-                            
-                            <!-- Caracteristicas del paquete-->
-                            <!--
-                             <div class="features">
-                                <span class="caracteristica">
-                                    <i class="fas fa-circle circleCaracteristica"></i> orem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                <span class="caracteristica">
-                                    <i class="fas fa-circle circleCaracteristica"></i> orem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                <span class="caracteristica">
-                                    <i class="fas fa-circle circleCaracteristica"></i> orem ipsum dolor sit amet, consectetur adipiscing elit.orem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                <span class="caracteristica">
-                                    <i class="fas fa-circle circleCaracteristica"></i> orem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                            </div> -->
+                            <p data-translate="Coaching_38"></p>
                            
                             <div class="price">
                                 <h4>$25</h4>
                             </div>
-                            <button onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=lilibethpinto%40hotmail%2ecom&lc=AU&item_name=PAQUETE%20DE%20COACHING%201&amount=25%2e00&currency_code=AUD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted'" class="btn btn-block btn-outline-primary btnTablaPrecios" type="submit">
-                              SÍ, EMPECEMOS YA
+                            <button data-translate="Coaching_39_boton" onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=lilibethpinto%40hotmail%2ecom&lc=AU&item_name=PAQUETE%20DE%20COACHING%201&amount=25%2e00&currency_code=AUD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted'" class="btn btn-block btn-outline-primary btnTablaPrecios" type="submit">
                             </button>
                         </div>
                     </div>
                     <div class="col-md-5 col-lg-4">
                         <div class="item">
-                            <div class="ribbon">Más pedida</div>
+                            <div class="ribbon" data-translate="Coaching_37"></div>
                             <div class="heading">
                                 <h3>PRO</h3>
                             </div>
-                            <p>Incluye tres sesiones (paquete 1) y adicional descubrir cuál es el propósito real que tienes en tu vida (motivación real),
-                                para que te sientas plena y completamente feliz como individuo. Al finalizar de tus sesiones habrá una claridad absoluta
-                                de lo que quieres hacer y de los retos que vienen para convertirte en una persona mucho más realizada. Sentirás el deseo
-                                de utilizar tu propia experiencia de vida para ayudar a otros o por lo menos en búsqueda de mucha más plenitud como mujer y madre.</p>
-                            <!-- Caracteristicas del paquete-->
-                            <!--
-                            <div class="features">
-                                <span class="caracteristica">
-                                    <i class="fas fa-circle circleCaracteristica"></i> orem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                <span class="caracteristica">
-                                    <i class="fas fa-circle circleCaracteristica"></i> orem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                <span class="caracteristica">
-                                    <i class="fas fa-circle circleCaracteristica"></i> orem ipsum dolor sit amet, consectetur adipiscing elit.orem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                <span class="caracteristica">
-                                    <i class="fas fa-circle circleCaracteristica"></i> orem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                            </div> -->
+                            <p data-translate="Coaching_40"></p>
                             <div class="price">
                                 <h4>$50</h4>
                             </div>
-                            <button onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=lilibethpinto%40hotmail%2ecom&lc=AU&item_name=PAQUETE%20DE%20COACHING%202&amount=50%2e00&currency_code=AUD&button_subtype=services&no_note=0&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest'" class="btn btn-block btn-primary btnTablaPreciosActivo" type="submit">
-                              SÍ, EMPECEMOS YA
+                            <button data-translate="Coaching_39_boton" onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=lilibethpinto%40hotmail%2ecom&lc=AU&item_name=PAQUETE%20DE%20COACHING%202&amount=50%2e00&currency_code=AUD&button_subtype=services&no_note=0&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest'" class="btn btn-block btn-primary btnTablaPreciosActivo" type="submit">
                             </button>
                         </div>
                     </div>
@@ -316,23 +271,7 @@
                             <div class="heading">
                                 <h3>PREMIUM</h3>
                             </div>
-                            <p>Cinco sesiones con todo lo anterior y adicional el organizador de la madre soltera con el cual definiremos de forma
-                                muy profunda tu misión y visión de vida. Un plan de acción para lograr metas cortas y largas sin perder 
-                                tu motivación en el proceso. Al finalizar este proceso veras en ti una mujer más organizada, feliz,
-                                lista para centrarse en las cosas importantes de sí misma y con mucho más poder de decisión en la rutina diaria y
-                                conectada con sus hijos de forma más natural.</p>
-                            <!-- Caracteristicas del paquete-->
-                            <!--
-                            <div class="features">
-                                <span class="caracteristica">
-                                    <i class="fas fa-circle circleCaracteristica"></i> orem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                <span class="caracteristica">
-                                    <i class="fas fa-circle circleCaracteristica"></i> orem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                <span class="caracteristica">
-                                    <i class="fas fa-circle circleCaracteristica"></i> orem ipsum dolor sit amet, consectetur adipiscing elit.orem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                <span class="caracteristica">
-                                    <i class="fas fa-circle circleCaracteristica"></i> orem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                            </div> -->
+                            <p data-translate="Coaching_41"></p>
                             <div class="price">
                                 <h4>$150</h4>
                             </div>
@@ -346,8 +285,8 @@
             <div class="row">
                 <div class="col-12 containerDudas">
                     <div class="containerCopyDudas">
-                        <h5>¿AÚN TIENES PREGUNTAS O DUDAS?</h5>
-                        <a href="./contacto.html">CONTÁCTAME PERSONALMENTE AQUÍ</a>
+                        <h5 data-translate="Coaching_42"></h5>
+                        <a href="./contacto.php" data-translate="Coaching_43"></a>
                     </div>
                 </div>
             </div>
@@ -361,14 +300,14 @@
                                 <img src="./img/logo2.png" width="250px" height="100px">
                             </div>
                             <div class="menuFooter">
-                                <a href="./index.html">Home &nbsp/&nbsp</a>
-                                <a href="./about.html">&nbspAcerca de mí &nbsp/&nbsp</a>
-                                <a href="#">Coaching &nbsp/&nbsp</a>
-                                <a href="./conferencias.html">Conferencias &nbsp/&nbsp</a>
-                                <a href="./cursos.html">Cursos &nbsp/&nbsp</a>
-                                <a href="./blog">Blog &nbsp/&nbsp</a>
-                                <a href="./contacto.html">Contacto &nbsp/&nbsp</a>
-                                <a href="./libros.html">Libros &nbsp/&nbsp</a>
+                                <a href="./index.php">Home &nbsp;/&nbsp;</a>
+                                <a href="./about.php" data-translate="menu_acerca_de_footer"></a>
+                                <a href="#">&nbsp; Coaching &nbsp;/&nbsp;</a>
+                                <a href="./conferencias.php" data-translate="menu_conferencias_footer"></a>
+                                <a href="./cursos.php" data-translate="menu_cursos_footer"></a>
+                                <a href="./blog/">&nbsp; Blog &nbsp;/&nbsp;</a>
+                                <a href="./contacto.php" data-translate="menu_contacto_footer"></a>
+                                <a href="./libros.php" data-translate="menu_libros_footer"></a>
                             </div>
                         </div>
                         <div class="footerParte2">
@@ -390,20 +329,24 @@
                                 </a>
                             </div>
                             <div class="derechosReservados">
-                                <p>Copyright &copy; 2018 - Todos los derechos reservados por Lilibeth Pinto</p>
+                                <p>Copyright &copy; 2018 by Lilibeth Pinto</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- jQuery first -->
         <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+        <!-- then Multilingual library -->
+        <script type="text/javascript" src="./js/translations.js"></script>
+        <!-- then Bootstrap JS -->
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        
         <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
         <script type="text/javascript">
+            
             $(document).ready(function() {
                 $("#testimonial-slider").owlCarousel({
                     items: 1,
