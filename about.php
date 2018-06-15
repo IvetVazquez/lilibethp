@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) ?>">
 
     <head>
         <!-- Required meta tags -->
@@ -39,31 +39,28 @@
                     <div class="navbar-collapse collapse" id="navbar10">
                         <ul class="navbar-nav nav-fill w-100">
                             <li class="nav-item active">
-                                <a class="nav-link" href="./index.html">Home</a>
+                                <a class="nav-link" href="./index.php">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Acerca de mí</a>
+                                <a class="nav-link" href="#" data-translate="menu_acerca_de_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./coaching.html">Coaching</a>
+                                <a class="nav-link" href="./coaching.php">COACHING</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./conferencias.html">Conferencias</a>
+                                <a class="nav-link" href="./conferencias.php" data-translate="menu_conferencias_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./cursos.html">Cursos</a>
+                                <a class="nav-link" href="./cursos.php" data-translate="menu_cursos_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./blog">Blog</a>
+                                <a class="nav-link" href="./blog">BLOG</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                                <a class="nav-link" href="./contacto.php" data-translate="menu_contacto_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./libros.html">Libros</a>
+                                <a class="nav-link" href="./libros.php" data-translate="menu_libros_top"></a>
                             </li>
                         </ul>
                     </div>
@@ -77,20 +74,15 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6  col-lg-7 textAbout">
-                    <h3>Hola,</h3>
-                    <h5>Qué alegría verte por aquí</h5>
-                    <h5>Soy Lilibeth Pinto</h5>
+                    <h3 data-translate="Acerca_de_mi_1"></h3>
+                    <h5 data-translate="Acerca_de_mi_2"></h5>
+                    <h5 data-translate="Acerca_de_mi_3"></h5>
                     <p>
-                        <strong>
-                            Nací y crecí en Tunja-Colombia. Ahora soy residente en Australia. Profesionalmente soy bacterióloga, científica médica. Siempre he estado rodeada de experiencias que han enriquecido mi vida de una manera extraordinaria.
-                        </strong>
-                        Con los años he aprendido que no hay obstáculo más grande, que el no poder permitirnos cumplir nuestras metas. He visto a muchas personas renunciar a sus sueños por un simple mal momento o porque no se han preparado o educado para cierta actividad y le dan punto final en su mente. Nuestra mente posee todo y nos encamina hasta donde lo queremos. Si estás enfermo te llevará hasta el punto de sentirte sano, es sólo cuestión que la entrenes para ello, no es difícil, tú tienes el poder de hacerlo, no tienes limitaciones más que mentales.
+                        <strong data-translate="Acerca_de_mi_4"></strong>
+                        <span data-translate="Acerca_de_mi_5"></span>
                     </p>
-                    <p>
-                        Mi proceso como entrenadora de mujeres y de madres ha sido muy enriquecedor porque en los últimos 6 meses he estado escribiendo y preparando nuevas ideas; esperando la oportunidad para lanzarme como conferencista.
-                    </p>
-                    <p>
-                        Se que todo es posible para las madres que tenemos hijos y que queremos ver nuestro propósito de vida hecho realidad. Las personas podríamos soñar tan alto que solo nos faltarían las alas, no nos limitemos a pensar que solo unas o unos pocos pueden, todo lo contrario, la magia de ser mujer, madre, hija, abuela es solo el nombre pero el legado para tus hijos es lo que importa. ¡Tú eres tú ejemplo!
+                    <p data-translate="Acerca_de_mi_6"></p>
+                    <p data-translate="Acerca_de_mi_7">
                     </p>
                 </div>
             </div>
@@ -98,18 +90,18 @@
         <div class="container-fluid">
             <div class="row containerSecondSection">
                 <div class="col-12 formacionTitle">
-                    <h3>MI FORMACIÓN</h3>
+                    <h3 data-translate="Acerca_de_mi_8"></h3>
                 </div>
                 <div class="col-12 col-md-6 parte1">
                     <p>
-                        <strong>Soy coach de vida para madres solteras, he vivido en 2 países, trabajo tiempo completo como coach.
-                        </strong> Trabaje como laboratorista médica en Colombia y Australia. Tengo un grado profesional de la Universidad Javeriana de Bogota en Colombia y Charles Sturt University de Australia. Un diplomado en Coaching Ontológico Profesional de Colombia. Hablo 2 idiomas. He viajado por diferentes países. (Tailandia, Fiji, Japón, Chile, Argentina, Australia, Bali). He trabajado como coach por casi 2 años.
+                        <strong data-translate="Acerca_de_mi_9"></strong>
+                        <span data-translate="Acerca_de_mi_10"></span>
                     </p>
                 </div>
                 <div class="col-12 col-md-6 parte2">
                     <p>
-                        <strong>Mis hobbies son hacer deporte y escuchar música pop, a veces nadar y ver películas de miedo con mi hija.
-                        </strong>Soy una madre viajera y cuando tengo la posibilidad de hacerlo me voy a conocer los países más exóticos, me gusta comer cosas diferentes, cosas raras pero que sean deliciosas. Me apasiona escribir porque me conecto con mi esencia como mujer, puedo plasmar mis ideas, mi forma de ver la vida y para que eso pueda ser una fuente de inspiración para otras personas.
+                        <strong data-translate="Acerca_de_mi_11"></strong>
+                        <span data-translate="Acerca_de_mi_12"></span>
                     </p>
                 </div>
             </div>
@@ -118,8 +110,8 @@
             <div class="row">
                 <div class="col-12 containerSpeaker">
                     <div class="containerEvento">
-                        <h4>¿Quieres comenzar a volar alto?</h4>
-                        <a href="./coaching.html">DESCUBRE COMO PUEDO AYUDARTE</a>
+                        <h4 data-translate="Acerca_de_mi_boton_text"></h4>
+                        <a href="./coaching.html" data-translate="Acerca_de_mi_boton"></a>
                     </div>
                 </div>
             </div>
@@ -133,14 +125,14 @@
                                 <img src="./img/logo2.png" width="250px" height="100px">
                             </div>
                             <div class="menuFooter">
-                                <a href="./index.html">Home &nbsp/&nbsp</a>
-                                <a href="#">&nbspAcerca de mí &nbsp/&nbsp</a>
-                                <a href="./coaching.html">Coaching &nbsp/&nbsp</a>
-                                <a href="./conferencias.html">Conferencias &nbsp/&nbsp</a>
-                                <a href="./cursos.html">Cursos &nbsp/&nbsp</a>
-                                <a href="./blog">Blog &nbsp/&nbsp</a>
-                                <a href="./contacto.html">Contacto &nbsp/&nbsp</a>
-                                <a href="./libros.html">Libros &nbsp/&nbsp</a>
+                                <a href="./index.php">Home &nbsp;/&nbsp;</a>
+                                <a href="#" data-translate="menu_acerca_de_footer"></a>
+                                <a href="./coaching.php">&nbsp; Coaching &nbsp;/&nbsp;</a>
+                                <a href="./conferencias.php" data-translate="menu_conferencias_footer"></a>
+                                <a href="./cursos.php" data-translate="menu_cursos_footer"></a>
+                                <a href="./blog/">&nbsp; Blog &nbsp;/&nbsp;</a>
+                                <a href="./contacto.php" data-translate="menu_contacto_footer"></a>
+                                <a href="./libros.php" data-translate="menu_libros_footer"></a>
                             </div>
                         </div>
                         <div class="footerParte2">
@@ -162,16 +154,18 @@
                                 </a>
                             </div>
                             <div class="derechosReservados">
-                                <p>Copyright &copy; 2018 - Todos los derechos reservados por Lilibeth Pinto</p>
+                                <p>Copyright &copy; 2018 by Lilibeth Pinto</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- jQuery first -->
         <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+        <!-- then Multilingual library -->
+        <script type="text/javascript" src="./js/translations.js"></script>
+        <!-- then Bootstrap JS -->
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>
     </body>
 

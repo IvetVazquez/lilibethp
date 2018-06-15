@@ -38,25 +38,25 @@
                                 <a class="nav-link" href="#">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./about.html" data-translate="menu_acerca_de_top"></a>
+                                <a class="nav-link" href="./about.php" data-translate="menu_acerca_de_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./coaching.html">COACHING</a>
+                                <a class="nav-link" href="./coaching.php">COACHING</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./conferencias.html" data-translate="menu_conferencias_top"></a>
+                                <a class="nav-link" href="./conferencias.php" data-translate="menu_conferencias_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./cursos.html" data-translate="menu_cursos_top"></a>
+                                <a class="nav-link" href="./cursos.php" data-translate="menu_cursos_top"></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./blog/">BLOG</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html" data-translate="menu_contacto_top"></a>
+                                <a class="nav-link" href="./contacto.php" data-translate="menu_contacto_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./libros.html" data-translate="menu_libros_top"></a>
+                                <a class="nav-link" href="./libros.php" data-translate="menu_libros_top"></a>
                             </li>
                         </ul>
                     </div>
@@ -243,13 +243,13 @@
                             </div>
                             <div class="menuFooter">
                                 <a href="#">Home &nbsp;/&nbsp;</a>
-                                <a href="./about.html" data-translate="menu_acerca_de_footer"></a>
-                                <a href="./coaching.html">&nbsp; Coaching &nbsp;/&nbsp;</a>
-                                <a href="./conferencias.html" data-translate="menu_conferencias_footer"></a>
-                                <a href="./cursos.html" data-translate="menu_cursos_footer"></a>
+                                <a href="./about.php" data-translate="menu_acerca_de_footer"></a>
+                                <a href="./coaching.php">&nbsp; Coaching &nbsp;/&nbsp;</a>
+                                <a href="./conferencias.php" data-translate="menu_conferencias_footer"></a>
+                                <a href="./cursos.php" data-translate="menu_cursos_footer"></a>
                                 <a href="./blog/">&nbsp; Blog &nbsp;/&nbsp;</a>
-                                <a href="./contacto.html" data-translate="menu_contacto_footer"></a>
-                                <a href="./libros.html" data-translate="menu_libros_footer"></a>
+                                <a href="./contacto.php" data-translate="menu_contacto_footer"></a>
+                                <a href="./libros.php" data-translate="menu_libros_footer"></a>
                             </div>
                         </div>
                         <div class="footerParte2">
