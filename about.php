@@ -111,7 +111,7 @@
                 <div class="col-12 containerSpeaker">
                     <div class="containerEvento">
                         <h4 data-translate="Acerca_de_mi_boton_text"></h4>
-                        <a href="./coaching.html" data-translate="Acerca_de_mi_boton"></a>
+                        <a href="./coaching.php" data-translate="Acerca_de_mi_boton"></a>
                     </div>
                 </div>
             </div>

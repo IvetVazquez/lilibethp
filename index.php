@@ -97,7 +97,7 @@
                             <h1 data-translate="home_slider_3_2"></h1>
                             <h4 data-translate="home_slider_3_3"></h4>
                             <div class="btnCopy">
-                                <a href="./coaching.html" data-translate="home_slider_3_boton"></a>
+                                <a href="./coaching.php" data-translate="home_slider_3_boton"></a>
                             </div>
                         </div>
                     </div>
@@ -162,7 +162,7 @@
                         <hr class="line">
                         <p class="parrafoCard" data-translate="home_acerca_2"></p>
                         <div class="text-center containerBtnCard">
-                            <a href="./about.html" data-translate="home_acerca_boton"></a>
+                            <a href="./about.php" data-translate="home_acerca_boton"></a>
                         </div>
                     </div>
                 </div>
