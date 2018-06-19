@@ -187,10 +187,12 @@
 
   </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- jQuery first -->
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <!-- then Multilingual library -->
+    <script type="text/javascript" src="./js/translations.js"></script>
+    <!-- then Bootstrap JS -->
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 
 </body>
 
