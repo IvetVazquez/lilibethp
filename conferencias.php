@@ -119,7 +119,7 @@
                     <p data-translate="conferencias_11"></p>
                     <p data-translate="conferencias_12"></p>
                     <p class="inscripcionEvento" data-translate="conferencias_13"></p>
-                    <form class="form-inline formInscripcion" action="./contacto.html">
+                    <form class="form-inline formInscripcion" action="./contacto.php">
                         <div class="containerBtnInscripcion">
                             <button type="submit" class="btn btn-primary btnInscripcion" data-translate="conferencias_14_boton"></button>
                         </div>

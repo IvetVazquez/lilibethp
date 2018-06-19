@@ -126,7 +126,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid footerContacto">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12 footerContainer">
                 <div class="footer">
