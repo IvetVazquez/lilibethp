@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) ?>">
 
     <head>
         <!-- Required meta tags -->
@@ -39,28 +39,28 @@
                     <div class="navbar-collapse collapse" id="navbar10">
                         <ul class="navbar-nav nav-fill w-100">
                             <li class="nav-item active">
-                                <a class="nav-link" href="./index.html">Home</a>
+                                <a class="nav-link" href="./index.php">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./about.html">Acerca de mí</a>
+                                <a class="nav-link" href="./about.php" data-translate="menu_acerca_de_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./coaching.html">Coaching</a>
+                                <a class="nav-link" href="./coaching.php">COACHING</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./conferencias.html">Conferencias</a>
+                                <a class="nav-link" href="./conferencias.php" data-translate="menu_conferencias_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./cursos.html">Cursos</a>
+                                <a class="nav-link" href="./cursos.php" data-translate="menu_cursos_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="http://www.lilibethpinto.com/blog">Blog</a>
+                                <a class="nav-link" href="./blog/">BLOG</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
+                                <a class="nav-link" href="#" data-translate="menu_contacto_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./libros.html">Libros</a>
+                                <a class="nav-link" href="./libros.php" data-translate="menu_libros_top"></a>
                             </li>
                         </ul>
                     </div>
@@ -134,14 +134,14 @@
                                 <img src="./img/logo2.png" width="250px" height="100px">
                             </div>
                             <div class="menuFooter">
-                                <a href="./index.html">Home &nbsp/&nbsp</a>
-                                <a href="./about.html">&nbspAcerca de mí &nbsp/&nbsp</a>
-                                <a href="./coaching.html">Coaching &nbsp/&nbsp</a>
-                                <a href="./conferencias.html">Conferencias &nbsp/&nbsp</a>
-                                <a href="./cursos.html">Cursos &nbsp/&nbsp</a>
-                                <a href="http://www.lilibethpinto.com/blog">Blog &nbsp/&nbsp</a>
-                                <a href="#">Contacto &nbsp/&nbsp</a>
-                                <a href="./libros.html">Libros &nbsp/&nbsp</a>
+                                <a href="./index.php">Home &nbsp;/&nbsp;</a>
+                                <a href="./about.php" data-translate="menu_acerca_de_footer"></a>
+                                <a href="./coaching.php">&nbsp; Coaching &nbsp;/&nbsp;</a>
+                                <a href="./conferencias.php" data-translate="menu_conferencias_footer"></a>
+                                <a href="./cursos.php" data-translate="menu_cursos_footer"></a>
+                                <a href="./blog/">&nbsp; Blog &nbsp;/&nbsp;</a>
+                                <a href="#" data-translate="menu_contacto_footer"></a>
+                                <a href="./libros.php" data-translate="menu_libros_footer"></a>
                             </div>
                         </div>
                         <div class="footerParte2">
@@ -163,17 +163,20 @@
                                 </a>
                             </div>
                             <div class="derechosReservados">
-                                <p>Copyright &copy; 2018 - Todos los derechos reservados por Lilibeth Pinto</p>
+                                <p>Copyright &copy; 2018 by Lilibeth Pinto</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- jQuery first -->
         <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+        <!-- then Multilingual library -->
+        <script type="text/javascript" src="./js/translations.js"></script>
+        <!-- then Bootstrap JS -->
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
         <script src="https://unpkg.com/sweetalert2@7.19.3/dist/sweetalert2.all.min.js"></script>
         <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
         <script src="https://unpkg.com/promise-polyfill@7.1.0/dist/promise.min.js"></script>
@@ -191,8 +194,8 @@
                     var message = $.trim(   $("#mensaje").val() );
 
                     swal({
-                        title: 'Estamos enviado tu mensaje',
-                        text: 'Solo será un momento',
+                        title: <?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Your message is being sent': 'Estamos enviado tu mensaje' ?>,
+                        text: <?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? "It's just a moment": 'Solo será un momento' ?>,
                         onOpen: function(){
                             swal.showLoading();
                         }
@@ -210,8 +213,8 @@
                             // display success message
                             swal({
                                 type: 'success',
-                                title: '¡Éxito! Mensaje enviado',
-                                text: 'Serás contactada en breve',
+                                title: <?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Success! Your message has been sent': '¡Éxito! Mensaje enviado' ?>,
+                                text: <?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'You will be contacted soon': 'Serás contactada en breve' ?>,
                                 showConfirmButton: false,
                                 timer: 5000
                             });
@@ -222,23 +225,23 @@
                             var errorMsg = '';
                             switch(err.responseText) {
                                 case email + " is already a list member":
-                                    errorMsg = "¡Tu email ya ha sido registrado! Prueba con otro.";
+                                    errorMsg = "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Your email has already been registered! Try another': '¡Tu email ya ha sido registrado! Prueba con otro.' ?>";
                                     break;
                                 case email + " is not a valid email address":
                                 case "email address is blank":
-                                    errorMsg = "¡Tu dirección de correo es inválida! Prueba con otra.";
+                                    errorMsg = "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Your email address is invalid! Try another': '¡Tu dirección de correo es inválida! Prueba con otra.' ?>";
                                     break;
                                 case name + " is not a valid name value":
-                                    errorMsg = "¡Nombre inválido! Revisa que tu nombre sea correcto.";
+                                    errorMsg = "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Invalid name! Try another': '¡Nombre inválido! Revisa que tu nombre sea correcto.' ?>";
                                     break;
                                 case whatsapp + " is not a valid whatsapp value":
-                                    errorMsg = "¡Whatsapp inválido! Revisa que tu whatsap sea correcto.";
+                                    errorMsg = "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Invalid Whatsapp number! Try another': '¡Whatsapp inválido! Revisa que tu whatsap sea correcto.' ?>";
                                     break;
                                 case message + " is not a valid message value":
-                                    errorMsg = "Mensaje inválido! Revisa que tu mensaje sea correcto.";
+                                    errorMsg = "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Invalid message! Try another': 'Mensaje inválido! Revisa que tu mensaje sea correcto.' ?>";
                                     break;
                                 default:
-                                    errorMsg = "¡Algo salió mal al intentar registrarte! Inténtalo otra vez.";
+                                    errorMsg = "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Something went wrong! Please try again': '¡Algo salió mal al intentar registrarte! Inténtalo otra vez.' ?>";
                             }
                             
                             swal({
