@@ -92,7 +92,7 @@
             </div>
           </div>
           <div class="clubInfluencia">
-            <h4 data-translate="titulo_libro_1"</h4>
+            <h4 data-translate="titulo_libro_1"></h4>
             <p class="textInfluencia" data-translate="contenido_libro_1"></p>
             <a href="https://www.amazon.com.au/Me-duele-perder-superar-sufrimiento-ebook/dp/B07CYTK29R" class="btnClub" data-translate="boton_libro"></a>
           </div>
@@ -112,7 +112,7 @@
           <div class="clubInfluencia">
             <h4 data-translate="titulo_libro_2"></h4>
             <p class="textInfluencia" data-translate="contenido_libro_2"></p>
-            <a href="https://www.amazon.com/CANCER-SIN-MIEDO-visión-Spanish-ebook/dp/B06WD67JSY" class="btnClub" data-translate="boton_libro">COMPRAR AHORA</a>
+            <a href="https://www.amazon.com/CANCER-SIN-MIEDO-visión-Spanish-ebook/dp/B06WD67JSY" class="btnClub" data-translate="boton_libro"></a>
           </div>
         </div>
       </div>
@@ -138,61 +138,57 @@
   </div>
 
   <div class="container-fluid">
-
-    <div class="row">
-
-      <div class="col-12 footerContainer">
-        <div class="footer">
-          <div class="footerParte1">
-            <div class="logoFooter">
-              <img src="./img/logo2.png" width="250px" height="100px">
-            </div>
-            <div class="menuFooter">
-              <a href="./index.php">Home &nbsp;/&nbsp;</a>
-              <a href="./about.php" data-translate="menu_acerca_de_footer"></a>
-              <a href="./coaching.php">&nbsp; Coaching &nbsp;/&nbsp;</a>
-              <a href="./conferencias.php" data-translate="menu_conferencias_footer"></a>
-              <a href="./cursos.php" data-translate="menu_cursos_footer"></a>
-              <a href="./blog/">&nbsp; Blog &nbsp;/&nbsp;</a>
-              <a href="./contacto.php" data-translate="menu_contacto_footer"></a>
-              <a href="#" data-translate="menu_libros_footer"></a>
-            </div>
+      <div class="row">
+          <div class="col-12 footerContainer">
+              <div class="footer">
+                  <div class="footerParte1">
+                      <div class="logoFooter">
+                          <img src="./img/logo2.png" width="250px" height="100px">
+                      </div>
+                      <div class="menuFooter">
+                          <a href="./index.php">Home &nbsp;/&nbsp;</a>
+                          <a href="./about.php" data-translate="menu_acerca_de_footer"></a>
+                          <a href="./coaching.php">&nbsp; Coaching &nbsp;/&nbsp;</a>
+                          <a href="./conferencias.php" data-translate="menu_conferencias_footer"></a>
+                          <a href="./cursos.php" data-translate="menu_cursos_footer"></a>
+                          <a href="./blog/">&nbsp; Blog &nbsp;/&nbsp;</a>
+                          <a href="./contacto.php" data-translate="menu_contacto_footer"></a>
+                          <a href="#" data-translate="menu_libros_footer"></a>
+                      </div>
+                  </div>
+                  <div class="footerParte2">
+                      <div class="redesSociales">
+                          <a href="https://plus.google.com/u/0/103756068845122250059" target="_blank">
+                              <i class="fab fa-google-plus-g"></i>
+                          </a>
+                          <a href="https://twitter.com/tumagiaytupoder/" target="_blank">
+                              <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="https://www.instagram.com/madresolteraextraordinaria/" target="_blank">
+                              <i class="fab fa-instagram"></i>
+                          </a>
+                          <a href="https://www.youtube.com/channel/UC_5uOkeGKBi8pFBOzFJZMHw" target="_blank">
+                              <i class="fab fa-youtube"></i>
+                          </a>
+                          <a href="https://www.facebook.com/tumagiaytupoder" target="_blank">
+                              <i class="fab fa-facebook-f"></i>
+                          </a>
+                      </div>
+                      <div class="derechosReservados">
+                          <p>Copyright &copy; 2018 by Lilibeth Pinto</p>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="footerParte2">
-          <div class="redesSociales">
-            <a href="https://plus.google.com/u/0/103756068845122250059" target="_blank">
-              <i class="fab fa-google-plus-g"></i>
-            </a>
-            <a href="https://twitter.com/tumagiaytupoder/" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="https://www.instagram.com/madresolteraextraordinaria/" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://www.youtube.com/channel/UC_5uOkeGKBi8pFBOzFJZMHw" target="_blank">
-              <i class="fab fa-youtube"></i>
-            </a>
-            <a href="https://www.facebook.com/tumagiaytupoder" target="_blank">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </div>
-          <div class="derechosReservados">
-            <p>Copyright &copy; 2018 by Lilibeth Pinto</p>
-          </div>
-        </div>
       </div>
-
-    </div>
-
   </div>
 
-    <!-- jQuery first -->
-    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
-    <!-- then Multilingual library -->
-    <script type="text/javascript" src="./js/translations.js"></script>
-    <!-- then Bootstrap JS -->
-    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+  <!-- jQuery first -->
+  <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+  <!-- then Multilingual library -->
+  <script type="text/javascript" src="./js/translations.js"></script>
+  <!-- then Bootstrap JS -->
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 
 </body>
 
