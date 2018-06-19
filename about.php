@@ -1,26 +1,27 @@
 <!doctype html>
 <html lang="<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) ?>">
 
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 
-        <!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. --> 
-        <link rel="apple-touch-icon-precomposed" href="./img/fav-180x180.png">
+  <!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. -->
+  <link rel="apple-touch-icon-precomposed" href="./img/fav-180x180.png">
 
-        <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
-        <link rel="icon" href="./img/fav-196x196.png">
-        
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="./css/styles.css">
-        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-        <title>Lilibeth Pinto</title>
-    </head>
+  <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
+  <link rel="icon" href="./img/fav-196x196.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
+  <title>Lilibeth Pinto</title>
+</head>
 
     <body>
         <div class="container-logo-menu">
