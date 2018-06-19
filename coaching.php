@@ -279,8 +279,9 @@
                         <div class="price">
                             <h4>$150</h4>
                         </div>
-                        <button onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=lilibethpinto%40hotmail%2ecom&lc=AU&item_name=PAQUETE%20DE%20COACHING%203&amount=150%2e00&currency_code=AUD&button_subtype=services&no_note=0&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest'"
-                            class="btn btn-block btn-outline-primary btnTablaPrecios" type="submit">SÍ, EMPECEMOS YA</button>
+                        <button data-translate="Coaching_39_boton" onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=lilibethpinto%40hotmail%2ecom&lc=AU&item_name=PAQUETE%20DE%20COACHING%203&amount=150%2e00&currency_code=AUD&button_subtype=services&no_note=0&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest'"
+                            class="btn btn-block btn-outline-primary btnTablaPrecios" type="submit">
+                        </button>
                     </div>
                 </div>
             </div>
