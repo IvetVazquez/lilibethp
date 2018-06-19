@@ -194,8 +194,8 @@
                     var message = $.trim(   $("#mensaje").val() );
 
                     swal({
-                        title: <?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Your message is being sent': 'Estamos enviado tu mensaje' ?>,
-                        text: <?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? "It's just a moment": 'Solo será un momento' ?>,
+                        title: "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Your message is being sent': 'Estamos enviado tu mensaje' ?>",
+                        text: "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? "It's just a moment": 'Solo será un momento' ?>",
                         onOpen: function(){
                             swal.showLoading();
                         }
@@ -213,8 +213,8 @@
                             // display success message
                             swal({
                                 type: 'success',
-                                title: <?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Success! Your message has been sent': '¡Éxito! Mensaje enviado' ?>,
-                                text: <?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'You will be contacted soon': 'Serás contactada en breve' ?>,
+                                title: "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'Success! Your message has been sent': '¡Éxito! Mensaje enviado' ?>",
+                                text: "<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'You will be contacted soon': 'Serás contactada en breve' ?>",
                                 showConfirmButton: false,
                                 timer: 5000
                             });
