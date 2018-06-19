@@ -19,6 +19,8 @@
     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+        crossorigin="anonymous"></script>
     <title>Lilibeth Pinto</title>
 </head>
 
@@ -48,10 +50,10 @@
                             <a class="nav-link" href="./coaching.php">COACHING</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./conferencias.php" data-translate="menu_conferencias_top"></a>
+                            <a class="nav-link" href="#" data-translate="menu_conferencias_top"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-translate="menu_cursos_top"></a>
+                            <a class="nav-link" href="./cursos.php" data-translate="menu_cursos_top"></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./blog/">BLOG</a>
@@ -69,110 +71,71 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 containerAulaVirtual">
-                <h1 class="aulaVirtual">Escuela para Madres Solteras</h1>
+            <div class="col-12 containerConferencias">
+                <div class="copyConferencias">
+                    <h2 data-translate="titulo"></h2>
+                    <h1>LILIBETH</h1>
+                </div>
             </div>
         </div>
     </div>
-
-
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 containerClubMiembros">
-                <h3 class="text-center">CONOCE NUESTRA ESCUELA PARA MADRES SOLTERAS </h3>
-
-                <div class="containerCopyMiembros">
-                    <div class="clubInfluencia">
-                        <h4>LA MAGIA DE SER TÚ MISMO</h4>
-                        <p class="textInfluencia">Este curso es uno de los claves para que una madre pueda empezar su propio descubrimiento hacia un
-                            nuevo comienzo. Cuestionar la realidad que tenemos es el principio clave para entender comportamientos
-                            que no benefician, nuestra vida y la de nuestros hijos. Al terminar el curso estarás dispuesta
-                            para tu segunda etapa, la motivación que viene con el descubrimiento de tus pasiones y tus fortalezas.
-                        </p>
-                        <a href="#" class="btnClub">ÚNETE AL CURSO</a>
-                    </div>
-                    <div class="curso1">
-                        <div class="containerBienvenidaClub">
+            <div class="col-12 containerConferenciasCalendario">
+                <h4 data-translate="subtitulo"></h4>
+                <div class="containerCalendario">
+                    <div class="evento1">
+                        <div class="diaEvento1">
+                            <h3 class="dia">11</h3>
+                            <h6>Agosto</h6>
+                        </div>
+                        <div class="imagenEvento1">
+                            <img src="./img/evento1.png">
+                        </div>
+                        <div class="descripcionEvento1">
+                            <p class="titleDescripcionEvento">Conferencia con Miguel Santos: Cómo programar tu mente para el éxito y la felicidad</p>
+                            <p class="contentDescripcionEvento">
+                                <strong>Fecha:</strong> 11 de Agosto de 2018 </p>
+                            <p class="contentDescripcionEvento">
+                                <strong>Lugar:</strong> Cairns, Australia</p>
+                            <p class="contentDescripcionEvento">
+                                <strong>Horario:</strong> 10:00 a 14:00 hrs</p>
+                        </div>
+                        <div class="imagenEvento2">
+                            <img src="./img/eventodo2.png">
                         </div>
                     </div>
+                    <hr class="hrConferencias">
                 </div>
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 containerVideoCursos">
-                <div class="containerVideoTrabajemos">
-                    <iframe src="https://www.youtube.com/embed/amyIcctL18k" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 containerClubMiembros">
-                <div class="containerCopyMiembros">
-                    <div class="clubInfluencia">
-                        <h4>ABRIENDO LAS PUERTAS AL AMOR</h4>
-                        <p class="textInfluencia">Este curso es para las madres poderosas que quieren volver a enamorarse de un hombre de verdad. El
-                            reconocer que el amor llega en el momento en que sabemos con certeza que lo es, y sobre todo
-                            cuando mi corazón, alma, cuerpo y mente están en congruencia para recibir el amor. Abriendo las
-                            puertas al amor es la extensión de ti misma en un plano muy profundo en el que tu vida es perfecta.
-                        </p>
-                        <a href="#" class="btnClub">ÚNETE AL CURSO</a>
-                    </div>
-                    <div class="curso2">
-                        <div class="containerBienvenidaClub">
+            <div class="col-12 containerEventos">
+                <div class="containerCopy">
+                    <h4>EVENTOS</h4>
+                    <hr class="line">
+                    <p>
+                        "Quieres que hable en tu evento. Te gustaría que compartiera con tu público mi mensaje". Estoy encantada de poder empoderar
+                        a las mujeres. Contáctame para mayor información. ¡Nos vemos pronto!
+                    </p>
+                    <p>
+                        Si deseas asistir a algunos de mis eventos en cualquier parte del mundo contáctame y con gusto te enviaré los detalles del
+                        evento.
+                    </p>
+                    <p class="inscripcionEvento">Deja tus datos para avisarte de mis próximos eventos, o contáctame para que hable en tu ciudad.</p>
+                    <form class="form-inline formInscripcion" action="./contacto.html">
+                        <div class="containerBtnInscripcion">
+                            <button type="submit" class="btn btn-primary btnInscripcion">
+                                ¡ QUIERO SABER MÁS !
+                            </button>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 containerVideoCursos">
-                <div class="containerVideoTrabajemos">
-                    <iframe src="https://www.youtube.com/embed/r3uOnqyYdOo" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 containerClubMiembros">
-                <div class="containerCopyMiembros">
-                    <div class="clubInfluencia">
-                        <h4>ADIÓS A EL DOLOR, SIN SUFRIMIENTO</h4>
-                        <p class="textInfluencia">Este curso es el alma de mi vida, con el aprendí que la vida es un soplo y que puedo encontrar mi
-                            misión y visión de vida, romper con alguien, la muerte, las crisis existen y no dejaran de existir,
-                            es un despertar a la conciencia que tenemos poco tiempo para sufrir y que más bien la gratitud,
-                            las experiencias pasadas son un regalo para crecer, para nuevas oportunidades y nuevos amores,
-                            más experiencia y llevar el legado de nuestros seres muertos, para trascender en esta vida terrenal.
-                        </p>
-                        <a href="https://madre-soltera-escuela.teachable.com/p/madre-soltera-extraordinaria-curso/" class="btnClub">ÚNETE AL CURSO</a>
-                    </div>
-                    <div class="curso3">
-                        <div class="containerBienvenidaClub">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 containerVideoCursos">
-                <div class="containerVideoTrabajemos">
-                    <iframe src="https://www.youtube.com/embed/jJ-_yAznuTc" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 footerContainer">
@@ -185,8 +148,8 @@
                             <a href="./index.php">Home &nbsp;/&nbsp;</a>
                             <a href="./about.php" data-translate="menu_acerca_de_footer"></a>
                             <a href="./coaching.php">&nbsp; Coaching &nbsp;/&nbsp;</a>
-                            <a href="./conferencias.php" data-translate="menu_conferencias_footer"></a>
-                            <a href="#" data-translate="menu_cursos_footer"></a>
+                            <a href="#" data-translate="menu_conferencias_footer"></a>
+                            <a href="./cursos.php" data-translate="menu_cursos_footer"></a>
                             <a href="./blog/">&nbsp; Blog &nbsp;/&nbsp;</a>
                             <a href="./contacto.php" data-translate="menu_contacto_footer"></a>
                             <a href="./libros.php" data-translate="menu_libros_footer"></a>
