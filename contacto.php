@@ -73,7 +73,7 @@
                 <form class="formContacto">
                     <div class="form-row">
                         <div class="form-group col-md-4">
-                            <label for="nombre">Nombre</label>
+                            <label for="nombre" data-translate="home_lead_nombre"></label>
                             <input type="text" class="form-control" id="nombre" required="required">
                         </div>
                         <div class="form-group col-md-4">
@@ -87,21 +87,21 @@
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label for="servicio">¿Como te enteraste de mí?</label>
+                            <label for="servicio" data-translate="contacto_enteraste"></label>
                             <select class="form-control" id="findme" required="required">
-                                <option value="PAGINA DE FACEBOOK">Página de facebook</option>
-                                <option value="LIBRO">Libro</option>
+                                <option value="PAGINA DE FACEBOOK" data-translate="contacto_by_facebook_page"></option>
+                                <option value="LIBRO" data-translate="contacto_by_book"></option>
                                 <option selected value="INSTAGRAM">Instagram</option>
-                                <option value="GRUPO DE FACEBOOK">Grupo de facebook</option>
-                                <option value="CONFERENCIA">Conferencia</option>
+                                <option value="GRUPO DE FACEBOOK" data-translate="contacto_by_facebook_group"></option>
+                                <option value="CONFERENCIA" data-translate="contacto_by_conference"></option>
                             </select>
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="mensaje">Mensaje</label>
+                            <label for="mensaje" data-translate="contacto_message"></label>
                             <textarea class="form-control" id="mensaje" rows="4" required="required"></textarea>
                         </div>
                         <div class="col-12 containerbtnContacto">
-                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <button type="submit" class="btn btn-primary" data-translate="contacto_boton"></button>
                         </div>
                     </div>
                 </form>
@@ -122,7 +122,7 @@
                 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-A6yYy1v0eeU1rxkxCytaQ-cFS1uNww4&callback=initMap" async
                     defer></script>
                 <h6 class="text-center">
-                    <strong>Oficinas:</strong> Edge Hill, Cairns, Australia</h6>
+                    <strong data-translate="contacto_1"></strong> Edge Hill, Cairns, Australia</h6>
             </div>
         </div>
     </div>

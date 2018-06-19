@@ -73,7 +73,7 @@
         <div class="row">
             <div class="col-12 containerConferencias">
                 <div class="copyConferencias">
-                    <h2 data-translate="titulo"></h2>
+                    <h2 data-translate="conferencias_1"></h2>
                     <h1>LILIBETH</h1>
                 </div>
             </div>
@@ -82,24 +82,24 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 containerConferenciasCalendario">
-                <h4 data-translate="subtitulo"></h4>
+                <h4 data-translate="conferencias_2"></h4>
                 <div class="containerCalendario">
                     <div class="evento1">
                         <div class="diaEvento1">
                             <h3 class="dia">11</h3>
-                            <h6>Agosto</h6>
+                            <h6 data-translate="conferencias_4"></h6>
                         </div>
                         <div class="imagenEvento1">
                             <img src="./img/evento1.png">
                         </div>
                         <div class="descripcionEvento1">
-                            <p class="titleDescripcionEvento">Conferencia con Miguel Santos: Cómo programar tu mente para el éxito y la felicidad</p>
+                            <p class="titleDescripcionEvento" data-translate="conferencias_3"></p>
                             <p class="contentDescripcionEvento">
-                                <strong>Fecha:</strong> 11 de Agosto de 2018 </p>
+                                <strong data-translate="conferencias_5"></strong> <span data-translate="conferencias_6"></span> </p>
                             <p class="contentDescripcionEvento">
-                                <strong>Lugar:</strong> Cairns, Australia</p>
+                                <strong data-translate="conferencias_7"></strong> Cairns, Australia</p>
                             <p class="contentDescripcionEvento">
-                                <strong>Horario:</strong> 10:00 a 14:00 hrs</p>
+                                <strong data-translate="conferencias_8"></strong> <span data-translate="conferencias_9"></span> </p>
                         </div>
                         <div class="imagenEvento2">
                             <img src="./img/eventodo2.png">
@@ -114,22 +114,14 @@
         <div class="row">
             <div class="col-12 containerEventos">
                 <div class="containerCopy">
-                    <h4>EVENTOS</h4>
+                    <h4 data-translate="conferencias_10"></h4>
                     <hr class="line">
-                    <p>
-                        "Quieres que hable en tu evento. Te gustaría que compartiera con tu público mi mensaje". Estoy encantada de poder empoderar
-                        a las mujeres. Contáctame para mayor información. ¡Nos vemos pronto!
-                    </p>
-                    <p>
-                        Si deseas asistir a algunos de mis eventos en cualquier parte del mundo contáctame y con gusto te enviaré los detalles del
-                        evento.
-                    </p>
-                    <p class="inscripcionEvento">Deja tus datos para avisarte de mis próximos eventos, o contáctame para que hable en tu ciudad.</p>
+                    <p data-translate="conferencias_11"></p>
+                    <p data-translate="conferencias_12"></p>
+                    <p class="inscripcionEvento" data-translate="conferencias_13"></p>
                     <form class="form-inline formInscripcion" action="./contacto.html">
                         <div class="containerBtnInscripcion">
-                            <button type="submit" class="btn btn-primary btnInscripcion">
-                                ¡ QUIERO SABER MÁS !
-                            </button>
+                            <button type="submit" class="btn btn-primary btnInscripcion" data-translate="conferencias_14_boton"></button>
                         </div>
                     </form>
                 </div>

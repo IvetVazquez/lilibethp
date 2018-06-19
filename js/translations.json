@@ -475,13 +475,37 @@
         "es": "home",
         "en": "home" 
     },
+    "contacto_enteraste": {
+        "es": "¿Cómo te enteraste de mí?",
+        "en": "How did you find me?" 
+    },
+    "contacto_by_facebook_page": {
+        "es": "Página de facebook",
+        "en": "Facebook Page" 
+    },
+    "contacto_by_book": {
+        "es": "Libro",
+        "en": "Book" 
+    },
+    "contacto_by_facebook_group": {
+        "es": "Grupo de facebook",
+        "en": "Facebook Group" 
+    },
+    "contacto_by_conference": {
+        "es": "Conferencia",
+        "en": "Conference" 
+    },
+    "contacto_message": {
+        "es": "Mensaje",
+        "en": "Message" 
+    },
     "contacto_boton": {
         "es": "Enviar",
         "en": "Submit" 
     },
     "contacto_1": {
         "es": "Oficinas:",
-        "en": "Offices" 
+        "en": "Offices:" 
     },
     "SECCION_LIBROS": {
         "es": "home",

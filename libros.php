@@ -75,7 +75,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 containerAulaVirtual">
-        <h2 class="aulaVirtual">DISFRUTA DE UNA EXCELENTE LECTURA</h2>
+        <h2 class="aulaVirtual" data-translate="titulo_libros"></h2>
       </div>
     </div>
   </div>
@@ -83,7 +83,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 containerClubMiembros">
-        <h3 class="text-center">CONOCE MIS LIBROS</h3>
+        <h3 class="text-center" data-translate="subtitulo_libros"></h3>
 
         <div class="containerCopyMiembros">
 
@@ -92,19 +92,11 @@
             </div>
           </div>
           <div class="clubInfluencia">
-            <h4>Me duele perder: Cómo superar el abismo del duelo sin sufrimiento</h4>
-            <p class="textInfluencia">En este libro podrás encontrar el recorrido de un camino lleno de pruebas que finalmente han dado sabiduría,
-              sin importar la situación en la que te encuentres quiero brindarte las estrategias que he implementado para
-              superar el dolor de una pérdida, que es algo natural en la vida de un ser humano. Si estás interesado en llevar
-              tu vida y ver el dolor como una experiencia para probar de qué estás hecho ante las dificultades, debes leer
-              este libro, el cual te ayudará a superar la etapa de sufrimiento que atraviesas para convertir en una mejor
-              versión de ti.
-            </p>
-            <a href="https://www.amazon.com.au/Me-duele-perder-superar-sufrimiento-ebook/dp/B07CYTK29R" class="btnClub">COMPRAR AHORA</a>
+            <h4 data-translate="titulo_libro_1"</h4>
+            <p class="textInfluencia" data-translate="contenido_libro_1"></p>
+            <a href="https://www.amazon.com.au/Me-duele-perder-superar-sufrimiento-ebook/dp/B07CYTK29R" class="btnClub" data-translate="boton_libro"></a>
           </div>
         </div>
-
-
       </div>
     </div>
   </div>
@@ -112,20 +104,15 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 containerClubMiembros">
-
         <div class="containerCopyMiembros">
           <div class="libro2">
             <div class="containerBienvenidaClub">
             </div>
           </div>
           <div class="clubInfluencia">
-            <h4>CANCER SIN MIEDO: Una visión no antes vista</h4>
-            <p class="textInfluencia">Este libro está hecho con todo mi amor para ustedes, y como lo hice con mi otro libro Un Nuevo Despertar la Autocuración,
-              es un trabajo bien hecho con mucho respeto para ti como lector y ésta vez incluye tanto hombres como mujeres
-              que quieran conocer un poco más, sobre lo que el cáncer nos trae, pero muchas veces somos más que un cuerpo,
-              somos un espíritu el cual debe ser tratado como tal, con sensibilidad y con dulzura.
-            </p>
-            <a href="https://www.amazon.com/CANCER-SIN-MIEDO-visión-Spanish-ebook/dp/B06WD67JSY" class="btnClub">COMPRAR AHORA</a>
+            <h4 data-translate="titulo_libro_2"></h4>
+            <p class="textInfluencia" data-translate="contenido_libro_2"></p>
+            <a href="https://www.amazon.com/CANCER-SIN-MIEDO-visión-Spanish-ebook/dp/B06WD67JSY" class="btnClub" data-translate="boton_libro">COMPRAR AHORA</a>
           </div>
         </div>
       </div>
@@ -141,13 +128,9 @@
             </div>
           </div>
           <div class="clubInfluencia">
-            <h4>Un Nuevo Despertar: la autocuración, Aprende lo que pocos saben y siente el poder</h4>
-            <p class="textInfluencia">Un nuevo despertar La AUTOCURACIÓN es un libro que está dedicado a mujeres entre los 25 y 50 años que tiene como
-              objetivo mostrar una realidad que pocas personas saben en lo que se refiere a curación sin medicamentos; sino
-              una curación por uno mismo y para que las personas se enteren de mi propia sanación. A través de historias,
-              frases, técnicas, recetas y otras maravillosas estrategias.
-            </p>
-            <a href="https://www.amazon.com/Nuevo-Despertar-AUTOCURACIÓN-Aprende-Spanish-ebook/dp/B01FYYG3D4" class="btnClub">COMPRAR AHORA</a>
+            <h4 data-translate="titulo_libro_3"></h4>
+            <p class="textInfluencia" data-translate="contenido_libro_3"></p>
+            <a href="https://www.amazon.com/Nuevo-Despertar-AUTOCURACIÓN-Aprende-Spanish-ebook/dp/B01FYYG3D4" class="btnClub" data-translate="boton_libro"></a>
           </div>
         </div>
       </div>
@@ -165,14 +148,14 @@
               <img src="./img/logo2.png" width="250px" height="100px">
             </div>
             <div class="menuFooter">
-              <a href="#">Home &nbsp;/&nbsp;</a>
+              <a href="./index.php">Home &nbsp;/&nbsp;</a>
               <a href="./about.php" data-translate="menu_acerca_de_footer"></a>
               <a href="./coaching.php">&nbsp; Coaching &nbsp;/&nbsp;</a>
               <a href="./conferencias.php" data-translate="menu_conferencias_footer"></a>
               <a href="./cursos.php" data-translate="menu_cursos_footer"></a>
               <a href="./blog/">&nbsp; Blog &nbsp;/&nbsp;</a>
               <a href="./contacto.php" data-translate="menu_contacto_footer"></a>
-              <a href="./libros.php" data-translate="menu_libros_footer"></a>
+              <a href="#" data-translate="menu_libros_footer"></a>
             </div>
           </div>
         </div>
@@ -201,8 +184,6 @@
       </div>
 
     </div>
-
-  </div>
 
   </div>
 
