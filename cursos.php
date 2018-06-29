@@ -71,26 +71,19 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 containerAulaVirtual">
-                <h1 class="aulaVirtual">Escuela para Madres Solteras</h1>
+                <h1 class="aulaVirtual" data-translate="curso_header"></h1>
             </div>
         </div>
     </div>
-
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 containerClubMiembros">
-                <h3 class="text-center">CONOCE NUESTRA ESCUELA PARA MADRES SOLTERAS </h3>
-
+                <h3 class="text-center" data-translate="curso_titulo"></h3>
                 <div class="containerCopyMiembros">
                     <div class="clubInfluencia">
-                        <h4>LA MAGIA DE SER TÚ MISMO</h4>
-                        <p class="textInfluencia">Este curso es uno de los claves para que una madre pueda empezar su propio descubrimiento hacia un
-                            nuevo comienzo. Cuestionar la realidad que tenemos es el principio clave para entender comportamientos
-                            que no benefician, nuestra vida y la de nuestros hijos. Al terminar el curso estarás dispuesta
-                            para tu segunda etapa, la motivación que viene con el descubrimiento de tus pasiones y tus fortalezas.
-                        </p>
-                        <a href="#" class="btnClub">ÚNETE AL CURSO</a>
+                        <h4 data-translate="curso_contenido"></h4>
+                        <p class="textInfluencia" data-translate="curso_info"></p>
+                        <a href="<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'https://www.meetup.com/es-ES/Cairns-single-mums-Meetup/': '#' ?>" class="btnClub" data-translate="curso_boton"></a>
                     </div>
                     <div class="curso1">
                         <div class="containerBienvenidaClub">
@@ -100,6 +93,10 @@
             </div>
         </div>
     </div>
+
+    <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'es'): ?>
+    
+    <!-- ONLY IN SPANISH -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 containerVideoCursos">
@@ -109,7 +106,6 @@
             </div>
         </div>
     </div>
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 containerClubMiembros">
@@ -140,7 +136,6 @@
             </div>
         </div>
     </div>
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 containerClubMiembros">
@@ -163,7 +158,6 @@
             </div>
         </div>
     </div>
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 containerVideoCursos">
@@ -173,6 +167,9 @@
             </div>
         </div>
     </div>
+    <!-- END ONLY IN SPANISH -->
+
+    <?php endif; ?>
 
     <div class="container-fluid">
         <div class="row">
