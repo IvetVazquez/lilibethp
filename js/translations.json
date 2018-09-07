@@ -471,6 +471,10 @@
         "es": "¡ QUIERO SABER MÁS !",
         "en": "I WANT TO KNOW MORE !" 
     },
+    "conferencias_15_boton": {
+        "es": "OBTÉN TU BOLETO",
+        "en": "GET YOUR TICKET" 
+    },
     "SECCION_CONTACTO": {
         "es": "home",
         "en": "home" 
