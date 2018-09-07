@@ -107,12 +107,12 @@
                             <img src="./img/eventodo2.png">
                         </div>
                     </div>
-                    <hr class="hrConferencias">
-                    <form class="form-inline formInscripcion" action="https://ww2.creativet.net/home">
+                    <form class="form-inline formInscripcion" action="https://www.facebook.com/groups/1007559569392241/">
                         <div class="containerBtnInscripcion">
-                            <button type="submit" class="btn btn-primary btnInscripcion" data-translate="conferencias_14_boton"></button>
+                            <button type="submit" class="btn btn-primary btnInscripcion" data-translate="conferencias_15_boton"></button>
                         </div>
                     </form>
+                    <hr class="hrConferencias">
                 </div>
             </div>
         </div>
