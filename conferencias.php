@@ -89,7 +89,7 @@
                             <h6 data-translate="conferencias_4"></h6>
                         </div>
                         <div class="imagenEvento1">
-                            <img src="./img/evento1.png">
+                            <!--img src="./img/evento1.png"-->
                         </div>
                         <div class="descripcionEvento1">
                             <p class="titleDescripcionEvento" data-translate="conferencias_3"></p>
