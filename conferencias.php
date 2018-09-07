@@ -88,9 +88,9 @@
                             <h3 class="dia">29</h3>
                             <h6 data-translate="conferencias_4"></h6>
                         </div-->
-                        <!--div class="imagenEvento1">
-                            <img src="./img/evento1.png">
-                        </div-->
+                        <div class="imagenEvento1">
+                            <img src="./img/evento3.png">
+                        </div>
                         <div class="descripcionEvento1">
                             <h3 class="dia">29</h3>
                             <h6 data-translate="conferencias_4"></h6>
