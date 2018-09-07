@@ -84,14 +84,16 @@
                 <h4 data-translate="conferencias_2"></h4>
                 <div class="containerCalendario">
                     <div class="evento1">
-                        <div class="diaEvento1">
+                        <!--div class="diaEvento1">
                             <h3 class="dia">29</h3>
                             <h6 data-translate="conferencias_4"></h6>
-                        </div>
-                        <div class="imagenEvento1">
-                            <!--img src="./img/evento1.png"-->
-                        </div>
+                        </div-->
+                        <!--div class="imagenEvento1">
+                            <img src="./img/evento1.png">
+                        </div-->
                         <div class="descripcionEvento1">
+                            <h3 class="dia">29</h3>
+                            <h6 data-translate="conferencias_4"></h6>
                             <p class="titleDescripcionEvento" data-translate="conferencias_3"></p>
                             <p class="contentDescripcionEvento">
                                 <strong data-translate="conferencias_5"></strong> <span data-translate="conferencias_6"></span> </p>
