@@ -107,7 +107,7 @@
                             <img src="./img/eventodo2.png">
                         </div>
                     </div>
-                    <form class="form-inline formInscripcion" action="https://www.facebook.com/groups/1007559569392241/">
+                    <form class="form-inline formInscripcion" action="https://bit.ly/2MTn3xL">
                         <div class="containerBtnInscripcion">
                             <button type="submit" class="btn btn-primary btnInscripcion" data-translate="conferencias_15_boton"></button>
                         </div>
