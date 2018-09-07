@@ -108,6 +108,11 @@
                         </div>
                     </div>
                     <hr class="hrConferencias">
+                    <form class="form-inline formInscripcion" action="https://ww2.creativet.net/home">
+                        <div class="containerBtnInscripcion">
+                            <button type="submit" class="btn btn-primary btnInscripcion" data-translate="conferencias_14_boton"></button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
