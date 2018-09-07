@@ -85,7 +85,7 @@
                 <div class="containerCalendario">
                     <div class="evento1">
                         <div class="diaEvento1">
-                            <img src="./img/evento3.png">
+                            <img src="./img/evento1.png">
                             <!--h3 class="dia">29</h3>
                             <h6 data-translate="conferencias_4"></h6-->
                         </div>
