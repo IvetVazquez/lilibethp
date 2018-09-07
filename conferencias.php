@@ -96,7 +96,7 @@
                             <p class="contentDescripcionEvento">
                                 <strong data-translate="conferencias_5"></strong> <span data-translate="conferencias_6"></span> </p>
                             <p class="contentDescripcionEvento">
-                                <strong data-translate="conferencias_7"></strong> Cairns, Australia</p>
+                                <strong data-translate="conferencias_7"></strong> Dragonfly Zen, Level 1 - 142-144 Grafton Street</p>
                             <p class="contentDescripcionEvento">
                                 <strong data-translate="conferencias_8"></strong> <span data-translate="conferencias_9"></span> </p>
                         </div>
