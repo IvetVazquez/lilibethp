@@ -95,7 +95,11 @@
           <div class="clubInfluencia">
             <h4 data-translate="titulo_libro_1"></h4>
             <p class="textInfluencia" data-translate="contenido_libro_1"></p>
-            <a href="https://www.amazon.com.au/Me-duele-perder-superar-sufrimiento-ebook/dp/B07CYTK29R" class="btnClub" data-translate="boton_libro"></a>
+            <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'en'): ?>
+              <a href="https://www.amazon.com.au/HURTS-LOSE-CONFRONT-WITHOUT-EMOTIONAL-ebook/dp/B07D2B5Y6B" class="btnClub" data-translate="boton_libro"></a>
+            <?php else: ?>
+              <a href="https://www.amazon.com.au/Me-duele-perder-superar-sufrimiento-ebook/dp/B07CYTK29R" class="btnClub" data-translate="boton_libro"></a>
+            <?php endif ?>
           </div>
         </div>
       </div>
@@ -120,23 +124,25 @@
     </div>
   </div>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 containerClubMiembros">
-        <div class="containerCopyMiembros">
-          <div class="libro3">
-            <div class="containerBienvenidaClub">
+  <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'es'): ?>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 containerClubMiembros">
+          <div class="containerCopyMiembros">
+            <div class="libro3">
+              <div class="containerBienvenidaClub">
+              </div>
             </div>
-          </div>
-          <div class="clubInfluencia">
-            <h4 data-translate="titulo_libro_3"></h4>
-            <p class="textInfluencia" data-translate="contenido_libro_3"></p>
-            <a href="https://www.amazon.com/Nuevo-Despertar-AUTOCURACIÓN-Aprende-Spanish-ebook/dp/B01FYYG3D4" class="btnClub" data-translate="boton_libro"></a>
+            <div class="clubInfluencia">
+              <h4 data-translate="titulo_libro_3"></h4>
+              <p class="textInfluencia" data-translate="contenido_libro_3"></p>
+              <a href="https://www.amazon.com/Nuevo-Despertar-AUTOCURACIÓN-Aprende-Spanish-ebook/dp/B01FYYG3D4" class="btnClub" data-translate="boton_libro"></a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  <?php endif ?>
 
   <div class="container-fluid">
       <div class="row">
