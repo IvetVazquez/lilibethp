@@ -23,6 +23,10 @@
         "es": "&nbsp; Libros &nbsp;/&nbsp;",
         "en": "&nbsp; Books &nbsp;/&nbsp;"
     },
+    "menu_coaching_footer": {
+        "es": "&nbsp; Coaching &nbsp;/&nbsp;",
+        "en": "&nbsp; Private Lessons &nbsp;/&nbsp;"
+    },
     "menu_acerca_de_top": {
         "es": "ACERCA DE MÍ",
         "en": "ABOUT ME" 
@@ -42,6 +46,10 @@
     "menu_libros_top": {
         "es": "LIBROS",
         "en": "BOOKS" 
+    },
+    "menu_coaching_top": {
+        "es": "COACHING",
+        "en": "PRIVATE LESSONS" 
     },
     "SECCION_HOME": {
         "es": "home",
@@ -101,15 +109,15 @@
     },
     "home_frase_1": {
         "es": "Te enseño a crear una vida abundante, próspera, empoderada para que conectes con tus hijos y contigo misma.",
-        "en": "I teach you to create an abundant, prosperous, empowering life so that you connect with your children and with yourself." 
+        "en": "I love to see mums to rebirth, connect and create much better lives and feel peace and harmony in their lives." 
     },
     "home_titulo_mision": {
         "es": "MI MISIÓN DE VIDA",
-        "en": "MY  MISSION" 
+        "en": "MY MISSION" 
     },
     "home_mision": {
         "es": "Mi misión es ayudar a madres de habla hispana y en ingles a mejorar sus vidas como madres en áreas de la salud, de motivación, de conexión con sus hijos y en sus relaciones con sus ex-parejas.",
-        "en": "My mission is to help Spanish and English-speaking mothers improve their lives as mothers in the areas of health, motivation, connection with their children and in their relationships with their ex-partners." 
+        "en": "I help you to improve your confidence, motivation, self-esteem and remove the blame and then improve relationships. I am an expert in overcoming duels." 
     },
     "home_acerca_1": {
         "es": "Tu Coach",
@@ -129,23 +137,23 @@
     },
     "home_ayuda_2": {
         "es": "Pase por lo mismo que tú",
-        "en": "I undesrtand you!" 
+        "en": "I will guide you mum, you're not alone" 
     },
     "home_ayuda_3": {
         "es": "Tiene que ver con mi propia vida. Cuando empecé a ver una nueva luz en mi vida, fue cuando decidí ser feliz. ¿Cómo empieza la luz de una madre soltera a verse reflejada? Cuando somos felices primero nosotras como madres. En la tormenta hallarás el terreno para moverte, para encontrar el camino.",
-        "en": "It has to do with my own life. When I began to see a new light in my life, it was when I decided to be happy. How does the light of a single mother begin to be reflected? When we are happy, first we as mothers. In the storm you will find the ground to move, to find the way." 
+        "en": "When I began to see a new light in my life, I decided to be happy. How does the light of a single mother begin to be reflected? When she is happy. In the storm you will find the ground to move." 
     },
     "home_ayuda_4": {
         "es": "Estando en tinieblas obviamente no podemos encontrar la luz. Los caminos se abren y aquella luz cuando dejamos que el miedo se vaya, dejamos entrar a nuestra vida a algo que se llama amor, y el amor está en ti. La mente del amor es Dios. Por consiguiente, la confusión hay que sentirla para poder acercarnos más al amor.",
-        "en": "Obviously we cannot find light in darkness. The roads open when that light let the fear go and let us enter our life to something called love, and love is in you. The mind of love is God. Therefore, confusion must be felt in order to get closer to love." 
+        "en": "We cannot find light in darkness. The roads open when that light let the fear go and let us enter our life to something called love, and love is in you. The mind of love is God. Therefore, confusion must be felt in order to get closer to love." 
     },
     "home_testimonios": {
         "es": "TESTIMONIALES",
-        "en": "TESTIMONIES" 
+        "en": "TESTIMONIALS" 
     },
     "home_testimonio_1": {
         "es": "Querida Lili. Quiero decirte que doy gracias a la vida por haberte conocido, pues al leer tu libro tus palabras me dieron la paz que necesitaba. En este momento, estoy pasando por muchas situaciones que me han llevado al límite de mis emociones, pero al leerte y escucharte en los videos que publicas en tu red, me haces sentir la tranquilidad que tanto necesito. Creo firmemente que eres un ser de luz, una guía que llegó a mi vida en un momento donde necesitaba que alguien me abriera los ojos y me hiciera darme cuenta de todo lo bueno que hay a mi alrededor, pero sobre todo necesitaba a una persona que permitiera identificar el duelo que tanto había negado y que no quería pasar.",
-        "en": "Dear Lili. I want to tell you that I give many thanks in my life for having known you, because when you read your book, your words gave me the peace I needed. At this moment, I am going through many situations that have taken me to the limit of my emotions, but by reading and listening to you in the videos that you post on your network, you make me feel the tranquility that I need so much. I firmly believe that you are a human being of light, a guide that came to my life in a moment where I needed someone to open my eyes and make me realize all the good things that are around me, but above all I needed a person who let me identify the grief I had so much denied and did not want to go through." 
+        "en": "Dear Lili. I want to tell you that I give many thanks in my life for having known you, because when I read the book, your words gave me the peace I needed. At this moment, I am going through many situations that have taken me to the limit of my emotions, but by reading and listening to you in the videos that you post on your network, you make me feel the tranquility that I need so much. I firmly believe that you are a human being of light, a guide that came to my life in a moment where I needed someone to open my eyes and make me realize all the good things that are around me, but above all I needed a person who let me identify the grief I had so much denied and did not want to go through." 
     },
     "home_testimonio_2": {
         "es": "Quiero darte las gracias por tu gran ayuda, me tuviste mucha paciencia y te lo agradezco. Me siento mucho mejor, te has convertido en una persona muy especial en mi vida.",
@@ -185,7 +193,7 @@
     },
     "Acerca_de_mi_2": {
         "es": "Qué alegría verte por aquí",
-        "en": "What a joy to see you here"
+        "en": ""
     },
     "Acerca_de_mi_3": {
         "es": "Soy Lilibeth Pinto",
@@ -197,15 +205,15 @@
     },
     "Acerca_de_mi_5": {
         "es": "Con los años he aprendido que no hay obstáculo más grande, que el no poder permitirnos cumplir nuestras metas. He visto a muchas personas renunciar a sus sueños por un simple mal momento o porque no se han preparado o educado para cierta actividad y le dan punto final en su mente. Nuestra mente posee todo y nos encamina hasta donde lo queremos. Si estás enfermo te llevará hasta el punto de sentirte sano, es sólo cuestión que la entrenes para ello, no es difícil, tú tienes el poder de hacerlo, no tienes limitaciones más que mentales.",
-        "en": "Over the years I have learned that there is no bigger obstacle than that we can not afford to meet our goals. I have seen many people give up their dreams for a simple bad time or because they have not been prepared or educated for a certain activity and they put an end to their mind. Our mind has everything and it guides us to where we want it. If you are sick, it will take you to the point of feeling healthy, it is only a question that you train for it, it is not difficult, you have the power to do it, you have no limitations other than mental."
+        "en": "Over the years I have learned that there is no bigger obstacle, we cannot afford to meet our goals. I have seen many people give up their dreams for a simple bad time or because they have not been prepared or educated for a certain activity and they put an end to their mind. Our mind has everything and it guides us to where we want it. If you are sick, it will take you to the point of feeling healthy, it is only a question that you train for it, it is not difficult, you have the power to do it, you have no limitations other than mental."
     },
     "Acerca_de_mi_6": {
         "es": "Mi proceso como entrenadora de mujeres y de madres ha sido muy enriquecedor porque en los últimos 6 meses he estado escribiendo y preparando nuevas ideas; esperando la oportunidad para lanzarme como conferencista. ",
-        "en": "My process as a coach of women and mothers has been very enriching because in the last 6 months I have been writing and preparing new ideas; waiting for the opportunity to launch as a speaker."
+        "en": "My process as a transformation guide of women and mothers."
     },
     "Acerca_de_mi_7": {
         "es": "Se que todo es posible para las madres que tenemos hijos y que queremos ver nuestro propósito de vida hecho realidad. Las personas podríamos soñar tan alto que solo nos faltarían las alas, no nos limitemos a pensar que solo unas o unos pocos pueden, todo lo contrario, la magia de ser mujer, madre, hija, abuela es solo el nombre pero el legado para tus hijos es lo que importa. ¡Tú eres tú ejemplo!",
-        "en": "I know that everything is possible for mothers who have children and that we want to see our purpose of life come true. People could dream so high that only our wings would be missing, do not limit ourselves to thinking that only one or a few can, on the contrary, the magic of being a woman, mother, daughter, grandmother, is just the name but the legacy for your children is what matters. You are their role model!"
+        "en": "I know everything is possible for mothers who have children and that we want to see our purpose of life come true. Do not limit ourselves to thinking that only one or a few can, on the contrary, the magic of being a woman, mother, daughter, grandmother, is just the name but the legacy for your children is what matters."
     },
     "Acerca_de_mi_8": {
         "es": "MI FORMACIÓN",
@@ -229,7 +237,7 @@
     },
     "Acerca_de_mi_boton_text": {
         "es": "¿Quieres comenzar a volar alto?",
-        "en": "Do you want to start flying high?" 
+        "en": "Do you want to start flying higher?"
     },
     "Acerca_de_mi_boton": {
         "es": "DESCUBRE COMO PUEDO AYUDARTE",

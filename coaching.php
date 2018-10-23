@@ -49,7 +49,7 @@
                             <a class="nav-link" href="./about.php" data-translate="menu_acerca_de_top"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">COACHING</a>
+                            <a class="nav-link" href="#" data-translate="menu_coaching_top"></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./conferencias.php" data-translate="menu_conferencias_top"></a>
@@ -308,7 +308,7 @@
                         <div class="menuFooter">
                             <a href="./index.php">Home &nbsp;/&nbsp;</a>
                             <a href="./about.php" data-translate="menu_acerca_de_footer"></a>
-                            <a href="#">&nbsp; Coaching &nbsp;/&nbsp;</a>
+                            <a href="#" data-translate="menu_coaching_footer"></a>
                             <a href="./conferencias.php" data-translate="menu_conferencias_footer"></a>
                             <a href="./cursos.php" data-translate="menu_cursos_footer"></a>
                             <a href="./blog/">&nbsp; Blog &nbsp;/&nbsp;</a>
