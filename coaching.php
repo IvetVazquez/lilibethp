@@ -118,7 +118,7 @@
         <div class="row">
             <div class="col-12 containerTrabajemosJuntas">
                 <div class="containerVideoTrabajemos">
-                    <iframe src="https://www.youtube.com/embed/JlVshNREzuQ" allowfullscreen></iframe>
+                    <iframe src="<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'https://jwp.io/s/jvyXTkKW': 'https://www.youtube.com/embed/JlVshNREzuQ' ?>" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

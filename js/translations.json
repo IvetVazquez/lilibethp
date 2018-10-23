@@ -9,7 +9,7 @@
     },
     "menu_conferencias_footer": {
         "es": "&nbsp; Conferencias &nbsp;/&nbsp;",
-        "en": "&nbsp; Conferences &nbsp;/&nbsp;" 
+        "en": "&nbsp; Info Sessions &nbsp;/&nbsp;" 
     },
     "menu_cursos_footer": {
         "es": "&nbsp; Cursos &nbsp;/&nbsp;",
@@ -33,7 +33,7 @@
     },
     "menu_conferencias_top": {
         "es": "CONFERENCIAS",
-        "en": "CONFERENCES" 
+        "en": "INFO SESSIONS" 
     },
     "menu_cursos_top": {
         "es": "CURSOS",
@@ -293,11 +293,11 @@
     },
     "Coaching_12": {
         "es": "CONOCE BIEN EN QUÉ SITUACIÓN TE ENCUENTRAS, SE PACIENTE TODO LLEVA SU PROPIO RITMO. LA MEJOR BATALLA ES LA QUE COMIENZAS GANANDO CON LA CABEZA.",
-        "en": "YOU HAVE KNOW WELL IN WHAT SITUATION YOU ARE, BE PATIENT BECAUSE EVERYTHING TAKES ITS TIME. THE BEST BATTLE IS THE ONE YOU BEGIN WINNING WITH YOUR HEAD." 
+        "en": "THE BEST BATTLE IS THE ONE YOU BEGIN WINNING WITH YOUR HEAD." 
     },
     "Coaching_13": {
         "es": "3 beneficios de vivir una experiencia de coaching",
-        "en": "3 benefits of living a coaching experience" 
+        "en": "3 BENEFITS OF LIVING A TRANSFORMATION EXPERIENCE" 
     },
     "Coaching_14": {
         "es": "Estos son los resultados que vas a vivir tras un proceso profundo de descubrimiento, visión y acción",
@@ -413,11 +413,11 @@
     },
     "Coaching_42": {
         "es": "¿AÚN TIENES PREGUNTAS O DUDAS?",
-        "en": "DO YOU STILL HAVE ANY QUESTIONS?" 
+        "en": "get information and for more help in info sessions" 
     },
     "Coaching_43": {
         "es": "CONTÁCTAME PERSONALMENTE AQUÍ",
-        "en": "CONTACT ME HERE" 
+        "en": "info sessions" 
     },
     "SECCION_CONFERENCIAS": {
         "es": "home",
@@ -429,23 +429,23 @@
     },
     "conferencias_2": {
         "es": "CONFERENCIAS",
-        "en": "CONFERENCES" 
+        "en": "INFO SESSIONS" 
     },
     "conferencias_3": {
         "es": "Transforma tu maternidad para tener hijos emocionalmente sanos",
         "en": "Transform your motherhood to have emotionally healthy children" 
     },
     "conferencias_4": {
-        "es": "Septiembre",
-        "en": "September" 
+        "es": "Noviembre",
+        "en": "November" 
     },
     "conferencias_5": {
         "es": "Fecha:",
         "en": "Date:" 
     },
     "conferencias_6": {
-        "es": "29 de Septiembre de 2018",
-        "en": "September 29, 2018" 
+        "es": "11 de Noviembre de 2018",
+        "en": "November 11, 2018" 
     },
     "conferencias_7": {
         "es": "Lugar:",
