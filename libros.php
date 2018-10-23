@@ -88,7 +88,7 @@
 
         <div class="containerCopyMiembros">
 
-          <div class="libro1">
+          <div class="libro1 <?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'libro1-english': '' ?>">
             <div class="containerBienvenidaClub">
             </div>
           </div>

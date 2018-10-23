@@ -1200,6 +1200,9 @@ body{
     align-items: center;
     margin-top: 16px;
 }
+.libro1-english{
+    background: url(../img/libro1-english.jpg) no-repeat center;
+}
 .libro2{
     width: 100vw;
     height: 300px;
