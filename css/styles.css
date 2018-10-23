@@ -1201,7 +1201,8 @@ body{
     margin-top: 16px;
 }
 .libro1-english{
-    background: url(../img/libro1-english.jpg) no-repeat center;
+    /** unsaved change **/
+    background: url(../img/libro1-english.png) no-repeat center;
 }
 .libro2{
     width: 100vw;
