@@ -162,7 +162,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 video">
-                <iframe src="https://www.youtube.com/embed/nwwzxwz0UBM" allowfullscreen></iframe>
+                <iframe src="<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'https://jwp.io/s/IbaqC26X': 'https://www.youtube.com/embed/nwwzxwz0UBM' ?>" allowfullscreen></iframe>
             </div>
         </div>
     </div>
