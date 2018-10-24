@@ -117,7 +117,11 @@
           <div class="clubInfluencia">
             <h4 data-translate="titulo_libro_2"></h4>
             <p class="textInfluencia" data-translate="contenido_libro_2"></p>
-            <a href="https://www.amazon.com/CANCER-SIN-MIEDO-visión-Spanish-ebook/dp/B06WD67JSY" class="btnClub" data-translate="boton_libro"></a>
+            <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'en'): ?>
+              <a href="https://www.amazon.com/FORTUNA-SER-MADRE-Transforma-emocionalmente-ebook/dp/B07HJVSKHK" class="btnClub" data-translate="boton_libro"></a>
+            <?php else: ?>
+              <a href="https://www.amazon.com/FORTUNA-SER-MADRE-Transforma-emocionalmente-ebook/dp/B07HJVSKHK" class="btnClub" data-translate="boton_libro"></a>
+            <?php endif ?>
           </div>
         </div>
       </div>
@@ -137,6 +141,26 @@
               <h4 data-translate="titulo_libro_3"></h4>
               <p class="textInfluencia" data-translate="contenido_libro_3"></p>
               <a href="https://www.amazon.com/Nuevo-Despertar-AUTOCURACIÓN-Aprende-Spanish-ebook/dp/B01FYYG3D4" class="btnClub" data-translate="boton_libro"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <?php endif ?>
+
+  <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'es'): ?>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 containerClubMiembros">
+          <div class="containerCopyMiembros">
+            <div class="libro4">
+              <div class="containerBienvenidaClub">
+              </div>
+            </div>
+            <div class="clubInfluencia">
+              <h4 data-translate="titulo_libro_4"></h4>
+              <p class="textInfluencia" data-translate="contenido_libro_4"></p>
+              <a href="https://www.amazon.com/CANCER-SIN-MIEDO-visión-Spanish-ebook/dp/B06WD67JSY" class="btnClub" data-translate="boton_libro"></a>
             </div>
           </div>
         </div>

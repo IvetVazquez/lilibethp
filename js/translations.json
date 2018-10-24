@@ -544,18 +544,26 @@
         "en": "BUY NOW"
     },
     "titulo_libro_2": {
+        "es": "La fortuna de ser madre",
+        "en": "Lucky mum" 
+    },
+    "contenido_libro_2": {
+        "es": "COPY de La fortuna de ser madre",
+        "en": "Lucky mum COPY" 
+    },
+    "titulo_libro_3": {
         "es": "CANCER SIN MIEDO: Una visión no antes vista",
         "en": "CANCER WITHOUT FEAR: A vision not seen before" 
     },
-    "contenido_libro_2": {
+    "contenido_libro_3": {
         "es": "Este libro está hecho con todo mi amor para ustedes, y como lo hice con mi otro libro Un Nuevo Despertar la Autocuración, es un trabajo bien hecho con mucho respeto para ti como lector y ésta vez incluye tanto hombres como mujeres que quieran conocer un poco más, sobre lo que el cáncer nos trae, pero muchas veces somos más que un cuerpo, somos un espíritu el cual debe ser tratado como tal, con sensibilidad y con dulzura.",
         "en": "This book is made with all my love for you, and as I did with my other book A New Awakening Self-healing, it is a job well done with great respect for you as a reader and this time includes both men and women who want to know a little more, about what cancer brings us, but many times we are more than a body, we are a spirit which must be treated as such, with sensitivity and with sweetness." 
     },
-    "titulo_libro_3": {
+    "titulo_libro_4": {
         "es": "Un Nuevo Despertar: la autocuración, Aprende lo que pocos saben y siente el poder",
         "en": "A New Awakening: self-healing, Learn what few know and feel the power" 
     },
-    "contenido_libro_3": {
+    "contenido_libro_4": {
         "es": "Un nuevo despertar La AUTOCURACIÓN es un libro que está dedicado a mujeres entre los 25 y 50 años que tiene como objetivo mostrar una realidad que pocas personas saben en lo que se refiere a curación sin medicamentos; sino una curación por uno mismo y para que las personas se enteren de mi propia sanación. A través de historias, frases, técnicas, recetas y otras maravillosas estrategias.",
         "en": "A new awakening The AUTOCURACIÓN is a book that is dedicated to women between 25 and 50 years old whose objective is to show a reality that few people know in regards to healing without medication; but a healing for oneself and for people to know about my own healing. Through stories, phrases, techniques, recipes and other wonderful strategies." 
     },

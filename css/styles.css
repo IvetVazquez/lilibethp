@@ -733,21 +733,6 @@ body{
     margin: 0;
 }
 
-
-/*.testimonial .description:before{
-    content: "\f10d";
-    font-family: 'fontawesome';
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    position: absolute;
-    top: -50px;
-    left: 46%;
-    font-size: 20px;
-    color: #fa7921;
-    line-height:33px;
-    border: 2px solid #fa7921;
-}*/
 .owl-theme .owl-controls .owl-page span{
     background: #fff;
     border: 2px solid #0c4767;
@@ -1193,7 +1178,7 @@ body{
 .libro1{
     width: 100vw;
     height: 300px;
-    background: url(../img/libro1.jpg) no-repeat center;
+    background: url(../img/libro1.png) no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -1207,24 +1192,37 @@ body{
 .libro2{
     width: 100vw;
     height: 300px;
-    background: url(../img/libro2.jpg) no-repeat center;
+    background: url(../img/libro2.png) no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 16px;
+}
+.libro2-english{
+    /** unsaved change **/
+    background: url(../img/libro2-english.png) no-repeat center;
 }
 .libro3{
     width: 100vw;
     height: 300px;
-    background: url(../img/libro3.jpg) no-repeat center;
+    background: url(../img/libro3.png) no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 16px;
 }
-
+.libro4{
+    width: 100vw;
+    height: 300px;
+    background: url(../img/libro4.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
 
 
 @media (min-width:768px) { 
@@ -1253,22 +1251,22 @@ body{
 	margin-top: 0;
 }
 
- #carouselExample .carousel-inner .active,
-   #carouselExample .carousel-inner .active + .carousel-item,
-     #carouselExample .carousel-inner .active + .carousel-item + .carousel-item,
-     #carouselExample .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+    #carouselExample .carousel-inner .active,
+    #carouselExample .carousel-inner .active + .carousel-item,
+    #carouselExample .carousel-inner .active + .carousel-item + .carousel-item,
+    #carouselExample .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
         display: block;
     }
     
-.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
-.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
     .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
         transition: none;
     }
     
-   #carouselExample .carousel-inner .carousel-item-next,
-  #carouselExample .carousel-inner .carousel-item-prev {
+    #carouselExample .carousel-inner .carousel-item-next,
+    #carouselExample .carousel-inner .carousel-item-prev {
       position: relative;
       transform: translate3d(0, 0, 0);
     }
@@ -1319,7 +1317,7 @@ body{
     }
 
 
-.testimonials{
+    .testimonials{
         font-size: 1em;
     }
     .testimonials .test-body{
@@ -1457,7 +1455,7 @@ body{
         padding: 16px;
     }
 	
-.containerCalendario{
+    .containerCalendario{
         padding-top: 32px;
         width: 90%;
         margin: 0 auto;
@@ -1484,28 +1482,30 @@ body{
         width: 250px;
     }
 
-  .containerCursosThumbnails .libro1, .containerCursosThumbnails .libro2, .containerCursosThumbnails .libro3{
+    .containerCursosThumbnails .libro1, .containerCursosThumbnails .libro2, .containerCursosThumbnails .libro3, .containerCursosThumbnails .libro4{
         width: 250px;
     }
 	
-.libro1{
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-.libro2{
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.libro3{
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-	
-		
+    .libro1{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .libro2{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .libro3{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .libro4{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
@@ -1724,7 +1724,7 @@ body{
     }
 
 
-    .libro1, .libro2, .libro3{
+    .libro1, .libro2, .libro3, .libro4{
         width: 30%;
     }	
     .containerContacto{
@@ -1817,11 +1817,7 @@ body{
         margin-top: 76px;
     }
 	
-    .libro1, .libro2, .libro3{
+    .libro1, .libro2, .libro3, .libro4{
         width: 20%;
-    }
-
-	
+    }	
 }
-
-
