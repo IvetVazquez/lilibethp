@@ -24,7 +24,7 @@
         "en": "&nbsp; Books &nbsp;/&nbsp;"
     },
     "menu_coaching_footer": {
-        "es": "&nbsp; Coaching &nbsp;/&nbsp;",
+        "es": "&nbsp; Sesiones Privadas &nbsp;/&nbsp;",
         "en": "&nbsp; Private Lessons &nbsp;/&nbsp;"
     },
     "menu_acerca_de_top": {
@@ -48,7 +48,7 @@
         "en": "BOOKS" 
     },
     "menu_coaching_top": {
-        "es": "COACHING",
+        "es": "SESIONES PRIVADAS",
         "en": "PRIVATE LESSONS" 
     },
     "SECCION_HOME": {
