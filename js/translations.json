@@ -8,7 +8,7 @@
         "en": "&nbsp; About Me &nbsp;/&nbsp;" 
     },
     "menu_conferencias_footer": {
-        "es": "&nbsp; Conferencias &nbsp;/&nbsp;",
+        "es": "&nbsp; Eventos en Linea &nbsp;/&nbsp;",
         "en": "&nbsp; Info Sessions &nbsp;/&nbsp;" 
     },
     "menu_cursos_footer": {
@@ -32,7 +32,7 @@
         "en": "ABOUT ME" 
     },
     "menu_conferencias_top": {
-        "es": "CONFERENCIAS",
+        "es": "EVENTOS EN LINEA",
         "en": "INFO SESSIONS" 
     },
     "menu_cursos_top": {
