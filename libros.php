@@ -59,7 +59,7 @@
               </li>
             <?php endif ?>
             <li class="nav-item">
-              <a class="nav-link" href="./blog/">BLOG</a>
+              <a class="nav-link" href="#">RECURSOS GRATUITOS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./contacto.php" data-translate="menu_contacto_top"></a>
@@ -184,7 +184,7 @@
                           <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'es'): ?>
                                 <a href="./cursos.php" data-translate="menu_cursos_footer"></a>
                             <?php endif ?>
-                          <a href="./blog/">&nbsp; Blog &nbsp;/&nbsp;</a>
+                          <a href="#">&nbsp; Recursos Gratuitos &nbsp;/&nbsp;</a>
                           <a href="./contacto.php" data-translate="menu_contacto_footer"></a>
                           <a href="#" data-translate="menu_libros_footer"></a>
                       </div>

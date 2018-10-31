@@ -57,7 +57,7 @@
                             </li>
                         <?php endif ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="./blog/">BLOG</a>
+                            <a class="nav-link" href="#">RECURSOS GRATUITOS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./contacto.php" data-translate="menu_contacto_top"></a>
