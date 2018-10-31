@@ -85,7 +85,7 @@
                     <div class="clubInfluencia">
                         <h4 data-translate="curso_contenido"></h4>
                         <p class="textInfluencia" data-translate="curso_info"></p>
-                        <a href="<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'https://www.meetup.com/es-ES/Cairns-single-mums-Meetup/': '#' ?>" class="btnClub" data-translate="curso_boton"></a>
+                        <a href="<?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'https://www.meetup.com/es-ES/Cairns-single-mums-Meetup/': 'https://madre-soltera-escuela.teachable.com/p/madre-magnetica-y-con-poder' ?>" class="btnClub" data-translate="curso_boton"></a>
                     </div>
                     <div class="curso1">
                         <div class="containerBienvenidaClub">
@@ -143,14 +143,14 @@
             <div class="col-12 containerClubMiembros">
                 <div class="containerCopyMiembros">
                     <div class="clubInfluencia">
-                        <h4>ADIÓS A EL DOLOR, SIN SUFRIMIENTO</h4>
+                        <h4>SUPERAR LOS DUELOS</h4>
                         <p class="textInfluencia">Este curso es el alma de mi vida, con el aprendí que la vida es un soplo y que puedo encontrar mi
                             misión y visión de vida, romper con alguien, la muerte, las crisis existen y no dejaran de existir,
                             es un despertar a la conciencia que tenemos poco tiempo para sufrir y que más bien la gratitud,
                             las experiencias pasadas son un regalo para crecer, para nuevas oportunidades y nuevos amores,
                             más experiencia y llevar el legado de nuestros seres muertos, para trascender en esta vida terrenal.
                         </p>
-                        <a href="https://madre-soltera-escuela.teachable.com/p/madre-soltera-extraordinaria-curso/" class="btnClub">ÚNETE AL CURSO</a>
+                        <a href="https://madre-soltera-escuela.teachable.com/p/curso-aliviar-el-dolor-por-perdida" class="btnClub">ÚNETE AL CURSO</a>
                     </div>
                     <div class="curso3">
                         <div class="containerBienvenidaClub">

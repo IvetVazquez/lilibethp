@@ -363,7 +363,7 @@
                         // sign up new member success
                         var link = document.createElement('a');
                         document.body.appendChild(link);
-                        link.href = "./assets/GUIA-3-PASOS.pdf";
+                        link.href = "https://www.tumagiaytupoder.com/gracias-por-registro-mt/";
                         link.click();
                     })
                     .fail(function (err) {
