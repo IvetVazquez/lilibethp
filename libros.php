@@ -120,7 +120,7 @@
             <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'en'): ?>
               <a href="https://www.amazon.com/FORTUNA-SER-MADRE-Transforma-emocionalmente-ebook/dp/B07HJVSKHK" class="btnClub" data-translate="boton_libro"></a>
             <?php else: ?>
-              <a href="https://www.amazon.com/FORTUNA-SER-MADRE-Transforma-emocionalmente-ebook/dp/B07HJVSKHK" class="btnClub" data-translate="boton_libro"></a>
+              <a href="https://amzn.to/2pywDrO" class="btnClub" data-translate="boton_libro"></a>
             <?php endif ?>
           </div>
         </div>
