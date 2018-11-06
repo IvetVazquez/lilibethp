@@ -113,13 +113,11 @@
             <div class="col-12 containerClubMiembros">
                 <div class="containerCopyMiembros">
                     <div class="clubInfluencia">
-                        <h4>ABRIENDO LAS PUERTAS AL AMOR</h4>
-                        <p class="textInfluencia">Este curso es para las madres poderosas que quieren volver a enamorarse de un hombre de verdad. El
-                            reconocer que el amor llega en el momento en que sabemos con certeza que lo es, y sobre todo
-                            cuando mi corazón, alma, cuerpo y mente están en congruencia para recibir el amor. Abriendo las
-                            puertas al amor es la extensión de ti misma en un plano muy profundo en el que tu vida es perfecta.
+                        <h4>audiolibro: GUÍA DE LA MADRE SOLTERA</h4>
+                        <p class="textInfluencia">
+                            EL PASO A PASO: COMO APRENDER A USAR TUS LECCIONES DE VIDA PARA CONSTRUIR UNA NUEVA VIDA FELIZ
                         </p>
-                        <a href="#" class="btnClub">ÚNETE AL CURSO</a>
+                        <a href="https://soundcloud.com/lilibeth-pinto-125601672/sets/guia-madre-soltera-el-paso-a/s-2P1ak" class="btnClub">ÚNETE AL CURSO</a>
                     </div>
                     <div class="curso2">
                         <div class="containerBienvenidaClub">
