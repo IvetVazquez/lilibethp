@@ -143,14 +143,18 @@
             <div class="col-12 containerClubMiembros">
                 <div class="containerCopyMiembros">
                     <div class="clubInfluencia">
-                        <h4>SUPERAR LOS DUELOS</h4>
-                        <p class="textInfluencia">Este curso es el alma de mi vida, con el aprendí que la vida es un soplo y que puedo encontrar mi
-                            misión y visión de vida, romper con alguien, la muerte, las crisis existen y no dejaran de existir,
-                            es un despertar a la conciencia que tenemos poco tiempo para sufrir y que más bien la gratitud,
-                            las experiencias pasadas son un regalo para crecer, para nuevas oportunidades y nuevos amores,
-                            más experiencia y llevar el legado de nuestros seres muertos, para trascender en esta vida terrenal.
+                        <h4>EL RENACER DE UNA MADRE</h4>
+                        <p class="textInfluencia">
+                            En el encuentro con la pérdida de un ser que amamos durante un tiempo, siempre habrá que sentirlo,
+                            vivirlo para poder renacer. Cuando hablamos a qué es el duelo, nos referimos a un dolor grande,
+                            porque estabamos acostumbrados a ciertas dinamicas con aquella persona.
+                            Sentimos que su paso nos ha dejado una huella que no se puede superar facilmente.
+                            Creo que después de haber escrito un libro sobre el duelo basado en mi propia experiencia
+                            y la de otras personas y haciendo este curso, se que todo se puede superar.
+                            Hemos sido enseñados a depender del mundo que nos rodea y por eso sufrimos.
+                            Necesitamos que esa persona o situación no ocurra para que yo sea feliz.
                         </p>
-                        <a href="https://madre-soltera-escuela.teachable.com/p/curso-aliviar-el-dolor-por-perdida" class="btnClub">ÚNETE AL CURSO</a>
+                        <a href="https://madre-soltera-escuela.teachable.com/p/renacer-de-una-madre" class="btnClub">ÚNETE AL CURSO</a>
                     </div>
                     <div class="curso3">
                         <div class="containerBienvenidaClub">

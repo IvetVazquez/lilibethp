@@ -140,7 +140,7 @@
             <div class="clubInfluencia">
               <h4 data-translate="titulo_libro_3"></h4>
               <p class="textInfluencia" data-translate="contenido_libro_3"></p>
-              <a href="https://www.amazon.com/Nuevo-Despertar-AUTOCURACIÓN-Aprende-Spanish-ebook/dp/B01FYYG3D4" class="btnClub" data-translate="boton_libro"></a>
+              <a href="https://www.amazon.com/CANCER-SIN-MIEDO-visión-Spanish-ebook/dp/B06WD67JSY" class="btnClub" data-translate="boton_libro"></a>
             </div>
           </div>
         </div>
@@ -160,7 +160,7 @@
             <div class="clubInfluencia">
               <h4 data-translate="titulo_libro_4"></h4>
               <p class="textInfluencia" data-translate="contenido_libro_4"></p>
-              <a href="https://www.amazon.com/CANCER-SIN-MIEDO-visión-Spanish-ebook/dp/B06WD67JSY" class="btnClub" data-translate="boton_libro"></a>
+              <a href="https://www.amazon.com/Nuevo-Despertar-AUTOCURACIÓN-Aprende-Spanish-ebook/dp/B01FYYG3D4" class="btnClub" data-translate="boton_libro"></a>
             </div>
           </div>
         </div>
