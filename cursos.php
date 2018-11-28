@@ -113,11 +113,11 @@
             <div class="col-12 containerClubMiembros">
                 <div class="containerCopyMiembros">
                     <div class="clubInfluencia">
-                        <h4>audiolibro: GUÍA DE LA MADRE SOLTERA</h4>
+                        <h4>Audiolibro: AÚN SE PUEDE SER FELIZ CON HIJOS</h4>
                         <p class="textInfluencia">
-                            EL PASO A PASO: COMO APRENDER A USAR TUS LECCIONES DE VIDA PARA CONSTRUIR UNA NUEVA VIDA FELIZ
+                           Curso en audio para entender tu proceso en tu vida de madre soltera. Es una guía completa donde aprenderás que no estás sola, que eres un ejemplo y que tu vida es una gran experiencia para otras personas. Siente el orgullo de ser madre y de seguir adelante a pesar de los retos.
                         </p>
-                        <a href="https://soundcloud.com/lilibeth-pinto-125601672/sets/guia-madre-soltera-el-paso-a/s-2P1ak" class="btnClub">ÚNETE AL CURSO</a>
+                        <a href="https://www.tumagiaytupoder.com/audio-libro-aun-se-puede-ser-feliz-con-hijos/?fbclid=IwAR1CasWMh_pGCbRe0SeEcyHW-pncYmx1JcSx5ClBcpXH_xI7kpJSPgHBqGI" class="btnClub">ÚNETE AL CURSO</a>
                     </div>
                     <div class="curso2">
                         <div class="containerBienvenidaClub">
