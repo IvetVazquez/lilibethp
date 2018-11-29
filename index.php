@@ -135,15 +135,28 @@
                             <img src="./img/2.png" width="150px" height="150px">
                         </center>
                     </div>
+                    <div class="marcaLilibeth">
+                        <h2>&nbsp;</h2>
+                        <img src="./img/4.png" width="150px" height="150px">
+                    </div>
+                    <div class="marcaLilibeth">
+                        <h2>&nbsp;</h2>
+                        <img src="./img/5.png" width="150px" height="150px">
+                    </div>
                 <?php endif ?>
-                <div class="marcaLilibeth">
-                    <h2>&nbsp;</h2>
-                    <img src="./img/4.png" width="150px" height="150px">
-                </div>
-                <div class="marcaLilibeth">
-                    <h2>&nbsp;</h2>
-                    <img src="./img/5.png" width="150px" height="150px">
-                </div>
+                <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'en'): ?>
+                    <div class="marcaLilibeth">
+                        <h2>&nbsp;</h2>
+                        <img src="./img/4.png" width="150px" height="150px">
+                    </div>
+                    <div class="marcaLilibeth">
+                        <h3 data-translate="home_he_aparecido"></h3>
+                    </div>
+                    <div class="marcaLilibeth">
+                        <h2>&nbsp;</h2>
+                        <img src="./img/5.png" width="150px" height="150px">
+                    </div>
+                <?php endif ?>
             </div>
         </div>
     </div>
