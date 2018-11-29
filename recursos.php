@@ -95,7 +95,7 @@
           <div class="clubInfluencia">
             <h4 data-translate="titulo_libro_1"></h4>
             <p class="textInfluencia" data-translate="contenido_libro_1"></p>
-            <a href="https://www.amazon.com.au/Me-duele-perder-superar-sufrimiento-ebook/dp/B07CYTK29R" class="btnClub" data-translate="boton_libro"></a>
+            <a href="https://www.tumagiaytupoder.com/recurso-1-40-afirmaciones-para-la-tranquilidad/?fbclid=IwAR2bMlmDBsLIW45YckSV2SjMjBI9p1lOxMrY5Y7Tmfcwi7igcOv-jVlGeds" class="btnClub" data-translate="boton_libro"></a>
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@
           <div class="clubInfluencia">
             <h4 data-translate="titulo_libro_2"></h4>
             <p class="textInfluencia" data-translate="contenido_libro_2"></p>
-            <a href="https://amzn.to/2pywDrO" class="btnClub" data-translate="boton_libro"></a>
+            <a href="https://www.tumagiaytupoder.com/apoyar-a-mis-hijos-en-la-separacion/?fbclid=IwAR1g35e9jIS8YibfVBi0z900GCua2DfjeDktjqZPUXxDjq95XxZ6ZberS9A" class="btnClub" data-translate="boton_libro"></a>
           </div>
         </div>
       </div>
@@ -131,30 +131,14 @@
             <div class="clubInfluencia">
               <h4 data-translate="titulo_libro_3"></h4>
               <p class="textInfluencia" data-translate="contenido_libro_3"></p>
-              <a href="https://www.amazon.com/CANCER-SIN-MIEDO-visión-Spanish-ebook/dp/B06WD67JSY" class="btnClub" data-translate="boton_libro"></a>
+              <a href="https://soundcloud.com/lilibeth-pinto-125601672" class="btnClub" data-translate="boton_libro"></a>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 containerClubMiembros">
-          <div class="containerCopyMiembros">
-            <div class="libro4">
-              <div class="containerBienvenidaClub">
-              </div>
-            </div>
-            <div class="clubInfluencia">
-              <h4 data-translate="titulo_libro_4"></h4>
-              <p class="textInfluencia" data-translate="contenido_libro_4"></p>
-              <a href="https://www.amazon.com/Nuevo-Despertar-AUTOCURACIÓN-Aprende-Spanish-ebook/dp/B01FYYG3D4" class="btnClub" data-translate="boton_libro"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
   <div class="container-fluid">
       <div class="row">
