@@ -76,7 +76,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 containerAulaVirtual">
-        <h2 class="aulaVirtual" data-translate="titulo_libros"></h2>
+        <h2 class="aulaVirtual" data-translate="recursos_header"></h2>
       </div>
     </div>
   </div>
