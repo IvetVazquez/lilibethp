@@ -110,7 +110,7 @@
     <div class="row">
       <div class="col-12 containerClubMiembros">
         <div class="containerCopyMiembros">
-          <div class="libro2">
+        <div class="libro2 <?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'libro2-english': '' ?>">
             <div class="containerBienvenidaClub">
             </div>
           </div>
