@@ -120,20 +120,22 @@
     <div class="container-fluid">
         <div class="row">
             <div class="containerMarcasLilibeth">
-                <div class="marcaLilibeth">
-                    <h2>&nbsp;</h2>
-                    <img src="./img/1.png" width="150px" height="150px">
-                </div>
-                <div class="marcaLilibeth">
-                    <h2>&nbsp;</h2>
-                    <img src="./img/3.png" width="150px" height="150px">
-                </div>
-                <div class="marcaLilibeth">
-                    <h3 data-translate="home_he_aparecido"></h3>
-                    <center>
-                        <img src="./img/2.png" width="150px" height="150px">
-                    </center>
-                </div>
+                <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'es'): ?>
+                    <div class="marcaLilibeth">
+                        <h2>&nbsp;</h2>
+                        <img src="./img/1.png" width="150px" height="150px">
+                    </div>
+                    <div class="marcaLilibeth">
+                        <h2>&nbsp;</h2>
+                        <img src="./img/3.png" width="150px" height="150px">
+                    </div>
+                    <div class="marcaLilibeth">
+                        <h3 data-translate="home_he_aparecido"></h3>
+                        <center>
+                            <img src="./img/2.png" width="150px" height="150px">
+                        </center>
+                    </div>
+                <?php endif ?>
                 <div class="marcaLilibeth">
                     <h2>&nbsp;</h2>
                     <img src="./img/4.png" width="150px" height="150px">
