@@ -107,7 +107,7 @@
                             <img src="./img/eventodo2.png">
                         </div>
                     </div>
-                    <form class="form-inline formInscripcion" action="https://bit.ly/2MTn3xL">
+                    <form class="form-inline formInscripcion" action="https://www.eventbrite.com/e/building-up-my-peace-as-a-single-mother-tickets-53085717811?fbclid=IwAR17CH_e_5lJGpv9ZvMlShPueL4TwcaQfoXtrRoTlZvUC5nsk_kg6857iGQ">
                         <div class="containerBtnInscripcion">
                             <button type="submit" class="btn btn-primary btnInscripcion" data-translate="conferencias_15_boton"></button>
                         </div>
