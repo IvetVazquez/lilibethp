@@ -59,7 +59,7 @@
                                 <a class="nav-link" href="./cursos.php" data-translate="menu_cursos_top"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">RECURSOS GRATUITOS</a>
+                                <a class="nav-link" href="./recursos.php">RECURSOS GRATUITOS</a>
                             </li>
                         <?php endif ?>
                         <li class="nav-item">
@@ -314,7 +314,7 @@
                             <a href="./conferencias.php" data-translate="menu_conferencias_footer"></a>
                             <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'es'): ?>
                                 <a href="./cursos.php" data-translate="menu_cursos_footer"></a>
-                                <a href="#">&nbsp; Recursos Gratuitos &nbsp;/&nbsp;</a>
+                                <a href="./recursos.php">&nbsp; Recursos Gratuitos &nbsp;/&nbsp;</a>
                             <?php endif ?>
                             <a href="./contacto.php" data-translate="menu_contacto_footer"></a>
                             <a href="./libros.php" data-translate="menu_libros_footer"></a>

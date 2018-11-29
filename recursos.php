@@ -58,7 +58,7 @@
                 <a class="nav-link" href="./cursos.php" data-translate="menu_cursos_top"></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./recursos.php">RECURSOS GRATUITOS</a>
+                <a class="nav-link" href="#">RECURSOS GRATUITOS</a>
               </li>
             <?php endif ?>
             <li class="nav-item">
@@ -88,18 +88,14 @@
 
         <div class="containerCopyMiembros">
 
-          <div class="libro1 <?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'libro1-english': '' ?>">
+          <div class="libro1">
             <div class="containerBienvenidaClub">
             </div>
           </div>
           <div class="clubInfluencia">
             <h4 data-translate="titulo_libro_1"></h4>
             <p class="textInfluencia" data-translate="contenido_libro_1"></p>
-            <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'en'): ?>
-              <a href="https://www.amazon.com.au/HURTS-LOSE-CONFRONT-WITHOUT-EMOTIONAL-ebook/dp/B07D2B5Y6B" class="btnClub" data-translate="boton_libro"></a>
-            <?php else: ?>
-              <a href="https://www.amazon.com.au/Me-duele-perder-superar-sufrimiento-ebook/dp/B07CYTK29R" class="btnClub" data-translate="boton_libro"></a>
-            <?php endif ?>
+            <a href="https://www.amazon.com.au/Me-duele-perder-superar-sufrimiento-ebook/dp/B07CYTK29R" class="btnClub" data-translate="boton_libro"></a>
           </div>
         </div>
       </div>
@@ -110,25 +106,20 @@
     <div class="row">
       <div class="col-12 containerClubMiembros">
         <div class="containerCopyMiembros">
-        <div class="libro2 <?php echo substr($_SERVER['REQUEST_URI'], 1, 2) == 'en' ? 'libro2-english': '' ?>">
+        <div class="libro2">
             <div class="containerBienvenidaClub">
             </div>
           </div>
           <div class="clubInfluencia">
             <h4 data-translate="titulo_libro_2"></h4>
             <p class="textInfluencia" data-translate="contenido_libro_2"></p>
-            <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'en'): ?>
-              <a href="https://www.amazon.com/FORTUNA-SER-MADRE-Transforma-emocionalmente-ebook/dp/B07HJVSKHK" class="btnClub" data-translate="boton_libro"></a>
-            <?php else: ?>
-              <a href="https://amzn.to/2pywDrO" class="btnClub" data-translate="boton_libro"></a>
-            <?php endif ?>
+            <a href="https://amzn.to/2pywDrO" class="btnClub" data-translate="boton_libro"></a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'es'): ?>
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 containerClubMiembros">
@@ -146,9 +137,7 @@
         </div>
       </div>
     </div>
-  <?php endif ?>
 
-  <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'es'): ?>
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 containerClubMiembros">
@@ -166,7 +155,6 @@
         </div>
       </div>
     </div>
-  <?php endif ?>
 
   <div class="container-fluid">
       <div class="row">
@@ -183,7 +171,7 @@
                           <a href="./conferencias.php" data-translate="menu_conferencias_footer"></a>
                           <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'es'): ?>
                             <a href="./cursos.php" data-translate="menu_cursos_footer"></a>
-                            <a href="./recursos.php">&nbsp; Recursos Gratuitos &nbsp;/&nbsp;</a>
+                            <a href="#">&nbsp; Recursos Gratuitos &nbsp;/&nbsp;</a>
                           <?php endif ?>
                           <a href="./contacto.php" data-translate="menu_contacto_footer"></a>
                           <a href="#" data-translate="menu_libros_footer"></a>
