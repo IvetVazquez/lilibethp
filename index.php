@@ -55,10 +55,10 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="./cursos.php" data-translate="menu_cursos_top"></a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">RECURSOS GRATUITOS</a>
+                            </li>
                         <?php endif ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">RECURSOS GRATUITOS</a>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./contacto.php" data-translate="menu_contacto_top"></a>
                         </li>
@@ -145,12 +145,12 @@
                     </div>
                 <?php endif ?>
                 <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'en'): ?>
+                    <center>
+                        <h3 data-translate="home_he_aparecido"></h3>
+                    </center>
                     <div class="marcaLilibeth">
                         <h2>&nbsp;</h2>
                         <img src="./img/4.png" width="150px" height="150px">
-                    </div>
-                    <div class="marcaLilibeth">
-                        <h3 data-translate="home_he_aparecido"></h3>
                     </div>
                     <div class="marcaLilibeth">
                         <h2>&nbsp;</h2>
@@ -278,6 +278,7 @@
                             <a href="./conferencias.php" data-translate="menu_conferencias_footer"></a>
                             <?php if (substr($_SERVER['REQUEST_URI'], 1, 2) == 'es'): ?>
                                 <a href="./cursos.php" data-translate="menu_cursos_footer"></a>
+                                <a href="#">&nbsp; Recursos Gratuitos &nbsp;/&nbsp;</a>
                             <?php endif ?>
                             <a href="./blog/">&nbsp; Blog &nbsp;/&nbsp;</a>
                             <a href="./contacto.php" data-translate="menu_contacto_footer"></a>
