@@ -65,7 +65,7 @@
               <a class="nav-link" href="./contacto.php" data-translate="menu_contacto_top"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" data-translate="menu_libros_top"></a>
+              <a class="nav-link" href="./libros.php" data-translate="menu_libros_top"></a>
             </li>
           </ul>
         </div>
@@ -84,7 +84,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 containerClubMiembros">
-        <h3 class="text-center" data-translate="subtitulo_libros"></h3>
+        <h3 class="text-center" data-translate="recursos_subtitulo"></h3>
 
         <div class="containerCopyMiembros">
 
@@ -93,9 +93,9 @@
             </div>
           </div>
           <div class="clubInfluencia">
-            <h4 data-translate="titulo_libro_1"></h4>
+            <h4 data-translate="titulo_recurso_1"></h4>
             <p class="textInfluencia" data-translate="contenido_libro_1"></p>
-            <a href="https://www.tumagiaytupoder.com/recurso-1-40-afirmaciones-para-la-tranquilidad/?fbclid=IwAR2bMlmDBsLIW45YckSV2SjMjBI9p1lOxMrY5Y7Tmfcwi7igcOv-jVlGeds" class="btnClub" data-translate="boton_libro"></a>
+            <a href="https://www.tumagiaytupoder.com/recurso-1-40-afirmaciones-para-la-tranquilidad/?fbclid=IwAR2bMlmDBsLIW45YckSV2SjMjBI9p1lOxMrY5Y7Tmfcwi7igcOv-jVlGeds" class="btnClub" data-translate="boton_recursos"></a>
           </div>
         </div>
       </div>
@@ -111,9 +111,9 @@
             </div>
           </div>
           <div class="clubInfluencia">
-            <h4 data-translate="titulo_libro_2"></h4>
+            <h4 data-translate="titulo_recurso_2"></h4>
             <p class="textInfluencia" data-translate="contenido_libro_2"></p>
-            <a href="https://www.tumagiaytupoder.com/apoyar-a-mis-hijos-en-la-separacion/?fbclid=IwAR1g35e9jIS8YibfVBi0z900GCua2DfjeDktjqZPUXxDjq95XxZ6ZberS9A" class="btnClub" data-translate="boton_libro"></a>
+            <a href="https://www.tumagiaytupoder.com/apoyar-a-mis-hijos-en-la-separacion/?fbclid=IwAR1g35e9jIS8YibfVBi0z900GCua2DfjeDktjqZPUXxDjq95XxZ6ZberS9A" class="btnClub" data-translate="boton_recursos"></a>
           </div>
         </div>
       </div>
@@ -129,9 +129,9 @@
               </div>
             </div>
             <div class="clubInfluencia">
-              <h4 data-translate="titulo_libro_3"></h4>
+              <h4 data-translate="titulo_recurso_3"></h4>
               <p class="textInfluencia" data-translate="contenido_libro_3"></p>
-              <a href="https://soundcloud.com/lilibeth-pinto-125601672" class="btnClub" data-translate="boton_libro"></a>
+              <a href="https://soundcloud.com/lilibeth-pinto-125601672" class="btnClub" data-translate="boton_recursos"></a>
             </div>
           </div>
         </div>
@@ -158,7 +158,7 @@
                             <a href="#">&nbsp; Recursos Gratuitos &nbsp;/&nbsp;</a>
                           <?php endif ?>
                           <a href="./contacto.php" data-translate="menu_contacto_footer"></a>
-                          <a href="#" data-translate="menu_libros_footer"></a>
+                          <a href="./libros.php" data-translate="menu_libros_footer"></a>
                       </div>
                   </div>
                   <div class="footerParte2">
