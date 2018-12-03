@@ -1188,8 +1188,8 @@ body{
     background: url(../img/libro1-english.png) no-repeat center;
 }
 .recurso1{
-    width: 640px !important;
-    height: 426px !important;
+    width: 320px !important;
+    height: 213px !important;
     background: url(../img/recurso1.jpeg) no-repeat center;
 }
 .libro2{
@@ -1205,8 +1205,8 @@ body{
     background: url(../img/libro2-english.png) no-repeat center;
 }
 .recurso2{
-    width: 640px !important;
-    height: 426px !important;
+    width: 320px !important;
+    height: 213px !important;
     background: url(../img/recurso2.jpeg) no-repeat center;
 }
 .libro3{
@@ -1219,8 +1219,8 @@ body{
     margin-top: 16px;
 }
 .recurso3{
-    width: 640px !important;
-    height: 426px !important;
+    width: 320px !important;
+    height: 213px !important;
     background: url(../img/recurso3.jpeg) no-repeat center;
 }
 .libro4{
