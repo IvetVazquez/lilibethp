@@ -94,7 +94,7 @@
           </div>
           <div class="clubInfluencia">
             <h4 data-translate="titulo_recurso_1"></h4>
-            <p class="textInfluencia" data-translate="contenido_libro_1"></p>
+            <p class="textInfluencia" data-translate="contenido_recurso_1"></p>
             <a href="https://www.tumagiaytupoder.com/recurso-1-40-afirmaciones-para-la-tranquilidad/?fbclid=IwAR2bMlmDBsLIW45YckSV2SjMjBI9p1lOxMrY5Y7Tmfcwi7igcOv-jVlGeds" class="btnClub" data-translate="boton_recursos"></a>
           </div>
         </div>
@@ -112,7 +112,7 @@
           </div>
           <div class="clubInfluencia">
             <h4 data-translate="titulo_recurso_2"></h4>
-            <p class="textInfluencia" data-translate="contenido_libro_2"></p>
+            <p class="textInfluencia" data-translate="contenido_recurso_2"></p>
             <a href="https://www.tumagiaytupoder.com/apoyar-a-mis-hijos-en-la-separacion/?fbclid=IwAR1g35e9jIS8YibfVBi0z900GCua2DfjeDktjqZPUXxDjq95XxZ6ZberS9A" class="btnClub" data-translate="boton_recursos"></a>
           </div>
         </div>
@@ -130,7 +130,7 @@
             </div>
             <div class="clubInfluencia">
               <h4 data-translate="titulo_recurso_3"></h4>
-              <p class="textInfluencia" data-translate="contenido_libro_3"></p>
+              <p class="textInfluencia" data-translate="contenido_recurso_3"></p>
               <a href="https://soundcloud.com/lilibeth-pinto-125601672" class="btnClub" data-translate="boton_recursos"></a>
             </div>
           </div>
