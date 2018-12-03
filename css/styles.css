@@ -1215,6 +1215,7 @@ body{
     margin-top: 16px;
 }
 .recurso3{
+    /** nuevo cambio */
     background: url(../img/recurso3.jpeg) no-repeat center;
 }
 .libro4{
