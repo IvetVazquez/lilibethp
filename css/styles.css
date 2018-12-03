@@ -1185,8 +1185,10 @@ body{
     margin-top: 16px;
 }
 .libro1-english{
-    /** unsaved change **/
     background: url(../img/libro1-english.png) no-repeat center;
+}
+.recurso1{
+    background: url(../img/recurso1.jpeg) no-repeat center;
 }
 .libro2{
     width: 100vw;
@@ -1198,8 +1200,10 @@ body{
     margin-top: 16px;
 }
 .libro2-english{
-    /** unsaved change **/
     background: url(../img/libro2-english.png) no-repeat center;
+}
+.recurso2{
+    background: url(../img/recurso2.jpeg) no-repeat center;
 }
 .libro3{
     width: 100vw;
@@ -1209,6 +1213,9 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 16px;
+}
+.recurso3{
+    background: url(../img/recurso3.jpeg) no-repeat center;
 }
 .libro4{
     width: 100vw;

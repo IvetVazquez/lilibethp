@@ -88,7 +88,7 @@
 
         <div class="containerCopyMiembros">
 
-          <div class="libro1">
+          <div class="libro1 recurso1">
             <div class="containerBienvenidaClub">
             </div>
           </div>
@@ -106,7 +106,7 @@
     <div class="row">
       <div class="col-12 containerClubMiembros">
         <div class="containerCopyMiembros">
-        <div class="libro2">
+        <div class="libro2 recurso2">
             <div class="containerBienvenidaClub">
             </div>
           </div>
@@ -124,7 +124,7 @@
       <div class="row">
         <div class="col-12 containerClubMiembros">
           <div class="containerCopyMiembros">
-            <div class="libro3">
+            <div class="libro3 recurso3">
               <div class="containerBienvenidaClub">
               </div>
             </div>
