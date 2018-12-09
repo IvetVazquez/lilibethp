@@ -1,4 +1,4 @@
-{
+transformation{
     "SECCION_MENU": {
         "es": "menu",
         "en": "menu" 
@@ -97,7 +97,7 @@
     },
     "home_slider_3_3": {
         "es": "No estás sola, seré tu guía y tu coach",
-        "en": "You are not alone, I will be your guide and your coach" 
+        "en": "You are not alone, I will be your guide" 
     },
     "home_slider_3_boton": {
         "es": "PROGRAMA EMPODERAMIENTO",
@@ -125,7 +125,7 @@
     },
     "home_acerca_2": {
         "es": "Soy mamá coach, experta en incrementar la autoestima y superación de duelos. Escritora de libros best seller como “Me duele perder: Cómo superar el abismo del duelo sin caer en el sufrimiento”, “Un nuevo despertar: La autocuración” y “Cáncer sin miedo”, soy conferencista internacional. Nací y crecí en Colombia y ahora soy residente en Australia. Estoy muy feliz compartiendo mi conocimiento y experiencia contigo para que comiences a crear una vida plena, saludable y feliz como madre y mujer.",
-        "en": "I AM A TRANSFORMATIONAL GUIDE FOR SINGLE MUMS, I help you to guide your emotions, expert in increasing self-esteem and overcoming duels. Best seller writer of books as It hurts to  Lose: How to overcome the gulf of grief without falling into suffering. I'm an International Speaker. I was born and raised in Colombia and now I am a resident in Australia. I am very happy, sharing my knowledge and experience with you so that you can create a full, healthy and happy life as a mother and a woman." 
+        "en": "I AM A TRANSFORMATION GUIDE FOR SINGLE MUMS, I help you to guide your emotions, expert in increasing self-esteem and overcoming duels. Best seller writer of books as It hurts to  Lose: How to overcome the gulf of grief without falling into suffering. I'm an International Speaker. I was born and raised in Colombia and now I am a resident in Australia. I am very happy, sharing my knowledge and experience with you so that you can create a full, healthy and happy life as a mother and a woman." 
     },
     "home_acerca_boton": {
         "es": "Más sobre mí",
@@ -209,7 +209,7 @@
     },
     "Acerca_de_mi_6": {
         "es": "Mi proceso como entrenadora de mujeres y de madres ha sido muy enriquecedor porque en los últimos 6 meses he estado escribiendo y preparando nuevas ideas; esperando la oportunidad para lanzarme como conferencista. ",
-        "en": "My process as a transformational guide of women and mothers."
+        "en": "My process as a transformation guide of women and mothers."
     },
     "Acerca_de_mi_7": {
         "es": "Se que todo es posible para las madres que tenemos hijos y que queremos ver nuestro propósito de vida hecho realidad. Las personas podríamos soñar tan alto que solo nos faltarían las alas, no nos limitemos a pensar que solo unas o unos pocos pueden, todo lo contrario, la magia de ser mujer, madre, hija, abuela es solo el nombre pero el legado para tus hijos es lo que importa. ¡Tú eres tú ejemplo!",
@@ -221,7 +221,7 @@
     },
     "Acerca_de_mi_9": {
         "es": "Soy coach de vida para madres solteras, he vivido en 2 países, trabajo tiempo completo como coach.",
-        "en": "I am a life coach for single mothers, I have lived in 2 countries, I work full time as a coach." 
+        "en": "I am a transformation guide for single mums, I have lived in 2 countries." 
     },
     "Acerca_de_mi_10": {
         "es": "Trabajé como laboratorista médica en Colombia y Australia. Tengo un grado profesional de la Universidad Javeriana de Bogota en Colombia y Charles Sturt University de Australia. Un diplomado en Coaching Ontológico Profesional de Colombia. Hablo 2 idiomas. He viajado por diferentes países. (Tailandia, Fiji, Japón, Chile, Argentina, Australia, Bali). He trabajado como coach por casi 2 años.",
