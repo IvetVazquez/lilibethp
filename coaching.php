@@ -250,9 +250,9 @@
                         <p data-translate="Coaching_38"></p>
 
                         <div class="price">
-                            <h4>$200 AUD</h4>
+                            <h4>$150 AUD</h4>
                         </div>
-                        <button data-translate="Coaching_39_boton" onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=lilibethpinto%40hotmail%2ecom&lc=AU&item_name=PAQUETE%20DE%20COACHING%201&amount=25%2e00&currency_code=AUD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted'"
+                        <button data-translate="Coaching_39_boton" onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=lilibethpinto%40hotmail%2ecom&lc=AU&item_name=Basic&amount=150%2e00&currency_code=AUD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted'"
                             class="btn btn-block btn-outline-primary btnTablaPrecios" type="submit">
                         </button>
                     </div>
@@ -265,9 +265,9 @@
                         </div>
                         <p data-translate="Coaching_40"></p>
                         <div class="price">
-                            <h4>$250 AUD</h4>
+                            <h4>$200 AUD</h4>
                         </div>
-                        <button data-translate="Coaching_39_boton" onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=lilibethpinto%40hotmail%2ecom&lc=AU&item_name=PAQUETE%20DE%20COACHING%202&amount=50%2e00&currency_code=AUD&button_subtype=services&no_note=0&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest'"
+                        <button data-translate="Coaching_39_boton" onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=lilibethpinto%40hotmail%2ecom&lc=AU&item_name=Pro&amount=200%2e00&currency_code=AUD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted'"
                             class="btn btn-block btn-primary btnTablaPreciosActivo" type="submit">
                         </button>
                     </div>
@@ -279,9 +279,9 @@
                         </div>
                         <p data-translate="Coaching_41"></p>
                         <div class="price">
-                            <h4>$400 AUD</h4>
+                            <h4>$350 AUD</h4>
                         </div>
-                        <button data-translate="Coaching_39_boton" onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=lilibethpinto%40hotmail%2ecom&lc=AU&item_name=PAQUETE%20DE%20COACHING%203&amount=150%2e00&currency_code=AUD&button_subtype=services&no_note=0&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest'"
+                        <button data-translate="Coaching_39_boton" onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=lilibethpinto%40hotmail%2ecom&lc=AU&item_name=Premium&amount=350%2e00&currency_code=AUD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted'"
                             class="btn btn-block btn-outline-primary btnTablaPrecios" type="submit">
                         </button>
                     </div>
